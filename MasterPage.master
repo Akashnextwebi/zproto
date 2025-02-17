@@ -1,0 +1,443 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ZProto </title>
+    <meta name="robots" content="noindex, follow">
+    <meta name="description" content>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="new-img/IMG_2428.JPG">
+    <!-- CSS
+	============================================ -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- Base Icons -->
+    <link rel="stylesheet" href="css/pbminfotech-base-icons.css">
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- Magnific -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
+    <!-- Shortcode CSS -->
+    <link rel="stylesheet" href="css/shortcode.css">
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- page wrapper -->
+        <div class="page-wrapper">
+
+            <!-- Header Main Area -->
+            <header class="site-header header-style-1">
+                <div class="pbmit-header-overlay">
+                    <div class="site-header-menu">
+                        <div class="container-fluid">
+                            <div
+                                class="pbmit-header-content d-flex justify-content-between align-items-center">
+                                <div
+                                    class="pbmit-logo-menuarea d-flex justify-content-between align-items-center">
+                                    <div class="site-branding">
+                                        <h1 class="site-title">
+                                            <a href="Default.aspx">
+                                                <img class="logo-img" src="new-img/IMG_2431.JPG" alt="logo">
+                                                <img class="sticky-logo-img" src="new-img/IMG_2431.JPG" alt="logo">
+                                            </a>
+                                        </h1>
+                                    </div>
+                                </div>
+                                <div class="site-navigation">
+                                    <nav class="main-menu navbar-expand-xl navbar-light">
+                                        <div class="navbar-header">
+                                            <!-- Toggle Button -->
+                                            <button class="navbar-toggler" type="button">
+                                                <i class="pbmit-base-icon-menu-1"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pbmit-mobile-menu-bg"></div>
+                                        <div class="collapse navbar-collapse clearfix show" id="pbmit-menu">
+                                            <div class="pbmit-menu-wrap">
+                                                <span class="closepanel">
+                                                    <svg class="qodef-svg--close qodef-m"
+                                                        xmlns="http://www.w3.org/2000/svg" width="20.163" height="20.163"
+                                                        viewbox="0 0 26.163 26.163">
+                                                        <rect width="36" height="1"
+                                                            transform="translate(0.707) rotate(45)">
+                                                        </rect>
+                                                        <rect width="36" height="1"
+                                                            transform="translate(0 25.456) rotate(-45)">
+                                                        </rect>
+                                                    </svg>
+                                                </span>
+                                                <ul class="navigation clearfix">
+
+                                                    <li class="dropdown">
+                                                        <a href="#">Company</a>
+                                                        <ul>
+                                                            <li><a href="about-us.aspx">About Us</a></li>
+                                                            <li><a href="quality-assurance.aspx">Quality Assurance</a></li>
+                                                            <li>
+                                                                <a href="career.aspx">Careers</a>
+
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown">
+                                                        <a href="#">Capabilities</a>
+                                                        <ul>
+                                                            <li><a href="cnc-machining.aspx">CNC Machining</a></li>
+                                                            <li><a href="sheet-metal.aspx">Sheetmetal Fabrication
+                                                            </a></li>
+                                                            <li><a href="injection-molding.aspx">Injection Molding
+
+                                                            </a></li>
+                                                            <li><a href="3d-printing.aspx">3D Printing
+                                                            </a></li>
+                                                            <li><a href="wire -harness.aspx">Wire Harness
+																Manufacturing
+
+                                                            </a></li>
+                                                            <li><a href="pcb-assembly.aspx">PCB Assembly
+
+                                                            </a></li>
+                                                            <li><a href="box-build.aspx">Box Build
+
+                                                            </a></li>
+                                                            <li><a href="electro-mechanical-assembly.aspx">Electro-Mechanical Systems
+                                                            </a></li>
+                                                            <li><a
+                                                                href="built-to-spec.aspx">Built to Spec
+                                                            </a></li>
+                                                            <li><a
+                                                                href="reverse-engineering.aspx">Reverse Engineering</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown">
+                                                        <a href="#">Industries</a>
+                                                        <ul>
+                                                            <li><a href="aerospace-and-defence.aspx">Aerospace & Defence</a></li>
+                                                            <li><a href="electronics.aspx">Electronics</a></li>
+                                                            <li><a href="drones.aspx">Drones
+                                                            </a></li>
+                                                            <li><a href="automotive-and-ev.aspx">Automotive & EV
+                                                            </a></li>
+                                                            <li><a
+                                                                href="medical-devices.aspx">Medical Devices
+                                                            </a></li>
+                                                            <li><a
+                                                                href="industrial-automation.aspx">Industrial Automation</a></li>
+                                                            <li><a
+                                                                href="infrastructure.aspx">Infrastructure</a></li>
+                                                            <li><a
+                                                                href="telecommunications.aspx">Telecommunication</a></li>
+                                                            <li><a
+                                                                href="green-energy.aspx">Green Energy</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="blogs.aspx">Resources</a>
+                                                    </li>
+
+
+                                                    <li class="">
+                                                        <a href="contact-us.aspx">Contact Us</a>
+
+                                                    </li>
+                                                    <li class="d-lg-none d-block">
+                                                        <a class="pbmit-btn bg-dark text-white " href="manufacturing-partner.aspx">
+                                                            <span class="pbmit-button-text">Manufacturing Partner</span>
+                                                            <span class="pbmit-button-icon-wrapper">
+                                                                <i class="fa-regular fa-user"></i>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="d-lg-none d-block">
+                                                        <a class="pbmit-btn " href="#">
+                                                            <span class="pbmit-button-text">Customer Login</span>
+                                                            <span class="pbmit-button-icon-wrapper">
+                                                                <i class="fa-regular fa-user"></i>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <div class="pbmit-right-box d-flex align-items-center me-2 gap-3">
+
+
+                                    <%--            <div class="pbmit-header-button">
+                                        <a href="#" contenteditable="false" style="cursor: pointer;">
+                                            <span class="pbmit-base-icon-user-4"></span>Customer
+										</a>
+                                    </div>--%>
+                                    <div class="pbmit-button-box-second ms-0">
+                                        <a class="pbmit-btn bg-dark " href="manufacturing-partner.aspx">
+                                            <span class="pbmit-button-text">Manufacturing Partner</span>
+                                            <span class="pbmit-button-icon-wrapper">
+                                                <i class="fa-regular fa-user"></i>
+                                            </span>
+                                        </a>
+                                        <a class="pbmit-btn " href="#">
+                                            <span class="pbmit-button-text">Customer Login</span>
+                                            <span class="pbmit-button-icon-wrapper">
+                                                <i class="fa-regular fa-user"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+            <!-- Header Main Area End Here -->
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <footer class="site-footer footer-style-1  pbmit-bg-color-blackish">
+                <div class="pbmit-footer-widget-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="pbmit-footer-widget-col-1 col-md-4">
+                                <div class="widget">
+                                    <h2 class="widget-title">Subscribe to our newsletter</h2>
+                                    <div class="pbmit-footer-text">
+                                        <p>
+                                            Get exclusive insights, trend
+											<span class="globalcolor">forecasts and innovative</span>
+                                            strategies delivered directly to your inbox.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <div class="pbmit-footer-newsletter">
+                                            <input type="email" class="form-control" name="EMAIL"
+                                                placeholder="Your Email Addresss" required />
+                                            <a class="pbmit-btn " href="#">
+                                                <span class="pbmit-button-text">Subscribe</span>
+                                                <span class="pbmit-button-icon-wrapper">
+                                                    <span class="pbmit-button-icon">
+                                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="pbmit-social-media">
+                                        <h3 class="pbmit-social-title mb-2 mt-4">Follow us on </h3>
+                                        <ul class="pbmit-social-links ">
+                                            <li class="pbmit-social-li pbmit-social-facebook">
+                                                <a title="Facebook" href="https://www.facebook.com/" target="_blank"
+                                                    rel="noopener">
+                                                    <span><i class="pbmit-base-icon-facebook-app-symbol"></i></span>
+                                                </a>
+                                            </li>
+                                            <li class="pbmit-social-li pbmit-social-twitter">
+                                                <a title="Twitter" href="https://www.twitter.com/" target="_blank"
+                                                    rel="noopener">
+                                                    <span><i class="pbmit-base-icon-twitter-2"></i></span>
+                                                </a>
+                                            </li>
+                                            <li class="pbmit-social-li pbmit-social-instagram">
+                                                <a title="Instagram" href="https://www.instagram.com/"
+                                                    target="_blank" rel="noopener">
+                                                    <span><i class="pbmit-base-icon-instagram"></i></span>
+                                                </a>
+                                            </li>
+                                            <li class="pbmit-social-li pbmit-social-youtube">
+                                                <a title="Youtube" href="https://www.youtube.com/" target="_blank"
+                                                    rel="noopener">
+                                                    <span><i class="pbmit-base-icon-youtube-play"></i></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pbmit-footer-widget-col-3 col-md-4">
+                                <div class="widget widget_text">
+                                    <h2 class="widget-title">Capabilities</h2>
+                                    <div class="textwidget">
+                                        <ul>
+                                            <li><a href="#">CNC Machining</a></li>
+                                            <li><a href="#">Sheetmetal Fabrication</a></li>
+                                            <li><a href="#">Injection Molding</a></li>
+                                            <li><a href="#">3D Printing</a></li>
+                                            <li><a href="#">Wire Harness Manufacturing</a></li>
+                                            <li><a href="#">PCB Assembly</a></li>
+                                            <li><a href="#">Box Build</a></li>
+                                            <li><a href="#">Electro-Mechanical Systems</a></li>
+                                            <li><a href="#">Built to Spec</a></li>
+                                            <li><a href="#">Reverse Engineering</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pbmit-footer-widget-col-3 col-md-4">
+                                <div class="widget widget_text">
+                                    <h2 class="widget-title">Industries</h2>
+                                    <div class="textwidget">
+                                        <ul>
+                                            <li><a href="#">Aerospace</a></li>
+                                            <li><a href="#">Electronic</a></li>
+                                            <li><a href="#">Automotive & EV</a></li>
+                                            <li><a href="#">Medical Devices</a></li>
+                                            <li><a href="#">Industrial Automation</a></li>
+                                            <li><a href="#">Infrastructure</a></li>
+                                            <li><a href="#">Telecommunication</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pbmit-footer-widget-col-3 col-md-4">
+                                <div class="widget widget_text">
+                                    <h2 class="widget-title">Quick Links</h2>
+                                    <div class="textwidget">
+                                        <ul>
+                                            <li><a href="about-us.aspx">About Us</a></li>
+                                            <li><a href="quality-assurance.aspx">Quality Assurance</a></li>
+                                            <li><a href="careers.aspx">Careers</a></li>
+                                            <li><a href="get-a-quote.aspx">Get a Quote</a></li>
+
+                                            <li><a href="contact-us.aspx">Contact Us</a></li>
+                                            <li><a href="privacy-policy.aspx">Privacy policy</a></li>
+                                            <li><a href="terms-and-condition.aspx">Terms & Conditions</a></li>
+                                            <li><a href="return-policy.aspx">Refund Policy</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pbmit-footer-text-area">
+                    <div class="container">
+                        <div class="pbmit-footer-text-inner">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="pbmit-footer-copyright-text-area">
+                                        Copyright © 2025 <a
+                                            href="#">Zproto</a>, All Rights Reserved.
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="pbmit-footer-copyright-text-area text-end">
+                                        Website Design by<a
+                                            href="https://www.nextwebi.com/" style="color: #0c64e8">   Nextwebi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer End -->
+
+        </div>
+        <!-- page wrapper End -->
+
+        <div class="contact-btn">
+            <a href="get-a-quote.aspx">Get a Quote
+     
+            </a>
+        </div>
+        <!-- Search Box Start Here -->
+        <div class="pbmit-search-overlay">
+            <div class="pbmit-icon-close">
+                <svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg"
+                    width="28.163" height="28.163" viewbox="0 0 26.163 26.163">
+                    <rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
+                    <rect width="36" height="1"
+                        transform="translate(0 25.456) rotate(-45)">
+                    </rect>
+                </svg>
+            </div>
+            <div class="pbmit-search-outer">
+                <form class="pbmit-site-searchform">
+                    <input type="search" class="form-control field searchform-s" name="s"
+                        placeholder="Search …">
+                    <button type="submit"></button>
+                </form>
+            </div>
+        </div>
+        <!-- Search Box End Here -->
+
+        <!-- Scroll To Top -->
+        <div class="pbmit-progress-wrap">
+            <svg class="pbmit-progress-circle svg-content" width="100%" height="100%"
+                viewbox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+            </svg>
+        </div>
+        <!-- Scroll To Top End -->
+
+        <!-- JS
+		============================================ -->
+        <!-- jQuery JS -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="js/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- jquery Waypoints JS -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- jquery Appear JS -->
+        <script src="js/jquery.appear.js"></script>
+        <!-- Numinate JS -->
+        <script src="js/numinate.min.js"></script>
+        <!-- Slick JS -->
+        <script src="js/swiper.min.js"></script>
+        <!-- Magnific JS -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!-- Circle Progress JS -->
+        <script src="js/circle-progress.js"></script>
+        <!-- countdown JS -->
+        <script src="js/jquery.countdown.min.js"></script>
+        <!-- AOS -->
+        <script src="js/aos.js"></script>
+        <!-- GSAP -->
+        <script src='js/gsap.js'></script>
+        <!-- Scroll Trigger -->
+        <script src='js/ScrollTrigger.js'></script>
+        <!-- Split Text -->
+        <script src='js/SplitText.js'></script>
+        <!-- Magnetic -->
+        <script src='js/magnetic.js'></script>
+        <!-- GSAP Animation -->
+        <script src='js/gsap-animation.js'></script>
+        <!-- Theia Sticky -->
+        <script src='js/theia-sticky-sidebar.js'></script>
+        <!-- Scripts JS -->
+        <script src="js/scripts.js"></script>
+
+
+    </form>
+</body>
+</html>

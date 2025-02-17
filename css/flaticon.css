@@ -1,0 +1,276 @@
+@font-face {
+	font-family: "flaticon";
+	src: url("../fonts/flaticon.woff2") format("woff2"),
+url("../fonts/flaticon.woff") format("woff"),
+url("../fonts/flaticon.eot") format("embedded-opentype"),
+url("../fonts/flaticon.ttf") format("truetype"),
+url("../fonts/flaticon.svg") format("svg")
+}
+i[class^="flaticon-"]:before, i[class*=" pbmit-evgrid-icon-"]:before {
+	font-family: flaticon !important;
+	font-style: normal;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.pbmit-evgrid-icon-repair:before {
+	content: "\f101";
+}
+.pbmit-evgrid-icon-ev:before {
+	content: "\f102";
+}
+.pbmit-evgrid-icon-plug:before {
+	content: "\f103";
+}
+.pbmit-evgrid-icon-charging-station:before {
+	content: "\f104";
+}
+.pbmit-evgrid-icon-battery:before {
+	content: "\f105";
+}
+.pbmit-evgrid-icon-fast-charge:before {
+	content: "\f106";
+}
+.pbmit-evgrid-icon-renewable-energy:before {
+	content: "\f107";
+}
+.pbmit-evgrid-icon-electricity:before {
+	content: "\f108";
+}
+.pbmit-evgrid-icon-payment-method:before {
+	content: "\f109";
+}
+.pbmit-evgrid-icon-solar-panel:before {
+	content: "\f10a";
+}
+.pbmit-evgrid-icon-green-energy:before {
+	content: "\f10b";
+}
+.pbmit-evgrid-icon-electric-car:before {
+	content: "\f10c";
+}
+.pbmit-evgrid-icon-charging-station-1:before {
+	content: "\f10d";
+}
+.pbmit-evgrid-icon-charge:before {
+	content: "\f10e";
+}
+.pbmit-evgrid-icon-place:before {
+	content: "\f10f";
+}
+.pbmit-evgrid-icon-mobile-app:before {
+	content: "\f110";
+}
+.pbmit-evgrid-icon-map:before {
+	content: "\f111";
+}
+.pbmit-evgrid-icon-setting:before {
+	content: "\f112";
+}
+.pbmit-evgrid-icon-electricity-1:before {
+	content: "\f113";
+}
+.pbmit-evgrid-icon-electric-station:before {
+	content: "\f114";
+}
+.pbmit-evgrid-icon-sign:before {
+	content: "\f115";
+}
+.pbmit-evgrid-icon-plug-1:before {
+	content: "\f116";
+}
+.pbmit-evgrid-icon-electric-station-1:before {
+	content: "\f117";
+}
+.pbmit-evgrid-icon-charging:before {
+	content: "\f118";
+}
+.pbmit-evgrid-icon-electricity-2:before {
+	content: "\f119";
+}
+.pbmit-evgrid-icon-electric-car-1:before {
+	content: "\f11a";
+}
+.pbmit-evgrid-icon-electric-station-2:before {
+	content: "\f11b";
+}
+.pbmit-evgrid-icon-electric-car-2:before {
+	content: "\f11c";
+}
+.pbmit-evgrid-icon-charger:before {
+	content: "\f11d";
+}
+.pbmit-evgrid-icon-charging-station-2:before {
+	content: "\f11e";
+}
+.pbmit-evgrid-icon-plug-2:before {
+	content: "\f11f";
+}
+.pbmit-evgrid-icon-electric-charge:before {
+	content: "\f120";
+}
+.pbmit-evgrid-icon-battery-1:before {
+	content: "\f121";
+}
+.pbmit-evgrid-icon-gps:before {
+	content: "\f122";
+}
+.pbmit-evgrid-icon-socket:before {
+	content: "\f123";
+}
+.pbmit-evgrid-icon-charging-station-3:before {
+	content: "\f124";
+}
+.pbmit-evgrid-icon-charging-station-4:before {
+	content: "\f125";
+}
+.pbmit-evgrid-icon-fast-charge-1:before {
+	content: "\f126";
+}
+.pbmit-evgrid-icon-charging-station-5:before {
+	content: "\f127";
+}
+.pbmit-evgrid-icon-home:before {
+	content: "\f128";
+}
+.pbmit-evgrid-icon-power:before {
+	content: "\f129";
+}
+.pbmit-evgrid-icon-car:before {
+	content: "\f12a";
+}
+.pbmit-evgrid-icon-power-1:before {
+	content: "\f12b";
+}
+.pbmit-evgrid-icon-car-1:before {
+	content: "\f12c";
+}
+.pbmit-evgrid-icon-power-2:before {
+	content: "\f12d";
+}
+.pbmit-evgrid-icon-power-3:before {
+	content: "\f12e";
+}
+.pbmit-evgrid-icon-power-4:before {
+	content: "\f12f";
+}
+.pbmit-evgrid-icon-power-5:before {
+	content: "\f130";
+}
+.pbmit-evgrid-icon-power-6:before {
+	content: "\f131";
+}
+.pbmit-evgrid-icon-location:before {
+	content: "\f132";
+}
+.pbmit-evgrid-icon-email:before {
+	content: "\f133";
+}
+.pbmit-evgrid-icon-missed-call:before {
+	content: "\f134";
+}
+.pbmit-evgrid-icon-phone:before {
+	content: "\f135";
+}
+.pbmit-evgrid-icon-search:before {
+	content: "\f136";
+}
+.pbmit-evgrid-icon-online-shopping:before {
+	content: "\f137";
+}
+.pbmit-evgrid-icon-quote-left:before {
+	content: "\f138";
+}
+.pbmit-evgrid-icon-google-play:before {
+	content: "\f139";
+}
+.pbmit-evgrid-icon-apple:before {
+	content: "\f13a";
+}
+.pbmit-evgrid-icon-quote:before {
+	content: "\f13b";
+}
+.pbmit-evgrid-icon-quote-1:before {
+	content: "\f13c";
+}
+.pbmit-evgrid-icon-flash:before {
+	content: "\f13d";
+}
+.pbmit-evgrid-icon-earnings:before {
+	content: "\f13e";
+}
+.pbmit-evgrid-icon-dock:before {
+	content: "\f13f";
+}
+.pbmit-evgrid-icon-charging-1:before {
+	content: "\f140";
+}
+.pbmit-evgrid-icon-power-7:before {
+	content: "\f141";
+}
+.pbmit-evgrid-icon-battery-2:before {
+	content: "\f142";
+}
+.pbmit-evgrid-icon-charging-2:before {
+	content: "\f143";
+}
+.pbmit-evgrid-icon-power-plug:before {
+	content: "\f144";
+}
+.pbmit-evgrid-icon-electric-car-3:before {
+	content: "\f145";
+}
+.pbmit-evgrid-icon-charging-3:before {
+	content: "\f146";
+}
+.pbmit-evgrid-icon-charging-station-6:before {
+	content: "\f147";
+}
+.pbmit-evgrid-icon-plug-3:before {
+	content: "\f148";
+}
+.pbmit-evgrid-icon-charging-station-7:before {
+	content: "\f149";
+}
+.pbmit-evgrid-icon-charger-1:before {
+	content: "\f14a";
+}
+.pbmit-evgrid-icon-charge-1:before {
+	content: "\f14b";
+}
+.pbmit-evgrid-icon-charging-4:before {
+	content: "\f14c";
+}
+.pbmit-evgrid-icon-battery-charge:before {
+	content: "\f14d";
+}
+.pbmit-evgrid-icon-charging-5:before {
+	content: "\f14e";
+}
+.pbmit-evgrid-icon-charging-station-8:before {
+	content: "\f14f";
+}
+.pbmit-evgrid-icon-charging-6:before {
+	content: "\f150";
+}
+.pbmit-evgrid-icon-ev-1:before {
+	content: "\f151";
+}
+.pbmit-evgrid-icon-done:before {
+	content: "\f152";
+}
+.pbmit-evgrid-icon-bolt:before {
+	content: "\f153";
+}
+.pbmit-evgrid-icon-check:before {
+	content: "\f154";
+}
+.pbmit-evgrid-icon-down-chevron:before {
+	content: "\f155";
+}
+.pbmit-evgrid-icon-up-chevron:before {
+	content: "\f156";
+}
