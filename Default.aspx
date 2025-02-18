@@ -234,7 +234,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </div>
                                                 <div class="pbmit-content-box">
                                                     <div class="pbmit-serv-cat">
-                                                        <a href="#" rel="tag">Capabilities</a>
+                                                        <a href="cnc-machining.aspx" rel="tag">Capabilities</a>
                                                     </div>
                                                     <h3 class="pbmit-service-title">
                                                         <a href="cnc-machining.aspx">CNC Machining</a>
@@ -282,7 +282,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                         <a href="sheet-metal.aspx" rel="tag">Capabilities</a>
                                                     </div>
                                                     <h3 class="pbmit-service-title">
-                                                        <a href="#">Sheetmetal Fabrication</a>
+                                                        <a href="sheet-metal.aspx">Sheetmetal Fabrication</a>
                                                     </h3>
                                                     <div class="pbmit-service-description">
                                                     </div>
@@ -550,7 +550,7 @@ digital approach ensures high-quality results with speed and accuracy
 											Business.</h2>
                                             <div class="pbmit-ihbox-btn">
                                                 <a class="pbmit-btn pbmit-btn-white"
-                                                    href="#">
+                                                    href="javascript:void(0);">
                                                     <span class="pbmit-button-text">Read Case Study</span>
                                                     <span class="pbmit-button-icon-wrapper">
                                                         <span class="pbmit-button-icon">
@@ -595,7 +595,7 @@ the business</h3>
                                     </div>
                                 </div>
                                 <div class="about-one-button">
-                                    <a class="pbmit-btn pbmit-btn-blackish" href="#">
+                                    <a class="pbmit-btn pbmit-btn-blackish" href="javascript:void(0)">
                                         <span class="pbmit-button-text">Know More</span>
                                         <span class="pbmit-button-icon-wrapper">
                                             <span class="pbmit-button-icon">
@@ -648,7 +648,7 @@ the business</h3>
                                                 <h4 class="pbmit-static-box-title">Aerospace & Defence</h4>
                                             </div>
                                             <div class="pbmit-static-btn">
-                                                <a href="#">
+                                                <a href="aerospace-and-defence.aspx">
                                                     <span class="pbmit-button-text">View Detail</span>
                                                     <span class="pbmit-button-icon-wrapper">
                                                         <span class="pbmit-button-icon">
@@ -658,7 +658,7 @@ the business</h3>
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href=""></a>
+                                        <a class="pbmit-link" href="aerospace-and-defence.aspx"></a>
                                     </div>
                                 </article>
                                 <article class="pbmit-static-box-style-1">
@@ -676,7 +676,7 @@ the business</h3>
                                                 <h4 class="pbmit-static-box-title">Electronics</h4>
                                             </div>
                                             <div class="pbmit-static-btn">
-                                                <a href="#">
+                                                <a href="electronics.aspx">
                                                     <span class="pbmit-button-text">View Detail</span>
                                                     <span class="pbmit-button-icon-wrapper">
                                                         <span class="pbmit-button-icon">
@@ -686,7 +686,7 @@ the business</h3>
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href=""></a>
+                                        <a class="pbmit-link" href="electronics.aspx"></a>
                                     </div>
                                 </article>
                                 <article class="pbmit-static-box-style-1">
@@ -704,7 +704,7 @@ the business</h3>
                                                 <h4 class="pbmit-static-box-title">Drones</h4>
                                             </div>
                                             <div class="pbmit-static-btn">
-                                                <a href="#">
+                                                <a href="drones.aspx">
                                                     <span class="pbmit-button-text">View Detail</span>
                                                     <span class="pbmit-button-icon-wrapper">
                                                         <span class="pbmit-button-icon">
@@ -714,7 +714,7 @@ the business</h3>
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href=""></a>
+                                        <a class="pbmit-link" href="drones.aspx"></a>
                                     </div>
                                 </article>
                                 <article class="pbmit-static-box-style-1">
@@ -732,7 +732,7 @@ the business</h3>
                                                 <h4 class="pbmit-static-box-title">Automotive & EV</h4>
                                             </div>
                                             <div class="pbmit-static-btn">
-                                                <a href="#">
+                                                <a href="automotive-and-ev.aspx">
                                                     <span class="pbmit-button-text">View Detail</span>
                                                     <span class="pbmit-button-icon-wrapper">
                                                         <span class="pbmit-button-icon">
@@ -742,7 +742,7 @@ the business</h3>
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href=""></a>
+                                        <a class="pbmit-link" href="automotive-and-ev.aspx"></a>
                                     </div>
                                 </article>
                                 <article class="pbmit-static-box-style-1">
@@ -760,7 +760,7 @@ the business</h3>
                                                 <h4 class="pbmit-static-box-title">Medical Devices</h4>
                                             </div>
                                             <div class="pbmit-static-btn">
-                                                <a href="#">
+                                                <a href="medical-devices.aspx">
                                                     <span class="pbmit-button-text">Industrial Automation</span>
                                                     <span class="pbmit-button-icon-wrapper">
                                                         <span class="pbmit-button-icon">
@@ -770,7 +770,7 @@ the business</h3>
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href=""></a>
+                                        <a class="pbmit-link" href="medical-devices.aspx"></a>
                                     </div>
                                 </article>
                                 <article class="pbmit-static-box-style-1">
@@ -788,7 +788,7 @@ the business</h3>
                                                 <h4 class="pbmit-static-box-title">Industrial Automation</h4>
                                             </div>
                                             <div class="pbmit-static-btn">
-                                                <a href="#">
+                                                <a href="industrial-automation.aspx">
                                                     <span class="pbmit-button-text">View Detail</span>
                                                     <span class="pbmit-button-icon-wrapper">
                                                         <span class="pbmit-button-icon">
@@ -798,7 +798,7 @@ the business</h3>
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href=""></a>
+                                        <a class="pbmit-link" href="industrial-automation.aspx"></a>
                                     </div>
                                 </article>
                                 <article class="pbmit-static-box-style-1">
@@ -816,7 +816,7 @@ the business</h3>
                                                 <h4 class="pbmit-static-box-title">Infrastructure</h4>
                                             </div>
                                             <div class="pbmit-static-btn">
-                                                <a href="#">
+                                                <a href="infrastructure.aspx">
                                                     <span class="pbmit-button-text">View Detail</span>
                                                     <span class="pbmit-button-icon-wrapper">
                                                         <span class="pbmit-button-icon">
@@ -826,7 +826,7 @@ the business</h3>
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href=""></a>
+                                        <a class="pbmit-link" href="infrastructure.aspx"></a>
                                     </div>
                                 </article>
                                 <article class="pbmit-static-box-style-1">
@@ -844,7 +844,7 @@ the business</h3>
                                                 <h4 class="pbmit-static-box-title">Telecommunication</h4>
                                             </div>
                                             <div class="pbmit-static-btn">
-                                                <a href="#">
+                                                <a href="telecommunications.aspx">
                                                     <span class="pbmit-button-text">View Detail</span>
                                                     <span class="pbmit-button-icon-wrapper">
                                                         <span class="pbmit-button-icon">
@@ -854,7 +854,7 @@ the business</h3>
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href=""></a>
+                                        <a class="pbmit-link" href="telecommunications.aspx"></a>
                                     </div>
                                 </article>
                                 <article class="pbmit-static-box-style-1">
@@ -872,7 +872,7 @@ the business</h3>
                                                 <h4 class="pbmit-static-box-title">Green Energy</h4>
                                             </div>
                                             <div class="pbmit-static-btn">
-                                                <a href="#">
+                                                <a href="green-energy.aspx">
                                                     <span class="pbmit-button-text">View Detail</span>
                                                     <span class="pbmit-button-icon-wrapper">
                                                         <span class="pbmit-button-icon">
@@ -882,7 +882,7 @@ the business</h3>
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href=""></a>
+                                        <a class="pbmit-link" href="green-energy.aspx"></a>
                                     </div>
                                 </article>
 
@@ -902,14 +902,14 @@ the business</h3>
                     <div class="pbminfotech-box-content">
                         <div class="pbminfotech-titlebox">
                             <div class="pbmit-port-cat">
-                                <a href="#" rel="tag">Industries</a>
+                                <a href="aerospace-and-defence.aspx" rel="tag">Industries</a>
                             </div>
                             <h3 class="pbmit-portfolio-title">
-                                <a href="#">Aerospace & Defense</a>
+                                <a href="aerospace-and-defence.aspx">Aerospace & Defense</a>
                             </h3>
                         </div>
                     </div>
-                    <a class="pbmit-link" href="#"></a>
+                    <a class="pbmit-link" href="aerospace-and-defence.aspx"></a>
                 </div>
             </article>
             <!-- Slide2 -->
@@ -923,14 +923,14 @@ the business</h3>
                     <div class="pbminfotech-box-content">
                         <div class="pbminfotech-titlebox">
                             <div class="pbmit-port-cat">
-                                <a href="#" rel="tag">Industries</a>
+                                <a href="medical-devices.aspx" rel="tag">Industries</a>
                             </div>
                             <h3 class="pbmit-portfolio-title">
-                                <a href="#">Medical Devices</a>
+                                <a href="medical-devices.aspx">Medical Devices</a>
                             </h3>
                         </div>
                     </div>
-                    <a class="pbmit-link" href="#"></a>
+                    <a class="pbmit-link" href="medical-devices.aspx"></a>
                 </div>
             </article>
             <!-- Slide3 -->
@@ -944,14 +944,14 @@ the business</h3>
                     <div class="pbminfotech-box-content">
                         <div class="pbminfotech-titlebox">
                             <div class="pbmit-port-cat">
-                                <a href="#" rel="tag">Industries</a>
+                                <a href="automotive-and-ev.aspx" rel="tag">Industries</a>
                             </div>
                             <h3 class="pbmit-portfolio-title">
-                                <a href="#">Automotive & EV</a>
+                                <a href="automotive-and-ev.aspx">Automotive & EV</a>
                             </h3>
                         </div>
                     </div>
-                    <a class="pbmit-link" href="#"></a>
+                    <a class="pbmit-link" href="automotive-and-ev.aspx"></a>
                 </div>
             </article>
             <!-- Slide4 -->
@@ -965,14 +965,14 @@ the business</h3>
                     <div class="pbminfotech-box-content">
                         <div class="pbminfotech-titlebox">
                             <div class="pbmit-port-cat">
-                                <a href="#" rel="tag">Industries</a>
+                                <a href="industrial-automation.aspx" rel="tag">Industries</a>
                             </div>
                             <h3 class="pbmit-portfolio-title">
-                                <a href="#">Industrial Automation</a>
+                                <a href="industrial-automation.aspx">Industrial Automation</a>
                             </h3>
                         </div>
                     </div>
-                    <a class="pbmit-link" href="#"></a>
+                    <a class="pbmit-link" href="industrial-automation.aspx"></a>
                 </div>
             </article>
             <!-- Slide5 -->
@@ -986,14 +986,14 @@ the business</h3>
                     <div class="pbminfotech-box-content">
                         <div class="pbminfotech-titlebox">
                             <div class="pbmit-port-cat">
-                                <a href="#" rel="tag">Industries</a>
+                                <a href="telecommunications.aspx" rel="tag">Industries</a>
                             </div>
                             <h3 class="pbmit-portfolio-title">
-                                <a href="#">Telecommunications</a>
+                                <a href="telecommunications.aspx">Telecommunications</a>
                             </h3>
                         </div>
                     </div>
-                    <a class="pbmit-link" href="#"></a>
+                    <a class="pbmit-link" href="telecommunications.aspx"></a>
                 </div>
             </article>
             <!-- Slide6 -->
@@ -1007,14 +1007,14 @@ the business</h3>
                     <div class="pbminfotech-box-content">
                         <div class="pbminfotech-titlebox">
                             <div class="pbmit-port-cat">
-                                <a href="#" rel="tag">Industries</a>
+                                <a href="drones.aspx" rel="tag">Industries</a>
                             </div>
                             <h3 class="pbmit-portfolio-title">
-                                <a href="#">Drones</a>
+                                <a href="drones.aspx">Drones</a>
                             </h3>
                         </div>
                     </div>
-                    <a class="pbmit-link" href="#"></a>
+                    <a class="pbmit-link" href="drones.aspx"></a>
                 </div>
             </article>
         </div>
@@ -1133,7 +1133,7 @@ the business</h3>
                         <div class="col-lg-4">
                             <div class="tween-effect-btn">
 
-                                <a class="pbmit-btn " href="#">
+                                <a class="pbmit-btn " href="contact-us.aspx">
                                     <span class="pbmit-button-text">Contact Us </span>
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">
@@ -1535,7 +1535,7 @@ to meet evolving needs.</span>
                         <div class="col-lg-4">
                             <div class="tween-effect-btn">
 
-                                <a class="pbmit-btn bg-dark " href="#">
+                                <a class="pbmit-btn bg-dark " href="contact-us.aspx">
                                     <span class="pbmit-button-text">Contact Us </span>
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">

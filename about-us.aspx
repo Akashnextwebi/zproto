@@ -13,7 +13,6 @@
         .ihbox-section-two .ihbox-col-1 {
             padding: 20px;
             background: #f1f1f1;
-            margin-bottom: 30px;
             border-radius: 12px;
         }
 
@@ -68,7 +67,7 @@
                     <div class="pbmit-breadcrumb">
                         <div class="pbmit-breadcrumb-inner">
                             <span>
-                                <a title="" href="#" class="home"><span>Home</span></a>
+                                <a title="" href="Default.aspx" class="home"><span>Home</span></a>
                             </span>
                             <span class="sep">
                                 <i class="pbmit-base-icon-angle-right"></i>
@@ -540,7 +539,7 @@ with you and supporting your manufacturing needs.
                         <div class="col-lg-4">
                             <div class="tween-effect-btn">
 
-                                <a class="pbmit-btn " href="#">
+                                <a class="pbmit-btn" href="contact-us.aspx">
                                     <span class="pbmit-button-text">Contact Us </span>
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">

@@ -19,7 +19,7 @@
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <div class="pbmit-title-bar-wrapper" style="background: url(new-img/industry.png)">
+        <div class="pbmit-title-bar-wrapper" style="background: url(new-img/indus/5.png);background-size:cover">
         <div class="container">
             <div class="pbmit-title-bar-content">
                 <div class="pbmit-title-bar-content-inner">

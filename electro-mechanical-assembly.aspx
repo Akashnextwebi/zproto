@@ -28,13 +28,13 @@
                     <div class="pbmit-breadcrumb">
                         <div class="pbmit-breadcrumb-inner">
                             <span>
-                                <a title="" href="#" class="home"><span>Home</span></a>
+                                <a title="" href="Default.aspx" class="home"><span>Home</span></a>
                             </span>
                             <span class="sep">
                                 <i class="pbmit-base-icon-angle-right"></i>
                             </span>
                             <span>
-                                <a title="" href="#" class="home"><span>Capabilities</span></a>
+                                <a title="" href="javascript:void(0)" class="home"><span>Capabilities</span></a>
                             </span>
 
                             <span class="sep">
@@ -421,7 +421,7 @@ solutions can enhance your manufacturing capabilities.
                         <div class="col-lg-4">
                             <div class="tween-effect-btn">
 
-                                <a class="pbmit-btn " href="#">
+                                <a class="pbmit-btn " href="contact-us.aspx">
                                     <span class="pbmit-button-text">Contact Us </span>
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">

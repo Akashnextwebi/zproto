@@ -3632,6 +3632,17 @@ body {
 		font-size:24px !important;
 
 	}
+	.privacy h1{font-size:42px;
+				line-height:50px;
+	}
+	.pbmit-tbar-title {
+		font-size: 42px !important;
+		line-height: 50px !important;
+	}
+
+	.pbmit-title-bar-wrapper, .pbmit-title-bar-content {
+		min-height: 300px !important;
+	}
 	.pbmit-element-timeline-style-1 .container {
 		 margin: 0 0px !important; 
 	}
@@ -3760,61 +3771,324 @@ body {
 
 @media (min-width: 1300px) and (max-width: 1400px) {
 	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-		max-width: 1320px;
+		max-width: 1280px;
 	}
+
 	.tween-effect-section-two .tween-effect-btn {
 		padding: 0px 80px 0px 80px;
 	}
-}
-@media (min-width: 1200px) and (max-width: 1300px) {
 
-	.site-header .site-branding img {
-		max-height: 55px !important;
+	.ihbox-section-two .ihbox-col-1 {
+		margin-bottom: 0px !important;
 	}
-	.pbmit-client-wrapper h5{
-		font-size:18px !important;
-	}
-	.tween-effect-section-two .tween-effect-btn {
-		padding: 0px 60px 0px 60px;
-	}
-	.site-navigation ul.navigation > li > a {
-		font-size: 14px !important;
-	}
-	.header-style-1 .pbmit-button-box-second a {
-		display: block;
-		padding: 8px 20px !important;
-		font-size: 12px;
-	}
-	.container, .container-lg, .container-md, .container-sm, .container-xl {
-		max-width: 1140px !important;
-	}
-	.section-md{
-		padding-top:60px !important;
-		padding-bottom:60px !important;
-	}
-	.pbmit-ihbox-style-14 .pbmit-element-subtitle{
-	margin-bottom:80px !important;
-	}
-	.pbmit-ihbox-style-14 .pbmit-element-title{
 
-		font-size:20px !important;
-		line-height:28px !important
-	}
-	.extra-note p{
-		font-size:18px !important
-	}
 	.pbmit-title-bar-wrapper {
 		top: 100px;
 		margin-bottom: 50px;
 	}
-	.pbmit-slider-one .pbmit-slider-content .pbmit-title{
-		font-size:54px !important;
-		line-height:62px !important;
-	}
-	}
 
-@media (min-width: 992px) and (max-width: 1199px) {
-	.swiper-slider.pbmit-element-viewtype-carousel-1.swiper-fade.swiper-initialized.swiper-horizontal.swiper-pointer-events{
-		margin-top:0px !important;
+	.pbmit-tab .nav .nav-item a {
+		padding: 0px 18px 20px !important;
+	}
+	.career-card-img img {
+		border-radius: 12px;
+		width: 100%;
+	}
+	.pbmit-service-style-1 .pbmit-box-content-wrap::before{
+		bottom:-37px !important;
+		right:-37px !important;
+	}
+	.box-section-two{
+		padding:60px 0px 60px !important;
 	}
 }
+@media (min-width: 1400px) and (max-width: 1500px) {
+
+		.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+			max-width: 1400px;
+		}
+	
+}
+	@media (min-width: 1200px) and (max-width: 1300px) {
+
+		.site-header .site-branding img {
+			max-height: 55px !important;
+		}
+
+		.pbmit-client-wrapper h5 {
+			font-size: 18px !important;
+		}
+
+		.tween-effect-section-two .tween-effect-btn {
+			padding: 0px 60px 0px 60px;
+		}
+
+		.site-navigation ul.navigation > li > a {
+			font-size: 14px !important;
+		}
+
+		.header-style-1 .pbmit-button-box-second a {
+			display: block;
+			padding: 8px 20px !important;
+			font-size: 12px;
+		}
+
+		.container, .container-lg, .container-md, .container-sm, .container-xl {
+			max-width: 1140px !important;
+		}
+
+		.section-md {
+			padding-top: 60px !important;
+			padding-bottom: 60px !important;
+		}
+
+		.pbmit-ihbox-style-14 .pbmit-element-subtitle {
+			margin-bottom: 80px !important;
+		}
+
+		.pbmit-ihbox-style-14 .pbmit-element-title {
+			font-size: 20px !important;
+			line-height: 28px !important
+		}
+
+		.extra-note p {
+			font-size: 18px !important
+		}
+
+		.pbmit-title-bar-wrapper {
+			top: 100px;
+			margin-bottom: 50px;
+		}
+
+		.pbmit-slider-one .pbmit-slider-content .pbmit-title {
+			font-size: 54px !important;
+			line-height: 62px !important;
+		}
+
+		.pbmit-static-box-style-1 .pbmit-content-box {
+			padding: 30px !important;
+		}
+
+		.about-section-one .about-widget-wrap {
+			padding: 20px 20px 20px 20px !important;
+		}
+
+		.ihbox-section-one .ihbox-contant {
+			margin-top: 0px !important;
+		}
+
+		.widget.widget_text.new-img {
+			width: 180px !important;
+		}
+
+		.ihbox-section-two .ihbox-col-1 {
+			margin-bottom: 0px !important;
+			height: 100%;
+		}
+
+		.pbmit-heading-subheading {
+			margin-bottom: 30px !important;
+		}
+
+		.pbmit-tab .nav .nav-item a {
+			padding: 0 14px 12px !important;
+			font-size: 16px !important;
+		}
+
+		.career-card-img img {
+			border-radius: 12px;
+			width: 100%;
+		}
+	}
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+		.swiper-slider.pbmit-element-viewtype-carousel-1.swiper-fade.swiper-initialized.swiper-horizontal.swiper-pointer-events {
+			margin-top: 0px !important;
+		}
+
+		.marquee-section-two {
+			padding: 10px 0px 30px 0px;
+		}
+
+		.pbmit-marquee-effect-style-1 .pbmit-element-title {
+			font-size: 38px;
+		}
+
+		.box-contant-inner {
+			margin-top: 30px;
+		}
+
+		.new-pad-li {
+			padding: 20px 0px 20px 20px
+		}
+
+		.pbmit-heading-subheading {
+			margin-bottom: 30px !important;
+		}
+
+		.pbmit-tab .nav-tabs {
+			gap: 1rem;
+		}
+
+		.career-card-img img {
+			border-radius: 12px;
+			height: auto;
+			width: 100%;
+		}
+
+		.pbmit-ihbox-style-3 .pbmit-ihbox-icon-wrapper {
+			min-width: 60px !important;
+			height: 60px !important;
+		}
+
+		.career-card-content h3 {
+			font-size: 24px !important;
+		}
+
+		.privacy h1 {
+			font-size: 42px;
+			line-height: 50px;
+		}
+
+		.pbmit-tbar-title {
+			font-size: 42px !important;
+			line-height: 50px !important;
+		}
+
+		.pbmit-title-bar-wrapper, .pbmit-title-bar-content {
+			min-height: 300px !important;
+		}
+
+		.pbmit-element-timeline-style-1 .container {
+			margin: 0 0px !important;
+		}
+
+		.pbmit-element-timeline-style-1 .pbmit-timeline-title {
+			font-size: 20px !important;
+			line-height: 26px !important;
+		}
+
+		.pbmit-element-timeline-style-1 .pbmit-timeline-wrapper .pbmit-timeline-desc {
+			padding: 0;
+			font-size: 14px;
+		}
+
+		.pbmit-tab .nav .nav-item a {
+			padding: 0 25px 15px !important;
+		}
+
+		.pbmit-ihbox-style-3 .pbmit-ihbox-icon-type-image img {
+			width: 32px;
+			height: auto;
+		}
+
+		.ihbox-section-two .ihbox-col-1 {
+			padding: 20px;
+			background: #f1f1f1;
+			margin-bottom: 30px;
+			height: 100%;
+			border-radius: 12px;
+		}
+
+		.box-section-two .box-img2 {
+			padding: 150px 0px;
+		}
+
+		.box-section-two .box-img3 {
+			padding: 150px 0px;
+		}
+
+		.box-section-two .box-img4 {
+			padding: 150px 0px;
+		}
+
+		.box-section-two .box-img5 {
+			padding: 150px 0px;
+		}
+
+		.box-section-two .box-img6 {
+			padding: 150px 0px;
+		}
+
+		.box-section-two .box-img7 {
+			padding: 150px 0px;
+		}
+
+		.pbmit-title-bar-wrapper {
+			top: 100px;
+			margin-bottom: 60px;
+		}
+
+		.header-style-1 .pbmit-button-box-second {
+			display: flex !important;
+		}
+
+		.site-header .site-branding img {
+			max-height: 52px !important;
+		}
+
+		.site-header .pbmit-header-content {
+			position: relative;
+			padding: 0 40px 0px 15px !important;
+		}
+
+		.tab-section-one .tab-image {
+			padding: 235px 0 !important;
+		}
+
+		.tab-section-one .tab-image1 {
+			padding: 235px 0 !important;
+			margin-top: 50px;
+		}
+
+		.marquee-section-two {
+			margin-top: 0px 0px 60px 0px !important;
+		}
+
+		.pbmit-static-box-style-1.pbmit-active {
+			flex: 9 !important;
+			/* padding-right: 0 !important; */
+		}
+
+		.pbmit-static-box-style-1 .pbmit-content-box {
+			padding: 25px !important;
+		}
+
+		.about-section-one .about-one-col-1, .about-section-one .about-one-col-2, .about-section-one .about-one-col-3 {
+			width: 50% !important;
+		}
+
+		.about-section-one .about-one-bottom-col-1, .about-section-one .about-one-bottom-col-2, .about-section-one .about-one-bottom-col-3 {
+			width: 50% !important
+		}
+
+		.tween-effect-section-two {
+			padding: 40px 40px;
+		}
+
+			.tween-effect-section-two .tween-effect-wrap {
+				padding: 0px 0px !important;
+			}
+
+			.tween-effect-section-two .tween-effect-btn {
+				text-align: start !important;
+			}
+
+			.tween-effect-section-two .tween-effect-btn {
+				padding: 0px 0px !important;
+			}
+
+		.pbmit-heading-subheading .pbmit-title {
+			font-size: 42px;
+			line-height: 48px;
+		}
+
+		.section-lgb {
+			padding: 50px 0px 50px !important;
+		}
+
+		.tween-effect .container {
+			padding-left: 15px !important;
+			padding-right: 15px !important;
+		}
+	}

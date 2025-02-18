@@ -19,7 +19,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="pbmit-title-bar-wrapper" style="background: url(new-img/industry.png)">
+        <div class="pbmit-title-bar-wrapper" style="background: url(new-img/indus/1.png);background-size:cover">
         <div class="container">
             <div class="pbmit-title-bar-content">
                 <div class="pbmit-title-bar-content-inner">
@@ -31,13 +31,13 @@
                     <div class="pbmit-breadcrumb">
                         <div class="pbmit-breadcrumb-inner">
                             <span>
-                                <a title="" href="#" class="home"><span>Home</span></a>
+                                <a title="" href="Default.aspx" class="home"><span>Home</span></a>
                             </span>
                             <span class="sep">
                                 <i class="pbmit-base-icon-angle-right"></i>
                             </span>
                             <span>
-                                <a title="" href="#" class="home"><span>Industry</span></a>
+                                <a title="" href="javascript:void(0)" class="home"><span>Industry</span></a>
                             </span>
 
                             <span class="sep">
@@ -353,7 +353,7 @@ certifications.</span>
 
             </div>
         </section>
-        <section class="our-client-section-one section-md pbmit-bg-color-blackish sucess-story-industry">
+        <section class="our-client-section-one section-md pbmit-bg-color-blackish sucess-story-industry d-none">
             <div class="our-client-wrap">
                 <div class="container">
                     <div class="pbmit-ele-header-align-center">
@@ -396,7 +396,7 @@ capabilities. Contact Us today to discuss your needs or schedule a consultation.
                         <div class="col-lg-4">
                             <div class="tween-effect-btn">
 
-                                <a class="pbmit-btn " href="#">
+                                <a class="pbmit-btn " href="contact-us.aspx">
                                     <span class="pbmit-button-text">Contact Us </span>
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">

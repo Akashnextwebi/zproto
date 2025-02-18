@@ -19,7 +19,7 @@
    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <div class="pbmit-title-bar-wrapper" style="background: url(new-img/industry.png)">
+        <div class="pbmit-title-bar-wrapper" style="background: url(new-img/indus/7.png);background-size:cover">
         <div class="container">
             <div class="pbmit-title-bar-content">
                 <div class="pbmit-title-bar-content-inner">
@@ -37,7 +37,7 @@
                                 <i class="pbmit-base-icon-angle-right"></i>
                             </span>
                             <span>
-                                <a title="" href="#" class="home"><span>Industry</span></a>
+                                <a title="" href="javascript:void(0)" class="home"><span>Industry</span></a>
                             </span>
 
                             <span class="sep">

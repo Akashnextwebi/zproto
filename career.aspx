@@ -68,7 +68,7 @@
                     <div class="pbmit-breadcrumb">
                         <div class="pbmit-breadcrumb-inner">
                             <span>
-                                <a title="" href="#" class="home"><span>Home</span></a>
+                                <a title="" href="Default.aspx" class="home"><span>Home</span></a>
                             </span>
                             <span class="sep">
                                 <i class="pbmit-base-icon-angle-right"></i>
@@ -321,7 +321,7 @@ balance.
                     <div class="pbmit-timeline-wrapper pbmit-slide-even swiper-slide">
                         <!-- Slide1 -->
                         <div class="pbmit-same-height steps-media pbmit-feature-image">
-                            <img src="images/our-history/timeline-01.jpg" class="img-fluid" alt="">
+                            <img src="new-img/car/1.png" class="img-fluid" alt="">
                         </div>
                         <div class="steps-dot">
                             <span class="steps-dot-line"></span>
@@ -338,7 +338,7 @@ limits of manufacturing technology.
                     <div class="pbmit-timeline-wrapper swiper-slide">
                         <!-- Slide2 -->
                         <div class="pbmit-same-height steps-media pbmit-feature-image">
-                            <img src="images/our-history/timeline-02.jpg" class="img-fluid" alt="">
+                            <img src="new-img/car/2.png" class="img-fluid" alt="">
                         </div>
                         <div class="steps-dot">
                             <span class="steps-dot-line"></span>
@@ -355,7 +355,7 @@ supports your professional growth.
                     <div class="pbmit-timeline-wrapper pbmit-slide-even swiper-slide">
                         <!-- Slide3 -->
                         <div class="pbmit-same-height steps-media pbmit-feature-image">
-                            <img src="images/our-history/timeline-03.jpg" class="img-fluid" alt="">
+                            <img src="new-img/car/3.png" class="img-fluid" alt="">
                         </div>
                         <div class="steps-dot">
                             <span class="steps-dot-line"></span>
@@ -372,7 +372,7 @@ insurance, retirement plans, and more.
                     <div class="pbmit-timeline-wrapper swiper-slide">
                         <!-- Slide4 -->
                         <div class="pbmit-same-height steps-media pbmit-feature-image">
-                            <img src="images/our-history/timeline-04.jpg" class="img-fluid" alt="">
+                            <img src="new-img/car/4.png" class="img-fluid" alt="">
                         </div>
                         <div class="steps-dot">
                             <span class="steps-dot-line"></span>

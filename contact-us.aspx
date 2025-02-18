@@ -54,7 +54,7 @@
                     <div class="pbmit-breadcrumb">
                         <div class="pbmit-breadcrumb-inner">
                             <span>
-                                <a title="" href="#" class="home"><span>Home</span></a>
+                                <a title="" href="Default.aspx" class="home"><span>Home</span></a>
                             </span>
                             <span class="sep">
                                 <i class="pbmit-base-icon-angle-right"></i>
@@ -128,15 +128,15 @@ your details, and we will respond as soon as possible.
 												</li>
                                             <li>
                                                 <span>Email :</span>
-                                                <a href="#" class="__cf_email__" data-cfemail="f091949d999eb080929d999e969f84959398de939f9d" contenteditable="false" style="cursor: pointer;">info@z-proto.com</a>
+                                                <a href="mailto:info@z-proto.com" class="__cf_email__"  contenteditable="false" style="cursor: pointer;">info@z-proto.com</a>
                                             </li>
                                             <li>
                                                 <span>Email :</span>
-                                                <a href="#" class="__cf_email__" data-cfemail="f091949d999eb080929d999e969f84959398de939f9d" contenteditable="false" style="cursor: pointer;">sales@z-proto.com</a>
+                                                <a href="mailto:sales@z-proto.com" class="__cf_email__" contenteditable="false" style="cursor: pointer;">sales@z-proto.com</a>
                                             </li>
                                             <li>
                                                 <span>Email :</span>
-                                                <a href="#" class="__cf_email__" data-cfemail="f091949d999eb080929d999e969f84959398de939f9d" contenteditable="false" style="cursor: pointer;">support@z-proto.com</a>
+                                                <a href="mailto:support@z-proto.com" class="__cf_email__"  contenteditable="false" style="cursor: pointer;">support@z-proto.com</a>
                                             </li>
                                         </ul>
                                     </div>

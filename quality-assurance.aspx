@@ -62,7 +62,7 @@
                     <div class="pbmit-breadcrumb">
                         <div class="pbmit-breadcrumb-inner">
                             <span>
-                                <a title="" href="#" class="home"><span>Home</span></a>
+                                <a title="" href="Default.aspx" class="home"><span>Home</span></a>
                             </span>
                             <span class="sep">
                                 <i class="pbmit-base-icon-angle-right"></i>
@@ -408,14 +408,14 @@ management practices.
                                         <div class="pbminfotech-box-content">
                                             <div class="pbminfotech-titlebox">
                                                 <div class="pbmit-port-cat">
-                                                    <a href="#" rel="tag">Industries</a>
+                                                    <a href="aerospace-and-defence.aspx" rel="tag">Industries</a>
                                                 </div>
                                                 <h3 class="pbmit-portfolio-title">
-                                                    <a href="#">Aerospace & Defense</a>
+                                                    <a href="aerospace-and-defence.aspx">Aerospace & Defense</a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="aerospace-and-defence.aspx"></a>
                                     </div>
                                 </article>
                                 <!-- Slide2 -->
@@ -429,14 +429,14 @@ management practices.
                                         <div class="pbminfotech-box-content">
                                             <div class="pbminfotech-titlebox">
                                                 <div class="pbmit-port-cat">
-                                                    <a href="#" rel="tag">Industries</a>
+                                                    <a href="medical-devices.aspx" rel="tag">Industries</a>
                                                 </div>
                                                 <h3 class="pbmit-portfolio-title">
-                                                    <a href="#">Medical Devices</a>
+                                                    <a href="medical-devices.aspx">Medical Devices</a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="medical-devices.aspx"></a>
                                     </div>
                                 </article>
                                 <!-- Slide3 -->
@@ -450,14 +450,14 @@ management practices.
                                         <div class="pbminfotech-box-content">
                                             <div class="pbminfotech-titlebox">
                                                 <div class="pbmit-port-cat">
-                                                    <a href="#" rel="tag">Industries</a>
+                                                    <a href="automotive-and-ev.aspx" rel="tag">Industries</a>
                                                 </div>
                                                 <h3 class="pbmit-portfolio-title">
-                                                    <a href="#">Automotive & EV</a>
+                                                    <a href="automotive-and-ev.aspx">Automotive & EV</a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="automotive-and-ev.aspx"></a>
                                     </div>
                                 </article>
                                 <!-- Slide4 -->
@@ -471,14 +471,14 @@ management practices.
                                         <div class="pbminfotech-box-content">
                                             <div class="pbminfotech-titlebox">
                                                 <div class="pbmit-port-cat">
-                                                    <a href="#" rel="tag">Industries</a>
+                                                    <a href="industrial-automation.aspx" rel="tag">Industries</a>
                                                 </div>
                                                 <h3 class="pbmit-portfolio-title">
-                                                    <a href="#">Industrial Automation</a>
+                                                    <a href="industrial-automation.aspx">Industrial Automation</a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="industrial-automation.aspx"></a>
                                     </div>
                                 </article>
                                 <!-- Slide5 -->
@@ -492,14 +492,14 @@ management practices.
                                         <div class="pbminfotech-box-content">
                                             <div class="pbminfotech-titlebox">
                                                 <div class="pbmit-port-cat">
-                                                    <a href="#" rel="tag">Industries</a>
+                                                    <a href="telecommunications.aspx" rel="tag">Industries</a>
                                                 </div>
                                                 <h3 class="pbmit-portfolio-title">
-                                                    <a href="#">Telecommunications</a>
+                                                    <a href="telecommunications.aspx">Telecommunications</a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="telecommunications.aspx"></a>
                                     </div>
                                 </article>
                                 <!-- Slide6 -->
@@ -513,14 +513,14 @@ management practices.
                                         <div class="pbminfotech-box-content">
                                             <div class="pbminfotech-titlebox">
                                                 <div class="pbmit-port-cat">
-                                                    <a href="#" rel="tag">Industries</a>
+                                                    <a href="drones.aspx" rel="tag">Industries</a>
                                                 </div>
                                                 <h3 class="pbmit-portfolio-title">
-                                                    <a href="#">Drones</a>
+                                                    <a href="drones.aspx">Drones</a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="drones.aspx"></a>
                                     </div>
                                 </article>
                             </div>

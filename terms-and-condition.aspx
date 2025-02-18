@@ -47,7 +47,7 @@
                     <div class="pbmit-breadcrumb">
                         <div class="pbmit-breadcrumb-inner">
                             <span>
-                                <a title="" href="#" class="home"><span>Home</span></a>
+                                <a title="" href="Default.aspx" class="home"><span>Home</span></a>
                             </span>
                             <span class="sep">
                                 <i class="pbmit-base-icon-angle-right"></i>
@@ -66,6 +66,7 @@
                                     <div class="privacy">
 
                 <div class="common-section">
+                    <p>
                     The following are terms and conditions of a legal agreement between you and 
 ZPROTO Manufacturing Solutions Private Limited and its affiliates (collectively, 
 “<strong>ZPROTO</strong>”, “<strong>we</strong>”, “<strong>us</strong>” or “<strong>our</strong>”). These terms and conditions govern your use of 
@@ -75,7 +76,7 @@ By using the Services, you acknowledge you have read, understood and agree to
 be bound by these Terms and Conditions and to comply with all applicable laws 
 and regulations. You also certify that any file uploaded to the ZPROTO Website is 
 not objectionable by law. If you do not agree with these Terms and Conditions, you 
-should not use the Website, Applications, or Services. 
+should not use the Website, Applications, or Services. </p>
 
                     <h2>Services</h2>
                     <p>
