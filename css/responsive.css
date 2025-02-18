@@ -3195,8 +3195,8 @@ body {
 		}
 
 		.footer-style-1 .pbmit-footer-widget-col-2 {
-			flex: 0 0 30%;
-			max-width: 30%;
+			flex: 0 0 25%;
+			max-width: 25%;
 		}
 
 		.footer-style-1 .pbmit-footer-widget-col-3 {
@@ -3316,9 +3316,15 @@ body {
 	.site-header .site-branding img {
 		height: 60px !important;
 	}
+	.new-pad-li {
+		padding:15px 10px 15px 20px;
+	}
 
 	.tab-section-one .tab-wrap {
 		padding: 0px !important;
+	}
+	.swiper-slider.pbmit-element-viewtype-carousel-1.swiper-fade.swiper-initialized.swiper-horizontal.swiper-pointer-events{
+		border-radius:0px !important:
 	}
 
 	.navbar-toggler {
@@ -3417,13 +3423,17 @@ body {
 		display: flex !important;
 	}
 
-	.pbmit-static-box-style-1.pbmit-active {
-		flex: unset;
-		padding-right: 0 !important;
+	.new-rev{
+		flex-direction:column-reverse;
 	}
-
-	.swiper-slider.pbmit-element-viewtype-carousel-1.swiper-fade.swiper-initialized.swiper-horizontal.swiper-pointer-events {
-		margin-top: 0px !important;
+		.pbmit-static-box-style-1.pbmit-active{
+			display:block !important;
+		}
+		.swiper-slider.pbmit-element-viewtype-carousel-1.swiper-fade.swiper-initialized.swiper-horizontal.swiper-pointer-events {
+			margin-top: 0px !important;
+		}
+	.pbmit-static-box-style-1{
+		flex:unset !important;
 	}
 
 	.pbmit-title-bar-content, .pbmit-title-bar-wrapper {

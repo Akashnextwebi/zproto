@@ -31,6 +31,14 @@
             color: #000 !important;
             background: #fff !important;
         }
+        @media (min-width: 320px) and (max-width: 767px) {
+            section.contact-us-section-two {
+                padding: 20px 0px 40px !important;
+            }
+            .contact-us {
+    padding: 0px 0px 50px;
+}
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -133,7 +141,7 @@ your details, and we will respond as soon as possible.
                                         </ul>
                                     </div>
                                     <div class="pbmit-ihbox-btn">
-                                        <a href="#" contenteditable="false" style="cursor: pointer;">
+                                        <a href="https://maps.app.goo.gl/yvLHdM6SfZQJYx8x8" contenteditable="false" style="cursor: pointer;">
                                             <span class="pbmit-button-text">View on google map</span>
                                             <span class="pbmit-button-icon-wrapper">
                                                 <span class="pbmit-button-icon">
@@ -251,8 +259,7 @@ goals and providing personalized solutions.
         <!-- Iframe -->
         <section class="iframe-section section-lgb">
             <div class="container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.593990662801!2d77.691636174546!3d12.933796415707066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15a584eda95f%3A0x46fc33c369aa37b6!2sZETWERK!5e0!3m2!1sen!2sin!4v1738320671431!5m2!1sen!2sin" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.6184898265483!2d77.6468737!3d12.9590504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15000969e109%3A0xd7b22075e17cd23f!2sZPROTO!5e1!3m2!1sen!2sin!4v1739855985559!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
         </section>
         <!-- Iframe End-->
 

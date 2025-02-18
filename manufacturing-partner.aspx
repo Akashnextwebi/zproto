@@ -10,6 +10,22 @@
         .sidebar-section-one .sidebar-wrap {
             padding: 50px 0px;
         }
+        @media (min-width: 320px) and (max-width: 767px) {
+    section.contact-us-section-two {
+        padding: 31px 0px 80px !important;
+    }
+   .sidebar-section-one .sidebar-wrap {
+    padding: 50px 0px 0px !important;
+}
+}
+        @media (min-width: 320px) and (max-width: 767px) {
+    .contact-us-section-two .contact-wrap {
+        padding:40px 30px 20px 30px !important;
+    }
+        section.contact-us-section-two {
+        padding: 31px 0px 40px !important;
+    }
+}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -45,10 +61,10 @@ collaboration from the outset
         <!-- Tab end -->
         <section class="sidebar-section-one contact-us-section-two bg-light">
             <div class="container">
-                <div class="row">
+                <div class="row new-rev">
 
-                    <div class="col-md-6 sidebar-right-col">
-                        <div class="sidebar-wrap">
+                    <div class="col-md-6 sidebar-right-col ">
+                        <div class="sidebar-wrap ">
                             <div class="pbmit-heading-subheading animation-style2">
                                 <h4 class="pbmit-subtitle">
                                     <span></span>
@@ -56,7 +72,7 @@ collaboration from the outset
                                 </h4>
                                 <h2 class="pbmit-title">How to Become a Manufacturing Partner</h2>
                             </div>
-                            <div class="row">
+                            <div class="row ">
                                 <article class="pbmit-miconheading-style-10 col-md-12">
                                     <div class="pbmit-ihbox pbmit-ihbox-style-10">
                                         <div class="pbmit-ihbox-box">
@@ -143,7 +159,7 @@ portal for seamless transaction management.
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 sidebar-left-col pbmit-sticky-column">
+                    <div class="col-md-6 sidebar-left-col pbmit-sticky-column ">
                         <div class="contact-wrap pbmit-bg-color-blackish">
                             <div class="pbmit-heading-subheading animation-style2">
 

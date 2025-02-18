@@ -77,10 +77,13 @@ with rigorous quality standards to deliver exceptional results for our clients.
                                 </div>
                             </div>
 
-                            <div class="img-fluid round-20">
-                                <img src="new-img/subban/two-worker-making-gates-smithy.jpg" class="img-fluid round-20" />
-                            </div>
+                          
 
+                        </div>
+                        <div class="col-lg-10">
+                              <div class="img-fluid round-20">
+      <img src="new-img/subban/two-worker-making-gates-smithy.jpg" class="img-fluid round-20" />
+  </div>
                         </div>
                     </div>
                 </div>

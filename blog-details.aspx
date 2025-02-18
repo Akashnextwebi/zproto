@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="blog-details.aspx.cs" Inherits="blog_details" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+	<style>
+		.site-content.blog-details:before{
+			display:none;
+		}
+	</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div class="page-content">
