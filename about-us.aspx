@@ -9,23 +9,49 @@
         .pbmit-service-style-1 {
             height: 100%;
         }
+
         .ihbox-section-two .ihbox-col-1 {
-    padding: 20px;
-    background: #f1f1f1;
-    margin-bottom: 30px;
-    border-radius: 12px;
-}
-        .ihbox-section-two .ihbox-col-2{
-  padding: 20px;
-  background: #f1f1f1;
-  margin-bottom: 30px;
-  border-radius: 12px;
+            padding: 20px;
+            background: #f1f1f1;
+            margin-bottom: 30px;
+            border-radius: 12px;
         }
-        .pbmit-service-style-1 .pbmit-service-title{
-            font-size:24px;
+
+        .ihbox-section-two .ihbox-col-2 {
+            padding: 20px;
+            background: #f1f1f1;
+            margin-bottom: 30px;
+            border-radius: 12px;
         }
-        .pbmit-content-box p{
-            min-height:200px;
+
+        .pbmit-service-style-1 .pbmit-service-title {
+            font-size: 24px;
+        }
+
+        .pbmit-content-box p {
+            min-height: 130px;
+        }
+
+        @media (min-width: 320px) and (max-width: 767px) {
+            .pbmit-heading-subheading .pbmit-title {
+                font-size: 24px !important;
+                line-height: 30px !important;
+            }
+
+            .pbmit-ihbox-style-3 .pbmit-ihbox-svg-wrapper, .pbmit-ihbox-style-3 .pbmit-ihbox-icon-wrapper {
+                height: 64px;
+                min-width: 64px;
+            }
+
+            .pbmit-ihbox-style-3 .pbmit-ihbox-icon-type-image img {
+                width: 38px;
+                height: auto;
+            }
+        }
+        @media (min-width: 320px) and (max-width: 767px) {
+            .tween-effect-section-two {
+                margin-top: 00px !important;
+            }
         }
     </style>
 </asp:Content>
@@ -67,7 +93,7 @@
 
                         <div class="pbmit-contentbox col-md-8">
                             <div class="pbmit-heading-subheading animation-style4 text-center">
-                               
+
                                 <h2 class="pbmit-title">Transforming Manufacturing Through Innovation and Precision</h2>
                                 <div class="pbmit-heading-desc">
                                     Welcome to <span>ZPROTO,</span> where advanced manufacturing solutions meet cutting-edge technology. 
@@ -77,20 +103,20 @@ with rigorous quality standards to deliver exceptional results for our clients.
                                 </div>
                             </div>
 
-                          
+
 
                         </div>
                         <div class="col-lg-10">
-                              <div class="img-fluid round-20">
-      <img src="new-img/subban/two-worker-making-gates-smithy.jpg" class="img-fluid round-20" />
-  </div>
+                            <div class="img-fluid round-20">
+                                <img src="new-img/subban/two-worker-making-gates-smithy.jpg" class="img-fluid round-20" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Tab end -->
-        <section class="section-xl pbmit-column-three bg-light">
+        <section class="section-xl pbmit-column-three bg-light overflow-hidden">
             <div class="container">
                 <div class="row pbmit-element-posts-wrapper justify-content-center">
                     <article class="pbmit-service-style-1 col-md-6 col-lg-5">
@@ -100,7 +126,7 @@ with rigorous quality standards to deliver exceptional results for our clients.
                                     <div class="pbmit-content-box">
 
                                         <h3 class="pbmit-service-title">
-                                            <a href="" contenteditable="false" style="cursor: pointer;">Our Mission</a>
+                                            <a href="javascript:void(0)">Our Mission</a>
                                         </h3>
                                         <div class="">
                                             <p>
@@ -112,15 +138,15 @@ seeking precision, reliability, and efficiency in their manufacturing processes.
 
                                     </div>
                                 </div>
-                                <a class="pbmit-service-btn" href="" title="Home Charging" contenteditable="false" style="cursor: pointer;">
+                                <%--  <a class="pbmit-service-btn" href="" title="Home Charging" contenteditable="false" style="cursor: pointer;">
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">
                                             <i class="pbmit-base-icon-black-arrow-1"></i>
                                         </span>
                                     </span>
-                                </a>
+                                </a>--%>
                             </div>
-                            <a class="pbmit-link" href="" contenteditable="false" style="cursor: pointer;"></a>
+                            <%--                            <a class="pbmit-link" href="" contenteditable="false" style="cursor: pointer;"></a>--%>
                         </div>
                     </article>
                     <article class="pbmit-service-style-1 col-md-6 col-lg-5">
@@ -130,7 +156,7 @@ seeking precision, reliability, and efficiency in their manufacturing processes.
                                     <div class="pbmit-content-box">
 
                                         <h3 class="pbmit-service-title">
-                                            <a href="" contenteditable="false" style="cursor: pointer;">Our Vision</a>
+                                            <a href="javascript:void(0)">Our Vision</a>
                                         </h3>
                                         <div class="">
                                             <p>
@@ -143,15 +169,15 @@ of our clients.
 
                                     </div>
                                 </div>
-                                <a class="pbmit-service-btn" href="" title="Home Charging" contenteditable="false" style="cursor: pointer;">
+                                <%--  <a class="pbmit-service-btn" href="" title="Home Charging" contenteditable="false" style="cursor: pointer;">
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">
                                             <i class="pbmit-base-icon-black-arrow-1"></i>
                                         </span>
                                     </span>
-                                </a>
+                                </a>--%>
                             </div>
-                            <a class="pbmit-link" href="" contenteditable="false" style="cursor: pointer;"></a>
+                            <%--                            <a class="pbmit-link" href="javascript:void(0)" contenteditable="false" style="cursor: pointer;"></a>--%>
                         </div>
                     </article>
 
@@ -326,68 +352,68 @@ knowledge and expertise to each project.</span>
                             <h2 class="pbmit-title mb-50">Our Values</h2>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="ihbox-inner">
+                            <div class="pbmit-ihbox-style-4 pbmit-ihbox">
+                                <div class="pbmit-ihbox-box">
+                                    <div class="pbmit-ihbox-icon">
+                                        <img src="new-img/idea.png" width="64" />
+                                    </div>
+                                    <h2 class="pbmit-element-title">Innovation</h2>
+                                    <div class="pbmit-heading-desc">Embracing new technologies and approaches to drive progress.</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                        <div class="row">
-                            <div class="col-md-6 col-xl-3">
-                                <div class="ihbox-inner">
-                                    <div class="pbmit-ihbox-style-4 pbmit-ihbox">
-                                        <div class="pbmit-ihbox-box">
-                                            <div class="pbmit-ihbox-icon">
-                                               <img src="new-img/idea.png" width="64" />
-                                            </div>
-                                            <h2 class="pbmit-element-title">Innovation</h2>
-                                            <div class="pbmit-heading-desc">Embracing new technologies and approaches to drive progress.</div>
-                                        </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="ihbox-inner">
+                            <div class="pbmit-ihbox-style-4 pbmit-ihbox">
+                                <div class="pbmit-ihbox-box">
+                                    <div class="pbmit-ihbox-icon">
+                                        <img src="new-img/integration.png" width="64" />
                                     </div>
+                                    <h2 class="pbmit-element-title">Integrity</h2>
+                                    <div class="pbmit-heading-desc">Conducting business with honesty, transparency, and responsibility</div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xl-3">
-                                <div class="ihbox-inner">
-                                    <div class="pbmit-ihbox-style-4 pbmit-ihbox">
-                                        <div class="pbmit-ihbox-box">
-                                            <div class="pbmit-ihbox-icon">
-                                               <img src="new-img/integration.png" width="64" />
-                                            </div>
-                                            <h2 class="pbmit-element-title">Integrity</h2>
-                                            <div class="pbmit-heading-desc">Conducting business with honesty, transparency, and responsibility</div>
-                                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="ihbox-inner">
+                            <div class="pbmit-ihbox-style-4 pbmit-ihbox">
+                                <div class="pbmit-ihbox-box">
+                                    <div class="pbmit-ihbox-icon">
+                                        <img src="new-img/consumer-centric.png" width="64" />
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xl-3">
-                                <div class="ihbox-inner">
-                                    <div class="pbmit-ihbox-style-4 pbmit-ihbox">
-                                        <div class="pbmit-ihbox-box">
-                                            <div class="pbmit-ihbox-icon">
-                                               <img src="new-img/consumer-centric.png" width="64" />
-                                            </div>
-                                            <h2 class="pbmit-element-title">Customer Focus</h2>
-                                            <div class="pbmit-heading-desc">
-                                                Delivering tailored solutions that meet and exceed client 
+                                    <h2 class="pbmit-element-title">Customer Focus</h2>
+                                    <div class="pbmit-heading-desc">
+                                        Delivering tailored solutions that meet and exceed client 
 expectations.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xl-3">
-                                <div class="ihbox-inner">
-                                    <div class="pbmit-ihbox-style-4 pbmit-ihbox">
-                                        <div class="pbmit-ihbox-box">
-                                            <div class="pbmit-ihbox-icon">
-                                               <img src="new-img/talent.png" width="64" />
-                                            </div>
-                                            <h2 class="pbmit-element-title">Excellence</h2>
-                                            <div class="pbmit-heading-desc">
-                                                Committing to the highest standards of quality and performance in all 
-our services.
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="ihbox-inner">
+                            <div class="pbmit-ihbox-style-4 pbmit-ihbox">
+                                <div class="pbmit-ihbox-box">
+                                    <div class="pbmit-ihbox-icon">
+                                        <img src="new-img/talent.png" width="64" />
+                                    </div>
+                                    <h2 class="pbmit-element-title">Excellence</h2>
+                                    <div class="pbmit-heading-desc">
+                                        Committing to the highest standards of quality and performance in all 
+our services.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="ihbox-section-two section-lgb">
             <div class="container">
@@ -440,7 +466,7 @@ challenges.
                                 </div>
                             </div>
                         </div>
-                                                <div class="col-md-6">
+                        <div class="col-md-6">
                             <div class="ihbox-col-1">
                                 <div class="pbmit-ihbox-style-3">
                                     <div class="pbmit-ihbox-box">
@@ -452,7 +478,7 @@ challenges.
                                         <div class="pbmit-ihbox-contents">
                                             <h2 class="pbmit-element-title">Expert Team</h2>
                                             <div class="pbmit-heading-desc">
-                                   Working with a dedicated team of professionals who are passionate 
+                                                Working with a dedicated team of professionals who are passionate 
 about delivering exceptional results.
                                             </div>
                                         </div>
@@ -472,7 +498,7 @@ about delivering exceptional results.
                                         <div class="pbmit-ihbox-contents">
                                             <h2 class="pbmit-element-title">Client-Centric Approach</h2>
                                             <div class="pbmit-heading-desc">
-                                               Focusing on understanding and meeting the unique 
+                                                Focusing on understanding and meeting the unique 
 requirements of each client.
                                             </div>
                                         </div>
@@ -481,7 +507,7 @@ requirements of each client.
                             </div>
                         </div>
                     </div>
-                    
+
 
                 </div>
             </div>
@@ -495,7 +521,7 @@ requirements of each client.
                             <div class="tween-effect-wrap">
                                 <div class="pbmit-heading-subheading  text-start animation-style2">
                                     <h2 class="pbmit-title">Get in Touch
-</h2>
+                                    </h2>
                                     <div class="pbmit-heading-desc">
                                         Ready to take your manufacturing to the next level? Contact Us or Sign Up today to learn more 
 about our services, request a quote, or schedule a consultation. We look forward to partnering 

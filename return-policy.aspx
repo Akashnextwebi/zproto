@@ -42,6 +42,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                                        <div class="privacy">
+
                     <p>
                         Cancellation of your order, return of products – Due to the personalized nature of our 
 Services (i.e. the product is supplied by us based on your specifications), you cannot 
@@ -58,6 +60,7 @@ loss is transferred to you upon transfer of the goods from ZPROTO to the shipmen
 carrier.
                     </p>
                 </div>
+            </div>
             </div>
         </div>
     </div>

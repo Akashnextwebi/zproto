@@ -3529,7 +3529,7 @@
 }
 
 .site-footer .widget {
-	padding-top: 50px;
+	padding-top: 30px;
 	position: relative;
 }
 
@@ -3544,8 +3544,8 @@
 }
 
 .footer-style-1 .pbmit-footer-widget-area {
-	padding-top: 60px;
-	padding-bottom: 80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	position: relative;
 }
 
@@ -3648,10 +3648,6 @@
 	transition: all .25s ease-in-out;
 }
 
-.site-footer .pbmit-footer-widget-col-2 .textwidget ul {
-	display: flex;
-	flex-wrap: wrap;
-}
 
 .site-footer .pbmit-footer-widget-col-2 .widget ul a:hover,
 .site-footer .pbmit-footer-widget-col-3 .widget ul a:hover {

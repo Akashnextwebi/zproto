@@ -2929,7 +2929,7 @@ body {
 }
 .header-style-1 .pbmit-button-box-second a {
     display: block;
-    padding: 12px 15px !important;
+    padding: 12px 24px !important;
     font-size:14px;
 }
 .pbmit-right-box .pbmit-btn .pbmit-button-icon-wrapper::before{
@@ -2950,6 +2950,7 @@ body {
         background: #115fa1;
         font-size: 18px;
         line-height: 20px;
+        border-radius:12px 12px 0px 0px;
         border: 0;
         color: #fff;
     }

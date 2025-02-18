@@ -3200,8 +3200,8 @@ body {
 		}
 
 		.footer-style-1 .pbmit-footer-widget-col-3 {
-			flex: 0 0 15%;
-			max-width: 15%;
+			flex: 0 0 18%;
+			max-width: 18%;
 		}
 
 		.footer-style-2 .pbmit-footer-widget-area .pbmit-footer-widget-col-1 {
@@ -3583,8 +3583,16 @@ body {
 	.swiper-slider[data-dots="true"] {
 		padding-bottom: 80px;
 	}
-	
+	.privacy h1{
+		font-size:28px !important;
+		line-height:34px !important;
+	}
+	.privacy h2{
+		font-size:24px !important;
+		line-height:30px !important;
 
+	}
+	
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.swiper-slider.pbmit-element-viewtype-carousel-1.swiper-fade.swiper-initialized.swiper-horizontal.swiper-pointer-events {
@@ -3661,4 +3669,28 @@ body {
 
 	.new-bg {
 		background: #115fa1;
+	}
+
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+		max-width: 1320px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+	.site-header .site-branding img {
+		max-height: 55px !important;
+	}
+	.site-navigation ul.navigation > li > a {
+		font-size: 14px !important;
+	}
+	.header-style-1 .pbmit-button-box-second a {
+		display: block;
+		padding: 8px 20px !important;
+		font-size: 12px;
+	}
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+		max-width: 1140px !important;
+	}
 	}

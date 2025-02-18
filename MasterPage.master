@@ -227,6 +227,18 @@
                                 <div class="widget widget_text new-img">
                                     <img src="new-img/flogo.png" class="w-100" alt="" />
                                 </div>
+                                <div class="widget widget_text">
+                                    <h2 class="widget-title">Contact Us</h2>
+                                    <div class="textwidget">
+                                        <ul>
+                                            <li><a href="#">Office</a></li>
+                                            <li><a href="#">Email Us</a></li>
+                                            <li><a href="tel:+919606869650">+91 96068 69650</a></li>
+                                            <li><a href="#">Get a Quote</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                             <div class="pbmit-footer-widget-col-3 col-md-4">
                                 <div class="widget widget_text">
@@ -308,20 +320,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="pbmit-footer-widget-col-3 col-md-4">
-                                <div class="widget widget_text">
-                                    <h2 class="widget-title">Contact Us</h2>
-                                    <div class="textwidget">
-                                        <ul>
-                                            <li><a href="#">Office</a></li>
-                                            <li><a href="#">Email Us</a></li>
-                                            <li><a href="tel:+919606869650">+91 96068 69650</a></li>
-                                            <li><a href="#">Get a Quote</a></li>
 
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
                     </div>

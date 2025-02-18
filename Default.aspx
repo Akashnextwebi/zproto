@@ -639,7 +639,7 @@ the business</h3>
                     </div>
                     <section class="static-box-section-three pbmit-element-static-box-style-1">
                         <div class="container-fluid">
-                            <div class="row g-0 new-flex">
+                            <div class="row g-0 new-flex d-lg-flex d-none">
                                 <article class="pbmit-static-box-style-1">
                                     <div class="pbmit-staticbox-wrapper">
                                         <div class="pbmit-bg-imgbox" style="background-image: url(new-img/ind/1.png)">
@@ -653,7 +653,6 @@ the business</h3>
                                                 <div class="pbmit-ihbox-icon">
                                                 </div>
                                                 <h4 class="pbmit-static-box-title">Aerospace & Defence</h4>
-                                                <div class="pbmit-static-box-desc">Rapid rollout of charging stations is essential to greater adoption of Electric Vehicles and Plug-in</div>
                                             </div>
                                             <div class="pbmit-static-btn">
                                                 <a href="#">
@@ -682,7 +681,6 @@ the business</h3>
                                                 <div class="pbmit-ihbox-icon">
                                                 </div>
                                                 <h4 class="pbmit-static-box-title">Electronics</h4>
-                                                <div class="pbmit-static-box-desc">Renewable energy can be used for electricity generation, space and water heating and cooling, and transportation.</div>
                                             </div>
                                             <div class="pbmit-static-btn">
                                                 <a href="#">
@@ -711,7 +709,6 @@ the business</h3>
                                                 <div class="pbmit-ihbox-icon">
                                                 </div>
                                                 <h4 class="pbmit-static-box-title">Drones</h4>
-                                                <div class="pbmit-static-box-desc">EV Connect is a powerful commercial software for operating your network of EV charging stations</div>
                                             </div>
                                             <div class="pbmit-static-btn">
                                                 <a href="#">
@@ -740,7 +737,6 @@ the business</h3>
                                                 <div class="pbmit-ihbox-icon">
                                                 </div>
                                                 <h4 class="pbmit-static-box-title">Automotive & EV</h4>
-                                                <div class="pbmit-static-box-desc">All charging stations will have fast chargers for customer get the experience of our EV charging station near you</div>
                                             </div>
                                             <div class="pbmit-static-btn">
                                                 <a href="#">
@@ -769,7 +765,6 @@ the business</h3>
                                                 <div class="pbmit-ihbox-icon">
                                                 </div>
                                                 <h4 class="pbmit-static-box-title">Medical Devices</h4>
-                                                <div class="pbmit-static-box-desc">Our commitment is to provide world-class products and offerings for ultimate customer satisfaction.</div>
                                             </div>
                                             <div class="pbmit-static-btn">
                                                 <a href="#">
@@ -798,7 +793,6 @@ the business</h3>
                                                 <div class="pbmit-ihbox-icon">
                                                 </div>
                                                 <h4 class="pbmit-static-box-title">Industrial Automation</h4>
-                                                <div class="pbmit-static-box-desc">Our existing partners enjoy steady returns. We plan to continue doing so with our new partners</div>
                                             </div>
                                             <div class="pbmit-static-btn">
                                                 <a href="#">
@@ -827,7 +821,6 @@ the business</h3>
                                                 <div class="pbmit-ihbox-icon">
                                                 </div>
                                                 <h4 class="pbmit-static-box-title">Infrastructure</h4>
-                                                <div class="pbmit-static-box-desc">Our existing partners enjoy steady returns. We plan to continue doing so with our new partners</div>
                                             </div>
                                             <div class="pbmit-static-btn">
                                                 <a href="#">
@@ -856,7 +849,6 @@ the business</h3>
                                                 <div class="pbmit-ihbox-icon">
                                                 </div>
                                                 <h4 class="pbmit-static-box-title">Telecommunication</h4>
-                                                <div class="pbmit-static-box-desc">Our existing partners enjoy steady returns. We plan to continue doing so with our new partners</div>
                                             </div>
                                             <div class="pbmit-static-btn">
                                                 <a href="#">
@@ -885,7 +877,6 @@ the business</h3>
                                                 <div class="pbmit-ihbox-icon">
                                                 </div>
                                                 <h4 class="pbmit-static-box-title">Green Energy</h4>
-                                                <div class="pbmit-static-box-desc">Our existing partners enjoy steady returns. We plan to continue doing so with our new partners</div>
                                             </div>
                                             <div class="pbmit-static-btn">
                                                 <a href="#">
@@ -902,6 +893,140 @@ the business</h3>
                                     </div>
                                 </article>
 
+                            </div>
+                            <div class="row d-lg-none d-block">
+                                <div class="pbmit-col-stretched-right">
+    <div class="swiper-slider" data-arrows-class="portfolio-swiper-arrow" data-autoplay="false" data-loop="false" data-dots="false" data-arrows="true" data-columns="3.6" data-margin="30" data-effect="slide">
+        <div class="swiper-wrapper">
+            <!-- Slide1 -->
+            <article class="pbmit-portfolio-style-1 swiper-slide">
+                <div class="pbminfotech-post-content">
+                    <div class="pbmit-featured-img-wrapper">
+                        <div class="pbmit-featured-wrapper">
+                            <img src="images/homepage-2/portfolio/Aerospace.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="pbminfotech-box-content">
+                        <div class="pbminfotech-titlebox">
+                            <div class="pbmit-port-cat">
+                                <a href="#" rel="tag">Industries</a>
+                            </div>
+                            <h3 class="pbmit-portfolio-title">
+                                <a href="#">Aerospace & Defense</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <a class="pbmit-link" href="#"></a>
+                </div>
+            </article>
+            <!-- Slide2 -->
+            <article class="pbmit-portfolio-style-1 swiper-slide">
+                <div class="pbminfotech-post-content">
+                    <div class="pbmit-featured-img-wrapper">
+                        <div class="pbmit-featured-wrapper">
+                            <img src="images/homepage-2/portfolio/Medical.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pbminfotech-box-content">
+                        <div class="pbminfotech-titlebox">
+                            <div class="pbmit-port-cat">
+                                <a href="#" rel="tag">Industries</a>
+                            </div>
+                            <h3 class="pbmit-portfolio-title">
+                                <a href="#">Medical Devices</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <a class="pbmit-link" href="#"></a>
+                </div>
+            </article>
+            <!-- Slide3 -->
+            <article class="pbmit-portfolio-style-1 swiper-slide">
+                <div class="pbminfotech-post-content">
+                    <div class="pbmit-featured-img-wrapper">
+                        <div class="pbmit-featured-wrapper">
+                            <img src="images/homepage-2/portfolio/Automative.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pbminfotech-box-content">
+                        <div class="pbminfotech-titlebox">
+                            <div class="pbmit-port-cat">
+                                <a href="#" rel="tag">Industries</a>
+                            </div>
+                            <h3 class="pbmit-portfolio-title">
+                                <a href="#">Automotive & EV</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <a class="pbmit-link" href="#"></a>
+                </div>
+            </article>
+            <!-- Slide4 -->
+            <article class="pbmit-portfolio-style-1 swiper-slide">
+                <div class="pbminfotech-post-content">
+                    <div class="pbmit-featured-img-wrapper">
+                        <div class="pbmit-featured-wrapper">
+                            <img src="images/homepage-2/portfolio/Industrial.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pbminfotech-box-content">
+                        <div class="pbminfotech-titlebox">
+                            <div class="pbmit-port-cat">
+                                <a href="#" rel="tag">Industries</a>
+                            </div>
+                            <h3 class="pbmit-portfolio-title">
+                                <a href="#">Industrial Automation</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <a class="pbmit-link" href="#"></a>
+                </div>
+            </article>
+            <!-- Slide5 -->
+            <article class="pbmit-portfolio-style-1 swiper-slide">
+                <div class="pbminfotech-post-content">
+                    <div class="pbmit-featured-img-wrapper">
+                        <div class="pbmit-featured-wrapper">
+                            <img src="images/homepage-2/portfolio/Telecommunication.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pbminfotech-box-content">
+                        <div class="pbminfotech-titlebox">
+                            <div class="pbmit-port-cat">
+                                <a href="#" rel="tag">Industries</a>
+                            </div>
+                            <h3 class="pbmit-portfolio-title">
+                                <a href="#">Telecommunications</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <a class="pbmit-link" href="#"></a>
+                </div>
+            </article>
+            <!-- Slide6 -->
+            <article class="pbmit-portfolio-style-1 swiper-slide">
+                <div class="pbminfotech-post-content">
+                    <div class="pbmit-featured-img-wrapper">
+                        <div class="pbmit-featured-wrapper">
+                            <img src="images/homepage-2/portfolio/Drone.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pbminfotech-box-content">
+                        <div class="pbminfotech-titlebox">
+                            <div class="pbmit-port-cat">
+                                <a href="#" rel="tag">Industries</a>
+                            </div>
+                            <h3 class="pbmit-portfolio-title">
+                                <a href="#">Drones</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <a class="pbmit-link" href="#"></a>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
                             </div>
                         </div>
                     </section>

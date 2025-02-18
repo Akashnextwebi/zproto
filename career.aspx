@@ -48,6 +48,11 @@
         .section-padding{
             padding:50px 0px;
         }
+        @media (min-width: 320px) and (max-width: 767px) {
+    .page-content {
+        padding: 60px 0px 0px;
+    }
+}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">

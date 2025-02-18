@@ -27,6 +27,25 @@
         .tween-effect-section-two .tween-effect-wrap{
             padding:50px 30px;
         }
+        @media (min-width: 320px) and (max-width: 767px) {
+    .pbmit-heading-subheading .pbmit-title {
+        font-size: 24px !important;
+        line-height: 34px !important;
+    }
+    .box-wrap h4{
+        font-size:20px !important;
+    }
+}
+        @media (min-width: 320px) and (max-width: 767px) {
+    section.contact-us-section-two {
+        padding: 40px 0px 40px !important;
+    }
+}
+        @media (min-width: 320px) and (max-width: 767px) {
+    .tween-effect-section-two {
+        margin-top: 0px !important;
+    }
+}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -127,7 +146,7 @@ provide our customers with complete confidence, from prototyping to mass product
                         <div class="box-img"></div>
                     </div>
                 </div>
-                <div class="row justify-content-center mt-50">
+                <div class="row justify-content-center mt-50 ">
                     <div class="col-md-5 box-right-col">
                         <div class="box-img2"></div>
                     </div>

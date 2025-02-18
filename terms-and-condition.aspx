@@ -10,7 +10,8 @@
          padding:100px 0px;
      }
       .section-padding h2{
-     font-size:28px !important;
+     font-size:28px;
+     line-height:34px;
 
  }
        .section-padding ul li{
@@ -62,6 +63,8 @@
     <div class="container">
         <div classs="row">
             <div class="col-lg-12">
+                                    <div class="privacy">
+
                 <div class="common-section">
                     The following are terms and conditions of a legal agreement between you and 
 ZPROTO Manufacturing Solutions Private Limited and its affiliates (collectively, 
@@ -393,6 +396,7 @@ in effect at the time of the transaction. Should you experience any problems,
 please contact us and we will do our best to fix it as soon as possible. ZPROTO 
 may contact you to ask you about your experiences. 
                     </p>
+                    </div>
                 </div>
             </div>
         </div>
