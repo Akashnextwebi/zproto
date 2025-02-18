@@ -252,7 +252,7 @@ to infrastructure needs. </span>
                 <div class="service-contant">
                     <div class="row row-gap-gutter">
 
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-contents">
@@ -263,7 +263,7 @@ infrastructure systems.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-contents">
@@ -274,7 +274,7 @@ results. </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-contents">
@@ -285,7 +285,7 @@ manufacturing. </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-contents">
@@ -295,7 +295,7 @@ manufacturing. </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-contents">
@@ -306,7 +306,7 @@ production.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-contents">

@@ -425,7 +425,7 @@ our services.
                             <p>Innovative Solutions and Reliable Service</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row gy-4">
                         <div class="col-md-6">
                             <div class="ihbox-col-1">
                                 <div class="pbmit-ihbox-style-3">
@@ -447,7 +447,7 @@ provide cutting-edge solutions.
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="ihbox-col-2">
+                            <div class="ihbox-col-1">
                                 <div class="pbmit-ihbox-style-3">
                                     <div class="pbmit-ihbox-box">
                                         <div class="pbmit-ihbox-icon">
@@ -487,7 +487,7 @@ about delivering exceptional results.
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="ihbox-col-2">
+                            <div class="ihbox-col-1">
                                 <div class="pbmit-ihbox-style-3">
                                     <div class="pbmit-ihbox-box">
                                         <div class="pbmit-ihbox-icon">

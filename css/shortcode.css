@@ -39,21 +39,24 @@
 	z-index: 1;
 	width: 100%;
 }
+	.pbmit-heading-subheading p{
+		margin-top:15px;
+	}
 
-.pbmit-heading-subheading .pbmit-subtitle {
-	font-family: var(--pbmit-heading-typography-font-family);
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 26px;
-	letter-spacing: 0.25px;
-	color: var(--pbmit-global-color);
-	text-transform: capitalize;
-	font-style: normal;
-	position: relative;
-	padding: 0px 0px 0px 25px;
-	display: inline-block;
-	margin-bottom: 5px;
-}
+	.pbmit-heading-subheading .pbmit-subtitle {
+		font-family: var(--pbmit-heading-typography-font-family);
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 26px;
+		letter-spacing: 0.25px;
+		color: var(--pbmit-global-color);
+		text-transform: capitalize;
+		font-style: normal;
+		position: relative;
+		padding: 0px 0px 0px 25px;
+		display: inline-block;
+		margin-bottom: 5px;
+	}
 
 .pbmit-heading-subheading .pbmit-subtitle::before {
 	content: "\e862";

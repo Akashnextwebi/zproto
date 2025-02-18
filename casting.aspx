@@ -69,7 +69,7 @@ solutions.
                     </div>
                 </div>
                 <div class="row pbmit-element-posts-wrapper">
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -88,7 +88,7 @@ investment casting, and die casting, to accommodate diverse material and design 
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -107,7 +107,7 @@ functionalities before moving into production.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -126,7 +126,7 @@ of cast parts.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -145,7 +145,7 @@ mechanical properties and performance characteristics.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -164,7 +164,7 @@ requirements and deliver a polished final product.
                             </div>
                         </div>
                     </article>
-                                        <article class="pbmit-service-style-1 col-md-4">
+                                        <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">

@@ -114,7 +114,7 @@
                                                             </a></li>
                                                             <li><a href="3d-printing.aspx">3D Printing
                                                             </a></li>
-                                                            <li><a href="wire -harness.aspx">Wire Harness
+                                                            <li><a href="wire-harness.aspx">Wire Harness
 																Manufacturing
 
                                                             </a></li>
@@ -231,8 +231,10 @@
                                     <h2 class="widget-title">Contact Us</h2>
                                     <div class="textwidget">
                                         <ul>
-                                            <li><a href="#">Office</a></li>
-                                            <li><a href="#">Email Us</a></li>
+                                            <li><a href="javascript:void(0);" style="cursor:none">ZPROTO Manufacturing Businesses Private Limited.
+#139, Oxford Towers, HAL II Stage
+Indirangar, Bangalore-560008 India</a></li>
+                                            <li><a href="Mailto:info@z-proto.com"> info@z-proto.com</a></li>
                                             <li><a href="tel:+919606869650">+91 96068 69650</a></li>
                                             <li><a href="#">Get a Quote</a></li>
 

@@ -69,7 +69,7 @@ small production runs, or custom parts, we’ve got you covered.
                     </div>
                 </div>
                 <div class="row pbmit-element-posts-wrapper">
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -88,7 +88,7 @@ specifications.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -107,7 +107,7 @@ tolerances, making it ideal for both simple and intricate designs.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -126,7 +126,7 @@ high precision to meet your design requirements.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -145,7 +145,7 @@ and plating, to achieve the desired look and durability.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -164,7 +164,7 @@ needs, ensuring you receive the right number of parts, on time, and within budge
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -237,7 +237,7 @@ specifications.</span>
                 <div class="service-contant">
                     <div class="row row-gap-gutter">
 
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -254,7 +254,7 @@ specifications.</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -271,7 +271,7 @@ specifications.</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -288,7 +288,7 @@ specifications.</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -306,7 +306,7 @@ platform.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">

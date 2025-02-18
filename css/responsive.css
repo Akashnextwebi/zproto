@@ -897,7 +897,7 @@ body {
 
 		.main-menu .navigation > li > ul a {
 			color: #000;
-			padding: 15px 25px;
+			padding: 10px 25px;
 			height: auto;
 			display: inline-block;
 		}
@@ -3346,7 +3346,7 @@ body {
 	}
 
 	.tween-effect-section-two {
-		margin-top: 70px !important;
+		margin-top: 0px !important;
 	}
 
 		.tween-effect-section-two .tween-effect-wrap {
@@ -3386,9 +3386,7 @@ body {
 		padding: 50px 0px 50px !important;
 	}
 
-	section.contact-us-section-two {
-		padding: 105px 0px 80px !important;
-	}
+
 	.pbmit-heading-subheading .pbmit-subtitle {
 		font-size: 14px !important;
 		margin-bottom: 10px !important;
@@ -3592,13 +3590,101 @@ body {
 		line-height:30px !important;
 
 	}
+	section.contact-us-section-two {
+		padding: 40px 0px 40px !important;
+	}
 	
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.swiper-slider.pbmit-element-viewtype-carousel-1.swiper-fade.swiper-initialized.swiper-horizontal.swiper-pointer-events {
 		margin-top: 0px !important;
 	}
+	.marquee-section-two {
+		padding: 10px 0px 30px 0px;
+	}
+	.pbmit-marquee-effect-style-1 .pbmit-element-title {
+		font-size: 38px;
+	}
 
+	.box-contant-inner {
+		margin-top: 30px;
+	}
+	.new-pad-li{
+		padding:20px 0px 20px 20px
+	}
+	.pbmit-heading-subheading{
+		margin-bottom:30px !important;
+	}
+	.pbmit-tab .nav-tabs {
+		gap:1rem;
+	}
+	.career-card-img img {
+		border-radius: 12px;
+		height: auto;
+		width: 100%;
+	}
+	
+	.pbmit-ihbox-style-3 .pbmit-ihbox-icon-wrapper {
+		min-width: 60px !important;
+		height: 60px !important;
+	}
+	.career-card-content h3{
+		font-size:24px !important;
+
+	}
+	.pbmit-element-timeline-style-1 .container {
+		 margin: 0 0px !important; 
+	}
+	.pbmit-element-timeline-style-1 .pbmit-timeline-title{
+		font-size:20px !important;
+		line-height:26px !important;
+	}
+	.pbmit-element-timeline-style-1 .pbmit-timeline-wrapper .pbmit-timeline-desc {
+		padding: 0;
+		font-size: 14px;
+	}
+	.pbmit-tab .nav .nav-item a {
+		padding: 0 25px 15px !important;
+	}
+
+	.pbmit-ihbox-style-3 .pbmit-ihbox-icon-type-image img {
+		width: 32px;
+		height: auto;
+	}
+	.ihbox-section-two .ihbox-col-1 {
+		padding: 20px;
+		background: #f1f1f1;
+		margin-bottom: 30px;
+		height: 100%;
+		border-radius: 12px;
+	}
+	.box-section-two .box-img2 {
+		padding: 150px 0px;
+	}
+
+	.box-section-two .box-img3 {
+		padding: 150px 0px;
+	}
+
+	.box-section-two .box-img4 {
+		padding: 150px 0px;
+	}
+
+	.box-section-two .box-img5 {
+		padding: 150px 0px;
+	}
+
+	.box-section-two .box-img6 {
+		padding: 150px 0px;
+	}
+
+	.box-section-two .box-img7 {
+		padding: 150px 0px;
+	}
+	.pbmit-title-bar-wrapper {
+		top: 100px;
+		margin-bottom: 60px;
+	}
 	.header-style-1 .pbmit-button-box-second {
 		display: flex !important;
 	}
@@ -3676,11 +3762,20 @@ body {
 	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
 		max-width: 1320px;
 	}
+	.tween-effect-section-two .tween-effect-btn {
+		padding: 0px 80px 0px 80px;
+	}
 }
 @media (min-width: 1200px) and (max-width: 1300px) {
 
 	.site-header .site-branding img {
 		max-height: 55px !important;
+	}
+	.pbmit-client-wrapper h5{
+		font-size:18px !important;
+	}
+	.tween-effect-section-two .tween-effect-btn {
+		padding: 0px 60px 0px 60px;
 	}
 	.site-navigation ul.navigation > li > a {
 		font-size: 14px !important;
@@ -3693,4 +3788,33 @@ body {
 	.container, .container-lg, .container-md, .container-sm, .container-xl {
 		max-width: 1140px !important;
 	}
+	.section-md{
+		padding-top:60px !important;
+		padding-bottom:60px !important;
 	}
+	.pbmit-ihbox-style-14 .pbmit-element-subtitle{
+	margin-bottom:80px !important;
+	}
+	.pbmit-ihbox-style-14 .pbmit-element-title{
+
+		font-size:20px !important;
+		line-height:28px !important
+	}
+	.extra-note p{
+		font-size:18px !important
+	}
+	.pbmit-title-bar-wrapper {
+		top: 100px;
+		margin-bottom: 50px;
+	}
+	.pbmit-slider-one .pbmit-slider-content .pbmit-title{
+		font-size:54px !important;
+		line-height:62px !important;
+	}
+	}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.swiper-slider.pbmit-element-viewtype-carousel-1.swiper-fade.swiper-initialized.swiper-horizontal.swiper-pointer-events{
+		margin-top:0px !important;
+	}
+}

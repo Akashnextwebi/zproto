@@ -69,7 +69,7 @@ production, ZPROTO delivers precision and reliability every step of the way.
                     </div>
                 </div>
                 <div class="row pbmit-element-posts-wrapper">
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -88,7 +88,7 @@ enclosures that meet both functional and aesthetic requirements.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -107,7 +107,7 @@ alignment and seamless integration for optimal performance.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -128,7 +128,7 @@ organized connectivity within your box build.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -148,7 +148,7 @@ mechanical parts are assembled accurately and robustly.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -167,7 +167,7 @@ meets your standards and industry regulations.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -187,7 +187,7 @@ requirements.
                             </div>
                         </div>
                     </article>
-                                        <article class="pbmit-service-style-1 col-md-4">
+                                        <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -205,7 +205,7 @@ maintain consistent quality and manage production schedules to deliver your asse
                             </div>
                         </div>
                     </article>
-                                        <article class="pbmit-service-style-1 col-md-4">
+                                        <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -282,7 +282,7 @@ tracking and comprehensive support throughout the assembly process.</span>
                 <div class="service-contant">
                     <div class="row row-gap-gutter">
 
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -300,7 +300,7 @@ via our manufacturing platform.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -318,7 +318,7 @@ designs for assembly and performance.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -336,7 +336,7 @@ production needs.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -354,7 +354,7 @@ testing to ensure functionality and quality.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -372,7 +372,7 @@ and management of your project.</div>
                                 </div>
                             </div>
                         </div>
-                                          <div class="col-md-4">
+                                          <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">

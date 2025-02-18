@@ -70,7 +70,7 @@ efficiency.
                 </div>
                 <div class="row pbmit-element-posts-wrapper">
                     <h2 class="pbmit-title text-center ">Electronics</h2>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -87,7 +87,7 @@ efficiency.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -104,7 +104,7 @@ efficiency.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -124,7 +124,7 @@ efficiency.
                         </div>
                     </article>
                     <h2 class="pbmit-title text-center ">Mechanical</h2>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -141,7 +141,7 @@ efficiency.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -157,7 +157,7 @@ efficiency.
                             </div>
                         </div>
                     </article>
-                    <article class="pbmit-service-style-1 col-md-4">
+                    <article class="pbmit-service-style-1 col-md-6 col-lg-4">
                         <div class="pbminfotech-post-item">
                             <div class="pbmit-box-content-wrap">
                                 <div class="pbmit-box-content-inner">
@@ -234,7 +234,7 @@ processes. </span>
                 <div class="service-contant">
                     <div class="row row-gap-gutter">
 
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -252,7 +252,7 @@ system simplifies the design submission process. </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -270,7 +270,7 @@ system simplifies the design submission process. </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -288,7 +288,7 @@ provides transparent pricing to aid your decision-making. </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -306,7 +306,7 @@ updates and notifications throughout the production process. </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">
@@ -324,7 +324,7 @@ inspections to guarantee it meets your specifications and industry standards. <
                                 </div>
                             </div>
                         </div>
-                                          <div class="col-md-4">
+                                          <div class="col-lg-4 col-md-6">
                             <div class="pbmit-ihbox-style-1 process-card">
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-icon">

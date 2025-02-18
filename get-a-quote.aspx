@@ -14,6 +14,11 @@
         height:42px !important;
         padding:10px;
         }
+         @media (min-width: 320px) and (max-width: 767px) {
+    section.contact-us-section-two {
+        padding: 100px 0px 40px !important;
+    }
+}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">

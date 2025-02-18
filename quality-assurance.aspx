@@ -294,8 +294,8 @@ requirements. </span>
                     <div class="col-md-5 box-left-col">
                         <div class="box-wrap">
                             <div class="box-contant-inner">
-                                <div class="pbmit-heading-subheading animation-style2">
-                                    <h3 class="pbmit-title">Advanced Inspection Technologies 
+                                <div class="pbmit-heading-subheading animation-style2 mb-3">
+                                    <h3 class="pbmit-title">Certifications and Compliance
 </h3>
                                     <p>
                                         We comply with global quality standards to serve diverse industries. 
@@ -303,7 +303,7 @@ requirements. </span>
                                     </p>
                                 </div>
                             </div>
-                            <h4>ZPROTO is certified with </h4>
+                            <h6>ZPROTO is certified with </h6>
                             <ul class="list-group list-group-borderless">
                                 <li class="list-group-item">
                                     <span class="pbmit-icon-list-text">ISO 9001: General quality management systems. </span>
@@ -311,7 +311,7 @@ requirements. </span>
 
 
                             </ul>
-                            <h4>Our Partners are certified with  </h4>
+                            <h6>Our Partners are certified with  </h6>
                             <ul class="list-group list-group-borderless">
                                 <li class="list-group-item">
                                     <span class="pbmit-icon-list-text">ISO 9001: General quality management systems. 
@@ -574,7 +574,7 @@ unauthorized access.</span>
 					<div class="tween-effect-section-two pbmit-bg-color-blackish">
 						<div class="row justify-content-center">
 							
-							<div class="col-md-8 tween-effect-center-col">
+							<div class="col-md-10 tween-effect-center-col">
 								<div class="tween-effect-wrap">
 									<div class="pbmit-heading-subheading  text-center animation-style2">
 										<h2 class="pbmit-title">Our Commitment to Excellence </h2>
@@ -587,7 +587,7 @@ assurance.</div>
 									<div class="tween-effect-btn">
 										<div class="row gy-4 justify-content-center">
 											<div class="col-md-4 text-center">
-												<a class="pbmit-btn" href="#">
+												<a class="pbmit-btn" href="contact-us.aspx">
 														<span class="pbmit-button-text">Contact Us</span>	
 														<span class="pbmit-button-icon-wrapper">
 															<span class="pbmit-button-icon">
@@ -597,7 +597,7 @@ assurance.</div>
 													</a>
 											</div>
 											<div class="col-md-4 text-center">
-												<a class="pbmit-btn" href="#">
+												<a class="pbmit-btn" href="">
 														<span class="pbmit-button-text">Sign Up</span>	
 														<span class="pbmit-button-icon-wrapper">
 															<span class="pbmit-button-icon">

@@ -30,7 +30,7 @@
                                         Zproto represents a groundbreaking step in advanced manufacturing innovation.
                                     </div>
                                     <div class="pbmit-button transform-bottom transform-delay-5">
-                                        <a class="pbmit-btn" href="#">
+                                        <a class="pbmit-btn" href="contact-us.aspx">
                                             <span class="pbmit-button-text">Contact Us</span>
                                             <span class="pbmit-button-icon-wrapper">
                                                 <span class="pbmit-button-icon">
@@ -74,7 +74,7 @@
 
                                     </div>
                                     <div class="pbmit-button transform-bottom transform-delay-5">
-                                        <a class="pbmit-btn" href="#">
+                                        <a class="pbmit-btn" href="contact-us.aspx">
                                             <span class="pbmit-button-text">Contact Us</span>
                                             <span class="pbmit-button-icon-wrapper">
                                                 <span class="pbmit-button-icon">
@@ -122,7 +122,7 @@ we offer a seamless experience that transforms your ideas into reality.
 
                             </div>
 
-                            <a class="pbmit-btn " href="#">
+                            <a class="pbmit-btn " href="about-us.aspx">
                                 <span class="pbmit-button-text">Get Started</span>
                                 <span class="pbmit-button-icon-wrapper">
                                     <span class="pbmit-button-icon">
@@ -153,14 +153,7 @@ digital approach ensures high-quality results with speed and accuracy
 
                             </div>
 
-                            <a class="pbmit-btn " href="#">
-                                <span class="pbmit-button-text">Get Started</span>
-                                <span class="pbmit-button-icon-wrapper">
-                                    <span class="pbmit-button-icon">
-                                        <i class="pbmit-base-icon-black-arrow-1"></i>
-                                    </span>
-                                </span>
-                            </a>
+                          
                         </div>
                         <div class="pbmit-left-col col-md-6">
                             <div class="tab-image1"></div>
@@ -244,13 +237,13 @@ digital approach ensures high-quality results with speed and accuracy
                                                         <a href="#" rel="tag">Capabilities</a>
                                                     </div>
                                                     <h3 class="pbmit-service-title">
-                                                        <a href="#">CNC Machining</a>
+                                                        <a href="cnc-machining.aspx">CNC Machining</a>
                                                     </h3>
                                                     <div class="pbmit-service-description">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a class="pbmit-service-btn" href="#"
+                                            <a class="pbmit-service-btn" href="cnc-machining.aspx"
                                                 title="Home Charging">
                                                 <span class="pbmit-button-icon-wrapper">
                                                     <span class="pbmit-button-icon">
@@ -259,7 +252,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="cnc-machining.aspx"></a>
                                     </article>
                                 </div>
                                 <!-- Slide2 -->
@@ -286,7 +279,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </div>
                                                 <div class="pbmit-content-box">
                                                     <div class="pbmit-serv-cat">
-                                                        <a href="#" rel="tag">Capabilities</a>
+                                                        <a href="sheet-metal.aspx" rel="tag">Capabilities</a>
                                                     </div>
                                                     <h3 class="pbmit-service-title">
                                                         <a href="#">Sheetmetal Fabrication</a>
@@ -295,7 +288,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a class="pbmit-service-btn" href="#"
+                                            <a class="pbmit-service-btn" href="sheet-metal.aspx"
                                                 title="Home Charging">
                                                 <span class="pbmit-button-icon-wrapper">
                                                     <span class="pbmit-button-icon">
@@ -304,7 +297,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="sheet-metal.aspx"></a>
                                     </article>
                                 </div>
                                 <!-- Slide3 -->
@@ -331,16 +324,16 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </div>
                                                 <div class="pbmit-content-box">
                                                     <div class="pbmit-serv-cat">
-                                                        <a href="#" rel="tag">Capabilities</a>
+                                                        <a href="casting.aspx" rel="tag">Capabilities</a>
                                                     </div>
                                                     <h3 class="pbmit-service-title">
-                                                        <a href="#" rel="tag">Casting & Forging</a>
+                                                        <a href="casting.aspx" rel="tag">Casting </a>
                                                     </h3>
                                                     <div class="pbmit-service-description">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a class="pbmit-service-btn" href="#"
+                                            <a class="pbmit-service-btn" href="casting.aspx"
                                                 title="Home Charging">
                                                 <span class="pbmit-button-icon-wrapper">
                                                     <span class="pbmit-button-icon">
@@ -349,7 +342,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="casting.aspx"></a>
                                     </article>
                                 </div>
                                 <!-- Slide4 -->
@@ -376,16 +369,16 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </div>
                                                 <div class="pbmit-content-box">
                                                     <div class="pbmit-serv-cat">
-                                                        <a href="#" rel="tag">Capabilities</a>
+                                                        <a href="injection-molding.aspx" rel="tag">Capabilities</a>
                                                     </div>
                                                     <h3 class="pbmit-service-title">
-                                                        <a href="#">Injection Molding</a>
+                                                        <a href="injection-molding.aspx">Injection Molding</a>
                                                     </h3>
                                                     <div class="pbmit-service-description">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a class="pbmit-service-btn" href="#"
+                                            <a class="pbmit-service-btn" href="injection-molding.aspx"
                                                 title="Home Charging">
                                                 <span class="pbmit-button-icon-wrapper">
                                                     <span class="pbmit-button-icon">
@@ -394,7 +387,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="injection-molding.aspx"></a>
                                     </article>
                                 </div>
                                 <!-- Slide5 -->
@@ -421,16 +414,16 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </div>
                                                 <div class="pbmit-content-box">
                                                     <div class="pbmit-serv-cat">
-                                                        <a href="#" rel="tag">Capabilities</a>
+                                                        <a href="3d-printing.aspx" rel="tag">Capabilities</a>
                                                     </div>
                                                     <h3 class="pbmit-service-title">
-                                                        <a href="#">3D Printing</a>
+                                                        <a href="3d-printing.aspx">3D Printing</a>
                                                     </h3>
                                                     <div class="pbmit-service-description">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a class="pbmit-service-btn" href="#"
+                                            <a class="pbmit-service-btn" href="3d-printing.aspx"
                                                 title="Home Charging">
                                                 <span class="pbmit-button-icon-wrapper">
                                                     <span class="pbmit-button-icon">
@@ -439,7 +432,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="3d-printing.aspx"></a>
                                     </article>
                                 </div>
                                 <!-- Slide6 -->
@@ -466,16 +459,16 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </div>
                                                 <div class="pbmit-content-box">
                                                     <div class="pbmit-serv-cat">
-                                                        <a href="#" rel="tag">Capabilities</a>
+                                                        <a href="pcb-assembly.aspx" rel="tag">Capabilities</a>
                                                     </div>
                                                     <h3 class="pbmit-service-title">
-                                                        <a href="#">PCB Assembly</a>
+                                                        <a href="pcb-assembly.aspx">PCB Assembly</a>
                                                     </h3>
                                                     <div class="pbmit-service-description">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a class="pbmit-service-btn" href="#"
+                                            <a class="pbmit-service-btn" href="pcb-assembly.aspx"
                                                 title="Home Charging">
                                                 <span class="pbmit-button-icon-wrapper">
                                                     <span class="pbmit-button-icon">
@@ -484,7 +477,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                 </span>
                                             </a>
                                         </div>
-                                        <a class="pbmit-link" href="#"></a>
+                                        <a class="pbmit-link" href="pcb-assembly.aspx"></a>
                                     </article>
                                 </div>
 
@@ -1101,7 +1094,7 @@ the business</h3>
                                         <div class="pbmit-ihbox-headingicon">
                                             <h4 class="pbmit-element-subtitle">Competitive Pricing</h4>			
                                             <div class="pbmit-ihbox-contents">
-                                                <h2 class="pbmit-element-title">Cost-eƯ ective solutions without compromising quality.</h2>		
+                                                <h2 class="pbmit-element-title">Cost-effective solutions without compromising quality.</h2>		
                                             </div>
                                         </div>
                                     </div>
@@ -1120,7 +1113,7 @@ the business</h3>
                                 </div>
 							</div>
 						</div>
-                                        <div class="tween-effect-section-two pbmit-bg-color-blackish">
+                                        <div class="tween-effect-section-two pbmit-bg-color-blackish ">
                     <div class="row justify-content-center  align-items-center ">
 
                         <div class="col-md-8 tween-effect-center-col">
@@ -1386,7 +1379,7 @@ your complete satisfaction.
                                     <span class="pbmit-icon-list-text"><strong>Efficient Operations:</strong> Streamlined processes to reduce costs and overhead.</span>
                                 </li>
                                 <li class="list-group-item">
-                                    <span class="pbmit-icon-list-text"><strong>Value for Money:</strong> High-quality manufacturing solutions at cost-eƯ ective prices.</span>
+                                    <span class="pbmit-icon-list-text"><strong>Value for Money:</strong> High-quality manufacturing solutions at cost-effective prices.</span>
                                 </li>
 
                             </ul>
