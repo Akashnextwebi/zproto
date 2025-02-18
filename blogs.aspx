@@ -208,6 +208,18 @@
 								</div>
 							</div>
 						</article>
+						<div class="col-lg-12">
+							<div class="d-flex justify-content-center"
+							<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item left"><a class="page-link" href="#"><</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item left"><a class="page-link" href="#">></a></li>
+  </ul>
+</nav>
+						</div>
 					</div>
 				</div>
 			</div>

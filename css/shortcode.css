@@ -5355,3 +5355,14 @@
 	font-weight:600;
 	text-align:center;
 }
+ul.pagination {
+	gap: 1rem;
+}
+li.page-item.left a {
+	background: #115fa1;
+	color: #fff;
+
+}
+li.page-item.left  {
+	border-radius:50%;
+}
