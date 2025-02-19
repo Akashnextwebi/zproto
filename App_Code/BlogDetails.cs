@@ -32,8 +32,10 @@ public class BlogDetails
     public DateTime AddedOn { get; set; }
     public string AddedIP { get; set; }
     public string Status { get; set; }
+    public int RowNumber { get; set; }
+    public int TotalCount { get; set; }
     #endregion
-    #region Blogs Methods
+    #region BlogDetails Methods
 
     /// <summary>
     /// Retrieves all details of a blog entry with a specific ID from the database.
@@ -89,7 +91,7 @@ public class BlogDetails
     /// <param name="conDT">The SQL connection object.</param>
     /// <param name="Url">The URL of the blog entry to retrieve.</param>
     /// <returns>A list of BlogDetails objects containing the details of the specified blog entry.</returns>
-   
+
     public static List<BlogDetails> GetAllBlogDetailsWithUrl(SqlConnection conDT, string Url)
     {
         List<BlogDetails> categories = new List<BlogDetails>();
@@ -120,7 +122,6 @@ public class BlogDetails
                                   PostedOn = Convert.ToString(dr["PostedOn"]),
                                   AddedBy = Convert.ToString(dr["AddedBy"]),
                                   AddedIP = Convert.ToString(dr["AddedIP"]),
-                                  DisplayHome = Convert.ToString(dr["DisplayHome"]),
                                   Status = Convert.ToString(dr["Status"])
                               }).ToList();
             }
@@ -137,12 +138,12 @@ public class BlogDetails
     /// <param name="conDT">The SQL connection object.</param>
     /// <returns>A list of BlogDetails objects containing the details of all blog entries.</returns>
 
-    public static List<BlogDetails> GetAllBlogDetails(SqlConnection conDT)
+    public static List<BlogDetails> GetRecentBlogs(SqlConnection conDT)
     {
         List<BlogDetails> categories = new List<BlogDetails>();
         try
         {
-            string query = "Select *,(Select UserName from CreateUser Where UserGuid=BlogDetails.AddedBy) as UpdatedBy from BlogDetails where Status=@Status Order by Id ";
+            string query = "Select Top 3 *,(Select UserName from CreateUser Where UserGuid=BlogDetails.AddedBy) as UpdatedBy from BlogDetails where Status=@Status Order by AddedOn ";
             using (SqlCommand cmd = new SqlCommand(query, conDT))
             {
                 cmd.Parameters.AddWithValue("@Status", SqlDbType.NVarChar).Value = "Active";
@@ -177,82 +178,129 @@ public class BlogDetails
         }
         return categories;
     }
-
-    /// <summary>
-    /// Retrieves the details of the previous blog entry based on the specified ID from the database.
-    /// </summary>
-    /// <param name="conDT">The SQL connection object.</param>
-    /// <param name="id">The ID of the current blog entry.</param>
-    /// <returns>A BlogDetails object containing the details of the previous blog entry.</returns>
-
-    public static BlogDetails GetPrevBlogDetails(SqlConnection conDT, int id)
+    public static List<BlogDetails> GetRecentBlogsForFooter(SqlConnection conDT)
     {
-        BlogDetails categories = new BlogDetails();
+        List<BlogDetails> categories = new List<BlogDetails>();
         try
         {
-            string query = "Select BlogTitle,BlogUrl from BlogDetails where Status=@Status and id < @Id Order by Id Desc ";
+            string query = "Select Top 5 *,(Select UserName from CreateUser Where UserGuid=BlogDetails.AddedBy) as UpdatedBy from BlogDetails where Status=@Status Order by AddedOn ";
             using (SqlCommand cmd = new SqlCommand(query, conDT))
             {
                 cmd.Parameters.AddWithValue("@Status", SqlDbType.NVarChar).Value = "Active";
-                cmd.Parameters.AddWithValue("@Id", SqlDbType.NVarChar).Value = id;
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
                 categories = (from DataRow dr in dt.Rows
                               select new BlogDetails()
                               {
+                                  Id = Convert.ToInt32(Convert.ToString(dr["Id"])),
+                                  BlogImage = Convert.ToString(dr["BlogImage"]),
+                                  ThumbImage = Convert.ToString(dr["ThumbImage"]),
                                   BlogTitle = Convert.ToString(dr["BlogTitle"]),
                                   BlogUrl = Convert.ToString(dr["BlogUrl"]),
-                              }).FirstOrDefault();
+                                  PostedBy = Convert.ToString(dr["PostedBy"]),
+                                  PageTitle = Convert.ToString(dr["PageTitle"]),
+                                  MetaKeys = Convert.ToString(dr["MetaKeys"]),
+                                  MetaDesc = Convert.ToString(dr["MetaDesc"]),
+                                  FullDesc = Convert.ToString(dr["FullDesc"]),
+                                  AddedOn = Convert.ToDateTime(Convert.ToString(dr["AddedOn"])),
+                                  PostedOn = Convert.ToString(dr["PostedOn"]),
+                                  AddedBy = Convert.ToString(dr["UpdatedBy"]),
+                                  AddedIP = Convert.ToString(dr["AddedIP"]),
+                                  DisplayHome = Convert.ToString(dr["DisplayHome"]),
+                                  Status = Convert.ToString(dr["Status"])
+                              }).ToList();
             }
         }
         catch (Exception ex)
         {
-            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "GetPrevBlogDetails", ex.Message);
+            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "GetAllBlogDetails", ex.Message);
         }
         return categories;
     }
-    /// <summary>
-    /// Retrieves the details of the next blog entry based on the specified ID from the database.
-    /// </summary>
-    /// <param name="conDT">The SQL connection object.</param>
-    /// <param name="id">The ID of the current blog entry.</param>
-    /// <returns>A BlogDetails object containing the details of the next blog entry.</returns>
-
-    public static BlogDetails GetNextBlogDetails(SqlConnection conDT, int id)
+    public static List<BlogDetails> GetAllBlogDetails(SqlConnection conDT)
     {
-        BlogDetails categories = new BlogDetails();
+        List<BlogDetails> categories = new List<BlogDetails>();
         try
         {
-            string query = "Select BlogTitle,BlogUrl from BlogDetails where Status=@Status and id > @Id Order by Id";
+            string query = "Select *,(Select UserName from CreateUser Where UserGuid=BlogDetails.AddedBy) as UpdatedBy from BlogDetails where Status!='Deleted' Order by Id ";
             using (SqlCommand cmd = new SqlCommand(query, conDT))
             {
-                cmd.Parameters.AddWithValue("@Status", SqlDbType.NVarChar).Value = "Active";
-                cmd.Parameters.AddWithValue("@Id", SqlDbType.NVarChar).Value = id;
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
                 categories = (from DataRow dr in dt.Rows
                               select new BlogDetails()
                               {
+                                  Id = Convert.ToInt32(Convert.ToString(dr["Id"])),
+                                  BlogImage = Convert.ToString(dr["BlogImage"]),
+                                  ThumbImage = Convert.ToString(dr["ThumbImage"]),
                                   BlogTitle = Convert.ToString(dr["BlogTitle"]),
                                   BlogUrl = Convert.ToString(dr["BlogUrl"]),
-                              }).FirstOrDefault();
+                                  PostedBy = Convert.ToString(dr["PostedBy"]),
+                                  PageTitle = Convert.ToString(dr["PageTitle"]),
+                                  MetaKeys = Convert.ToString(dr["MetaKeys"]),
+                                  MetaDesc = Convert.ToString(dr["MetaDesc"]),
+                                  FullDesc = Convert.ToString(dr["FullDesc"]),
+                                  AddedOn = Convert.ToDateTime(Convert.ToString(dr["AddedOn"])),
+                                  PostedOn = Convert.ToString(dr["PostedOn"]),
+                                  AddedBy = Convert.ToString(dr["UpdatedBy"]),
+                                  AddedIP = Convert.ToString(dr["AddedIP"]),
+                                  DisplayHome = Convert.ToString(dr["DisplayHome"]),
+                                  Status = Convert.ToString(dr["Status"])
+                              }).ToList();
             }
         }
         catch (Exception ex)
         {
-            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "GetNextBlogDetails", ex.Message);
+            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "GetAllBlogDetails", ex.Message);
         }
         return categories;
     }
-    /// <summary>
-    /// Inserts the details of a new blog entry into the database.
-    /// </summary>
-    /// <param name="conGV">The SQL connection object.</param>
-    /// <param name="cat">The BlogDetails object containing the details of the new blog entry.</param>
-    /// <returns>The ID of the newly inserted blog entry.</returns>
-
+    public static List<BlogDetails> GetAllListBlogDetails(SqlConnection conDT, int cPage)
+    {
+        List<BlogDetails> categories = new List<BlogDetails>();
+        try
+        {
+            var query = @"Select top 6 * from (Select ROW_NUMBER() OVER(ORDER BY Id DESC) AS RowNo,(select count(id) from BlogDetails where status='Active') as TotalCount,* 
+  from BlogDetails
+where Status='Active') x where RowNo > " + (6 * (cPage - 1));
+            using (SqlCommand cmd = new SqlCommand(query, conDT))
+            {
+                cmd.Parameters.AddWithValue("@Status", SqlDbType.NVarChar).Value = "Active";
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                categories = (from DataRow dr in dt.Rows
+                              select new BlogDetails()
+                              {
+                                  Id = Convert.ToInt32(Convert.ToString(dr["Id"])),
+                                  RowNumber = Convert.ToInt32(Convert.ToString(dr["RowNo"])),
+                                  TotalCount = Convert.ToInt32(Convert.ToString(dr["TotalCount"])),
+                                  BlogImage = Convert.ToString(dr["BlogImage"]),
+                                  ThumbImage = Convert.ToString(dr["ThumbImage"]),
+                                  BlogTitle = Convert.ToString(dr["BlogTitle"]),
+                                  BlogUrl = Convert.ToString(dr["BlogUrl"]),
+                                  PostedBy = Convert.ToString(dr["PostedBy"]),
+                                  PageTitle = Convert.ToString(dr["PageTitle"]),
+                                  MetaKeys = Convert.ToString(dr["MetaKeys"]),
+                                  MetaDesc = Convert.ToString(dr["MetaDesc"]),
+                                  FullDesc = Convert.ToString(dr["FullDesc"]),
+                                  AddedOn = Convert.ToDateTime(Convert.ToString(dr["AddedOn"])),
+                                  PostedOn = Convert.ToDateTime(Convert.ToString(dr["PostedOn"])).ToString("MMM dd , yyyy"),
+                                  AddedBy = Convert.ToString(dr["AddedBy"]),
+                                  AddedIP = Convert.ToString(dr["AddedIP"]),
+                                  DisplayHome = Convert.ToString(dr["DisplayHome"]),
+                                  Status = Convert.ToString(dr["Status"])
+                              }).ToList();
+            }
+        }
+        catch (Exception ex)
+        {
+            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "GetAllBlogDetails", ex.Message);
+        }
+        return categories;
+    }
     public static int InsertBlogDetails(SqlConnection conGV, BlogDetails cat)
     {
         int result = 0;
@@ -276,7 +324,7 @@ public class BlogDetails
                 cmd.Parameters.AddWithValue("@AddedOn", SqlDbType.DateTime).Value = cat.AddedOn;
                 cmd.Parameters.AddWithValue("@AddedBy", SqlDbType.NVarChar).Value = cat.AddedBy;
                 cmd.Parameters.AddWithValue("@AddedIP", SqlDbType.NVarChar).Value = cat.AddedIP;
-                cmd.Parameters.AddWithValue("@DisplayHome", SqlDbType.NVarChar).Value = cat.DisplayHome;
+                cmd.Parameters.AddWithValue("@DisplayHome", SqlDbType.NVarChar).Value = "Yes";
                 cmd.Parameters.AddWithValue("@Status", SqlDbType.NVarChar).Value = "Active";
                 conGV.Open();
                 result = cmd.ExecuteNonQuery();
@@ -364,7 +412,7 @@ public class BlogDetails
         return result;
     }
     #endregion
-    public static decimal NoOfBlogs(SqlConnection conZP)
+    public static decimal NoOfBlogDetails(SqlConnection conZP)
     {
         decimal x = 0;
         try
@@ -383,13 +431,11 @@ public class BlogDetails
         }
         catch (Exception ex)
         {
-            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "NoOfBlogs", ex.Message);
+            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "NoOfBlogDetails", ex.Message);
         }
         return x;
     }
-
-
-    public static int PublishBlogs(SqlConnection conAP, BlogDetails cat)
+    public static int PublishBlogDetails(SqlConnection conAP, BlogDetails cat)
     {
         int result = 0;
         try
@@ -406,7 +452,7 @@ public class BlogDetails
         }
         catch (Exception ex)
         {
-            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "PublishBlogs", ex.Message);
+            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "PublishBlogDetails", ex.Message);
         }
         return result;
     }

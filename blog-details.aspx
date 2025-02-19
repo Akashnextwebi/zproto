@@ -16,7 +16,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="blog-title">
-									<h1>CNC Machining vs. 3D Printing: Choosing the Right Manufacturing Process for Your Project</h1>
+									<h1><%=StrBlogTitle %></h1>
 								</div>
 							</div>
 							<div class="col-md-12">
@@ -25,76 +25,29 @@
 										<div class="pbmit-featured-img-wrapper">
 											<div class="pbmit-featured-img-wrapper">
 												<div class="pbmit-featured-wrapper">
-													<img src="new-img/blog-inner-banner.png" class="img-fluid" alt="">
+													<img src="/<%=StrImgUrl %>"class='img-fluid' alt='no available'>
 												</div>
 											</div>  
 										</div>  
 										<div class="pbmit-blog-classic-inner">
 											<div class="pbmit-blog-meta pbmit-blog-meta-top">	
 												<span class="pbmit-meta pbmit-meta-cat">
-													<a href="blog-classic.html" rel="category tag">Make up</a>
+													<a href="javascript:void(0);" rel="category tag">Make up</a>
 												</span>
 												<span class="pbmit-meta pbmit-meta-date">
 													<i class="pbmit-base-icon-calendar-2"></i>
 													<a href="#" rel="bookmark">
-														<time class="entry-date published" datetime="2023-08-29T09:05:54+00:00">July 6, 2024</time>
-														<time class="updated pbmit-hide" datetime="2023-10-19T05:42:54+00:00">July 11, 2024</time>
+														<time class="entry-date published" datetime="2023-08-29T09:05:54+00:00"><%=StrPostedOn %></time>
+														<time class="updated pbmit-hide" datetime="2023-10-19T05:42:54+00:00"><%=StrPostedOn %></time>
 													</a>
 												</span>
 												<span class="pbmit-meta pbmit-meta-author">
-													<i class="pbmit-base-icon-user-4"></i>by
-													<a class="pbmit-author-link" href="blog-classic.html">evgridpbm</a>
+													<i class="pbmit-base-icon-user-4"></i>By
+													<a class="pbmit-author-link" href="javascript:void(0);"><%=StrPostedBy %></a>
 												</span>		
 											</div>
 											<div class="blog-editor-content">
-												<h2>How EVcharge is the solution</h2>
-												<p>If you are parking in front of an EV charging station, there are a few things you’ll need to determine For organizations looking to add public EV charging stations to their property, EvoCharge’s <span class="pbmit-global-color"> commercial charging solutions</span>give you options when it comes to others will use your charger. There are different charging station features that allow you to control output, charging time, control access via, and even connect to a network for monitoring or accepting payments.</p>
-												<ul class="">
-																<li class="">
-																				<span class="pbmit-icon-list-text">That extremely painful or again is there anyone.</span>
-																</li>
-																<li class="">						
-																				<span class="pbmit-icon-list-text">Indignation and dislike men who are so beguiled and demoralized.</span>
-																</li>
-																<li class="">
-																				<span class="pbmit-icon-list-text">Desires these cases are perfectly simple easy distinguish.</span>
-																</li>
-																<li class="">
-																				<span class="pbmit-icon-list-text">That extremely painful or again that is there anyone.</span>
-																</li>
-												</ul>
-												<h3>How EVcharge is the solution</h3>
-<p>If you are parking in front of an EV charging station, there are a few things you’ll need to determine For organizations looking to add public EV charging stations to their property, EvoCharge’s <span class="pbmit-global-color"> commercial charging solutions</span>give you options when it comes to others will use your charger. There are different charging station features that allow you to control output, charging time, control access via, and even connect to a network for monitoring or accepting payments.</p>
-<ul class="">
-													<li class="">
-																	<span class="pbmit-icon-list-text">That extremely painful or again is there anyone.</span>
-													</li>
-													<li class="">						
-																	<span class="pbmit-icon-list-text">Indignation and dislike men who are so beguiled and demoralized.</span>
-													</li>
-													<li class="">
-																	<span class="pbmit-icon-list-text">Desires these cases are perfectly simple easy distinguish.</span>
-													</li>
-													<li class="">
-																	<span class="pbmit-icon-list-text">That extremely painful or again that is there anyone.</span>
-													</li>
-</ul>
-																								<h4>How EVcharge is the solution</h4>
-<p>If you are parking in front of an EV charging station, there are a few things you’ll need to determine For organizations looking to add public EV charging stations to their property, EvoCharge’s <span class="pbmit-global-color"> commercial charging solutions</span>give you options when it comes to others will use your charger. There are different charging station features that allow you to control output, charging time, control access via, and even connect to a network for monitoring or accepting payments.</p>
-<ul class="">
-													<li class="">
-																	<span class="pbmit-icon-list-text">That extremely painful or again is there anyone.</span>
-													</li>
-													<li class="">						
-																	<span class="pbmit-icon-list-text">Indignation and dislike men who are so beguiled and demoralized.</span>
-													</li>
-													<li class="">
-																	<span class="pbmit-icon-list-text">Desires these cases are perfectly simple easy distinguish.</span>
-													</li>
-													<li class="">
-																	<span class="pbmit-icon-list-text">That extremely painful or again that is there anyone.</span>
-													</li>
-</ul>
+											<%=StrDesc %>
 											</div>
 										</div>   
 									</div>
@@ -107,7 +60,9 @@
 							<aside class="widget widget-recent-post">
 								<h2 class="widget-title">Recent Post </h2>
 									<ul class="recent-post-list">
-										<li class="recent-post-list-li"> 
+								<%=StrRecentBlogs %>
+
+										<%--<li class="recent-post-list-li"> 
 											<a class="recent-post-thum" href="#">
 												<img src="new-img/blogs/blog-1.png" class="img-fluid" alt="">
 											</a>
@@ -145,7 +100,7 @@
 													<a href="#">July 6, 2024</a>
 												</span>
 											</div> 
-										</li>
+										</li>--%>
 									</ul>
 							</aside>
 							<aside class="widget pbmit-service-ad">

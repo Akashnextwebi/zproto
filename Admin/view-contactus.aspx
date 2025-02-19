@@ -32,8 +32,7 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>FirstName</th>
-                                            <th>LastName</th>
+                                            <th>Name</th>
                                             <th>Company</th>
                                             <th>Email Adress</th>
                                             <th>Phone</th>

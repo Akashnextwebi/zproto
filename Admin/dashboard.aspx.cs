@@ -8,7 +8,7 @@ using System.Web.Services;
 public partial class Admin_dashboard : System.Web.UI.Page
 {
     SqlConnection conZP = new SqlConnection(ConfigurationManager.ConnectionStrings["conZP"].ConnectionString);
-    public string Strusername = "", strNofContactReq = "", strNoOfBlogs="", strNoOfConsultreq = "", strNoOfManufacturingReq = "", StrContact = "";
+    public string Strusername = "", strNofContactReq = "", strNoOfBlogs="", strNoOfConsultreq = "", strNoOfQuoteRequests = "", StrContact = "";
     protected void Page_Load(object sender, EventArgs e)
     {//check if admin login is valid
         if (Request.Cookies["zp_aid"] == null)
@@ -21,7 +21,7 @@ public partial class Admin_dashboard : System.Web.UI.Page
         NoOfContactUs();
         NoOfBlogs();
         NoOfConsultationRequests();
-        NoOfManufacturingPartner();
+        NoOfQuoteRequests();
     }
 
     private void NoOfContactUs()
@@ -31,7 +31,7 @@ public partial class Admin_dashboard : System.Web.UI.Page
     }
     private void NoOfBlogs()
     {
-        decimal cntB = BlogDetails.NoOfBlogs(conZP);
+        decimal cntB = BlogDetails.NoOfBlogDetails(conZP);
         strNoOfBlogs = cntB.ToString();
     }
 
@@ -41,10 +41,10 @@ public partial class Admin_dashboard : System.Web.UI.Page
         strNoOfConsultreq = cntCC.ToString();
     }
 
-    private void NoOfManufacturingPartner()
+    private void NoOfQuoteRequests()
     {
-        decimal cntM = ManufacturingPartner.NoOfManufacturingPartner(conZP);
-        strNoOfManufacturingReq = cntM.ToString();
+        decimal cntM = QuoteRequests.NoOfQuoteRequests(conZP);
+        strNoOfQuoteRequests = cntM.ToString();
     }
 
     public void BindUserName()

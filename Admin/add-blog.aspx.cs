@@ -161,7 +161,7 @@ public partial class Admin_add_blog : System.Web.UI.Page
                 if ((fileExtension == ".jpg" || fileExtension == ".jpeg" || fileExtension == ".png" || fileExtension == ".gif" || fileExtension == ".webp"))
                 {
                     System.Drawing.Bitmap bitimg = new System.Drawing.Bitmap(Thumbimage.PostedFile.InputStream);
-                    if ((bitimg.PhysicalDimension.Height != 500) || (bitimg.PhysicalDimension.Width != 600))
+                    if ((bitimg.PhysicalDimension.Height != 480) || (bitimg.PhysicalDimension.Width != 800))
                     {
                         return "Size";
                     }
@@ -232,7 +232,7 @@ public partial class Admin_add_blog : System.Web.UI.Page
                 if ((fileExtension == ".jpg" || fileExtension == ".jpeg" || fileExtension == ".png" || fileExtension == ".gif" || fileExtension == ".webp"))
                 {
                     System.Drawing.Bitmap bitimg = new System.Drawing.Bitmap(BlogImage.PostedFile.InputStream);
-                    if ((bitimg.PhysicalDimension.Height !=880) || (bitimg.PhysicalDimension.Width != 1920))
+                    if ((bitimg.PhysicalDimension.Height !=780) || (bitimg.PhysicalDimension.Width != 1200))
                     {
                         return "Size";
                     }

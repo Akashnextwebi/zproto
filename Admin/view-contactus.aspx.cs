@@ -27,7 +27,6 @@ public partial class Admin_view_contactus : System.Web.UI.Page
                 strRequests += @"<tr>   
                                 <td>" + (i + 1) + @"</td>                                           
                                 <td>" + pro.FirstName + @"</td>
-                                <td>" + pro.LastName + @"</td>
                                 <td>" + pro.Company + @"</td>
                                <td><a href='CompanyEmail:" + pro.EmailId + "'>" + pro.EmailId + @"</a></td>
                                 <td>" + pro.ContactNo + @"</td> 

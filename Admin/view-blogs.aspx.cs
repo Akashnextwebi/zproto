@@ -76,7 +76,7 @@ public partial class Admin_view_blogs : System.Web.UI.Page
                 BlogDetails b = new BlogDetails();
                 b.Id = Convert.ToInt32(id);
                 b.Status = ftr == "Yes" ? "Active" : "Draft";
-                int exec = BlogDetails.PublishBlogs(conZP, b);
+                int exec = BlogDetails.PublishBlogDetails(conZP, b);
                 if (exec > 0)
                 {
                     x = "Success";

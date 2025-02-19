@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="contact-us.aspx.cs" Inherits="contact_us" %>
+﻿<%@ Page Title="" Language="C#"  MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="contact-us.aspx.cs" Inherits="contact_us" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <style>
@@ -23,21 +23,25 @@
         .contact-us {
             padding: 50px 0px;
         }
-       textarea.form-control{
-     color: #000;
-     background: #fff;
- }
-       textarea.form-control::placeholder {
-            color: #000 !important;
-            background: #fff !important;
+
+        textarea.form-control {
+            color: #000;
+            background: #fff;
         }
+
+            textarea.form-control::placeholder {
+                color: #000 !important;
+                background: #fff !important;
+            }
+
         @media (min-width: 320px) and (max-width: 767px) {
             section.contact-us-section-two {
                 padding: 20px 0px 40px !important;
             }
+
             .contact-us {
-    padding: 0px 0px 50px;
-}
+                padding: 0px 0px 50px;
+            }
         }
     </style>
 </asp:Content>
@@ -67,7 +71,6 @@
         </div>
     </div>
     <!-- Title Bar End-->
-
     <!-- Contact Us Content -->
     <div class="page-content">
 
@@ -125,10 +128,10 @@ your details, and we will respond as soon as possible.
                                             <li>
                                                 <span>Phone :</span>
                                                 +91 96068 69650
-												</li>
+                                            </li>
                                             <li>
                                                 <span>Email :</span>
-                                                <a href="mailto:info@z-proto.com" class="__cf_email__"  contenteditable="false" style="cursor: pointer;">info@z-proto.com</a>
+                                                <a href="mailto:info@z-proto.com" class="__cf_email__" contenteditable="false" style="cursor: pointer;">info@z-proto.com</a>
                                             </li>
                                             <li>
                                                 <span>Email :</span>
@@ -136,7 +139,7 @@ your details, and we will respond as soon as possible.
                                             </li>
                                             <li>
                                                 <span>Email :</span>
-                                                <a href="mailto:support@z-proto.com" class="__cf_email__"  contenteditable="false" style="cursor: pointer;">support@z-proto.com</a>
+                                                <a href="mailto:support@z-proto.com" class="__cf_email__" contenteditable="false" style="cursor: pointer;">support@z-proto.com</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -158,38 +161,59 @@ your details, and we will respond as soon as possible.
 
                         <div class="contact-form">
                             <div class="row">
+                                <asp:Label runat="server" Visible="false" ID="lblStatus"></asp:Label>
                                 <div class="col-sm-12">
-                                    <input type="text" class="form-control" placeholder="Your Name *" name="your-name" required="">
+                                    <asp:TextBox runat="server" MaxLength="100" placeholder="Your Name *" ID="txtName" CssClass="form-control acceptOnlyAlpha"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfv1" runat="server" Display="Dynamic" ForeColor="Red" ControlToValidate="txtName" SetFocusOnError="true" ValidationGroup="ContactUs" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>
+                                    <%--<input type="text" class="form-control" placeholder="Your Name *" name="your-name" required="">--%>
                                 </div>
                                 <div class="col-sm-12">
-                                    <input type="email" class="form-control" placeholder="Your Email *" name="email-address" required="">
+                                    <asp:TextBox runat="server" ID="txtEmail" CssClass="form-control" MaxLength="100" placeholder="Your Email *"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfv2" runat="server" Display="Dynamic" ForeColor="Red" ControlToValidate="txtEmail" SetFocusOnError="true" ValidationGroup="ContactUs" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>
+                                    <asp:RegularExpressionValidator ID="rev1" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ValidationGroup="ContactUs" ForeColor="Red" SetFocusOnError="true" ErrorMessage="Invalid E-mail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                                    <%--<input type="email" class="form-control" placeholder="Your Email *" name="email-address" required="">--%>
                                 </div>
                                 <div class="col-sm-12">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" name="phone-number" required="">
+                                    <asp:TextBox runat="server" ID="txtPhone" CssClass="form-control onlyNum" MaxLength="10" placeholder="Your Phone *"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfv4" runat="server" Display="Dynamic" ForeColor="Red" ControlToValidate="txtPhone" SetFocusOnError="true" ValidationGroup="ContactUs" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>
+                                    <asp:RegularExpressionValidator ID="rfv3" runat="server" ControlToValidate="txtPhone" Display="Dynamic" ValidationGroup="ContactUs" ForeColor="Red" SetFocusOnError="true" ErrorMessage="Enter 10 Digit Valid Phone Number" ValidationExpression="^\d{10}$"></asp:RegularExpressionValidator>
+                                    <%--<input type="tel" class="form-control" placeholder="Your Phone *" name="phone-number" required="">--%>
                                 </div>
                                 <div class="col-sm-12">
-                                    <input type="text" class="form-control" placeholder="Company" name="Company" required="">
+                                    <asp:TextBox runat="server" MaxLength="100" placeholder="Company" ID="txtCompany" CssClass="form-control"></asp:TextBox>
+                                    <%--<asp:RequiredFieldValidator ID="rfv5" runat="server" Display="Dynamic" ForeColor="Red" ControlToValidate="txtCompany" SetFocusOnError="true" ValidationGroup="ContactUs" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>--%>
+                                    <%--<input type="text" class="form-control" placeholder="Company" name="Company" required="">--%>
                                 </div>
                                 <div class="col-md-12">
-                                    <textarea name="message" cols="40" rows="10" class="form-control" placeholder="Message" required=""></textarea>
+                                    <asp:TextBox ID="txtMessage" TextMode="MultiLine" Rows="10" MaxLength="500" placeholder="Message" runat="server" CssClass="form-control"></asp:TextBox>
+                                    <%--<textarea name="message" cols="40" rows="10" class="form-control" placeholder="Message" required=""></textarea>--%>
                                 </div>
-                                <div class="col-sm-12">
+                               <%-- <div class="col-sm-12">
                                     <div class="form-check mb-4">
                                         <input class="form-check-input" type="checkbox">
                                         <label class="form-check-label">
                                             Save my name, email, and website in this browser for the next time I comment.
                                         </label>
                                     </div>
-                                </div>
+                                </div>--%>
                                 <div class="col-md-12">
-                                    <button class="pbmit-btn">
+                                    <asp:LinkButton ID="btnSubmit" ValidationGroup="ContactUs" runat="server" CssClass="pbmit-btn" OnClick="btnSubmit_Click">
                                         <span class="pbmit-button-text">Submit Now</span>
                                         <span class="pbmit-button-icon-wrapper">
                                             <span class="pbmit-button-icon">
                                                 <i class="pbmit-base-icon-black-arrow-1"></i>
                                             </span>
                                         </span>
-                                    </button>
+                                    </asp:LinkButton>
+
+                                    <%-- <button class="pbmit-btn">
+                                        <span class="pbmit-button-text">Submit Now</span>
+                                        <span class="pbmit-button-icon-wrapper">
+                                            <span class="pbmit-button-icon">
+                                                <i class="pbmit-base-icon-black-arrow-1"></i>
+                                            </span>
+                                        </span>
+                                    </button>--%>
                                 </div>
                                 <div class="col-md-12 col-lg-12 message-status"></div>
                             </div>
@@ -214,39 +238,64 @@ Schedule a Consultation with one of our experts. We look forward to learning mor
 goals and providing personalized solutions.
                                 </p>
                             </div>
-                            <div class="contact-form" >
+                            <div class="contact-form">
                                 <div class="row">
+                                    <asp:Label runat="server" Visible="false" ID="lblCStatus"></asp:Label>
                                     <div class="col-sm-12 col-md-6">
-                                        <input type="text" class="form-control" placeholder="First Name *" name="your-name" required="">
+                                        <asp:TextBox runat="server" MaxLength="100" placeholder="First Name *" ID="txtCFName" CssClass="form-control acceptOnlyAlpha"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="rfv01" runat="server" Display="Dynamic" ForeColor="Red" ControlToValidate="txtCFName" SetFocusOnError="true" ValidationGroup="Consultation" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>
+                                        <%--<input type="text" class="form-control" placeholder="First Name *" name="your-name" required="">--%>
                                     </div>
                                     <div class="col-sm-12 col-md-6">
-                                        <input type="text" class="form-control" placeholder="Last Name *" name="your-name" required="">
+                                        <asp:TextBox runat="server" MaxLength="100" placeholder="Last Name *" ID="txtCLName" CssClass="form-control acceptOnlyAlpha"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="rfv02" runat="server" Display="Dynamic" ForeColor="Red" ControlToValidate="txtCLName" SetFocusOnError="true" ValidationGroup="Consultation" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>
+                                        <%--<input type="text" class="form-control" placeholder="Last Name *" name="your-name" required="">--%>
                                     </div>
                                     <div class="col-sm-12 col-md-6">
-                                        <input type="text" class="form-control" placeholder="Company *" name="your-name" required="">
+                                        <asp:TextBox runat="server" MaxLength="100" placeholder="Company" ID="txtCCompany" CssClass="form-control"></asp:TextBox>
+                                        <%--<asp:RequiredFieldValidator ID="rfv03" runat="server" Display="Dynamic" ForeColor="Red" ControlToValidate="txtCCompany" SetFocusOnError="true" ValidationGroup="Consultation" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>--%>
+                                        <%--<input type="text" class="form-control" placeholder="Company *" name="your-name" required="">--%>
                                     </div>
                                     <div class="col-sm-12 col-md-6">
-                                        <input type="Date" class="form-control" placeholder="Date & Time *" name="your-name" required="">
+                                        <asp:TextBox runat="server" placeholder="Date & Time *" ID="txtCDateTime" CssClass="form-control datepicker"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Display="Dynamic" ForeColor="Red" ControlToValidate="txtCDateTime" SetFocusOnError="true" ValidationGroup="Consultation" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>
+                                        <%--<input type="Date" class="form-control" placeholder="Date & Time *" name="your-name" required="">--%>
                                     </div>
                                     <div class="col-sm-12 col-md-6">
-                                        <input type="email" class="form-control" placeholder="Your Email *" name="email-address" required="">
+                                        <asp:TextBox runat="server" ID="txtCEmail" CssClass="form-control" MaxLength="100" placeholder="Your Email *"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" Display="Dynamic" ForeColor="Red" ControlToValidate="txtCEmail" SetFocusOnError="true" ValidationGroup="Consultation" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>
+                                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtCEmail" Display="Dynamic" ValidationGroup="Consultation" ForeColor="Red" SetFocusOnError="true" ErrorMessage="Invalid E-mail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                                        <%--<input type="email" class="form-control" placeholder="Your Email *" name="email-address" required="">--%>
                                     </div>
                                     <div class="col-sm-12 col-md-6">
-                                        <input type="tel" class="form-control" placeholder="Your Phone *" name="phone-number" required="">
+                                        <asp:TextBox runat="server" ID="txtCPhone" CssClass="form-control onlyNum" MaxLength="10" placeholder="Your Phone *"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" Display="Dynamic" ForeColor="Red" ControlToValidate="txtCPhone" SetFocusOnError="true" ValidationGroup="Consultation" ErrorMessage="Fields can't be blank"></asp:RequiredFieldValidator>
+                                        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtCPhone" Display="Dynamic" ValidationGroup="Consultation" ForeColor="Red" SetFocusOnError="true" ErrorMessage="Enter 10 Digit Valid Phone Number" ValidationExpression="^\d{10}$"></asp:RegularExpressionValidator>
+                                        <%--<input type="tel" class="form-control" placeholder="Your Phone *" name="phone-number" required="">--%>
                                     </div>
 
                                     <div class="col-md-12">
-                                        <textarea name="message" cols="40" rows="10" class="form-control" placeholder="Message" required=""></textarea>
+                                        <asp:TextBox ID="txtCMessage" TextMode="MultiLine" Rows="10" MaxLength="500" placeholder="Message" runat="server" CssClass="form-control"></asp:TextBox>
+                                        <%--<textarea name="message" cols="40" rows="10" class="form-control" placeholder="Message" required=""></textarea>--%>
                                     </div>
                                     <div class="col-md-12">
-                                        <a class="pbmit-btn" href="#">
+                                        <asp:LinkButton ID="btnCSave" ValidationGroup="Consultation" runat="server" CssClass="pbmit-btn" OnClick="btnCSave_Click">
+                                         <span class="pbmit-button-text">Submit Now</span>
+                                         <span class="pbmit-button-icon-wrapper">
+                                             <span class="pbmit-button-icon">
+                                                 <i class="pbmit-base-icon-black-arrow-1"></i>
+                                             </span>
+                                         </span>
+                                        </asp:LinkButton>
+
+                                        <%--<a class="pbmit-btn" href="#">
                                             <span class="pbmit-button-text">Submit Now</span>
                                             <span class="pbmit-button-icon-wrapper">
                                                 <span class="pbmit-button-icon">
                                                     <i class="pbmit-base-icon-black-arrow-1"></i>
                                                 </span>
                                             </span>
-                                        </a>
+                                        </a>--%>
                                     </div>
                                     <div class="col-md-12 col-lg-12 message-status"></div>
                                 </div>
@@ -259,7 +308,8 @@ goals and providing personalized solutions.
         <!-- Iframe -->
         <section class="iframe-section section-lgb">
             <div class="container">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.6184898265483!2d77.6468737!3d12.9590504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15000969e109%3A0xd7b22075e17cd23f!2sZPROTO!5e1!3m2!1sen!2sin!4v1739855985559!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.6184898265483!2d77.6468737!3d12.9590504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15000969e109%3A0xd7b22075e17cd23f!2sZPROTO!5e1!3m2!1sen!2sin!4v1739855985559!5m2!1sen!2sin" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
         <!-- Iframe End-->
 

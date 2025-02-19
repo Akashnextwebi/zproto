@@ -92,12 +92,12 @@
                                 <div class="col-lg-12 mb-3">
                                     <label class="text-muted">Thumb Image<sup class="text-danger">*</sup></label>
                                     <asp:FileUpload ID="Thumbimage" runat="server" ToolTip="Maxmimum 1 MB file size" CssClass="form-control"></asp:FileUpload>
-                                    <small class="text-danger">.png, .jpeg, .jpg, .gif, .webp formats are required, Image Size Should be 600 × 500 px</small><br />
+                                    <small class="text-danger">.png, .jpeg, .jpg, .gif, .webp formats are required, Image Size Should be 800 × 480 px</small><br />
                                 </div>
                                 <div class="col-lg-12 mb-3">
                                     <label class="text-muted">Blog Image<sup class="text-danger">*</sup></label>
                                     <asp:FileUpload ID="BlogImage" runat="server" ToolTip="Maxmimum 1 MB file size" CssClass="form-control"></asp:FileUpload>
-                                    <small class="text-danger">.png, .jpeg, .jpg, .gif, .webp formats are required, Image Size Should be 1920 × 880 px</small><br />
+                                    <small class="text-danger">.png, .jpeg, .jpg, .gif, .webp formats are required, Image Size Should be 1200 × 780 px</small><br />
                                 </div>
                                 <div runat="server" id="divimg" class="col-lg-12 d-flex justify-content-around" visible="false">
                                     <div class="col-lg-3 text-center">

@@ -30,7 +30,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-lg-12">
-                            <table id="alternative-pagination" class="table nowrap align-middle table-striped table-bordered myTable" style="width: 100%">
+                            <table id="alternative-pagination" class="table align-middle table-striped table-bordered myTable" style="width: 100%">
                                 <thead>
                                     <tr>
                                         <th>#</th>
