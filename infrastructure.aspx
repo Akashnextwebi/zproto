@@ -334,7 +334,7 @@ systems through innovative manufacturing solutions.
                             </p>
                         </div>
                         <div class="link-wrap text-center">
-    <a class="pbmit-btn-white pbmit-btn" href="#"><span class="pbmit-button-text">Learn More </span>
+    <a class="pbmit-btn-white pbmit-btn" href="/blogs.aspx"><span class="pbmit-button-text">Learn More </span>
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">
                                             <i class="pbmit-base-icon-black-arrow-1"></i>
@@ -366,7 +366,7 @@ capabilities. Contact us today to discuss your requirements or schedule a consul
                         <div class="col-lg-4">
                             <div class="tween-effect-btn">
 
-                                <a class="pbmit-btn " href="#">
+                                <a class="pbmit-btn " href="contact-us.aspx">
                                     <span class="pbmit-button-text">Contact Us </span>
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">

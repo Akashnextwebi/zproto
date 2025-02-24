@@ -390,7 +390,7 @@ designs with our advanced manufacturing capabilities.
                             </p>
                         </div>
                         <div class="link-wrap text-center">
-    <a class="pbmit-btn-white pbmit-btn" href="#"><span class="pbmit-button-text">Learn More </span>
+    <a class="pbmit-btn-white pbmit-btn" href="/blogs.aspx"><span class="pbmit-button-text">Learn More </span>
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">
                                             <i class="pbmit-base-icon-black-arrow-1"></i>
@@ -422,7 +422,7 @@ Contact Us today to discuss your needs or schedule a consultation.
                         <div class="col-lg-4">
                             <div class="tween-effect-btn">
 
-                                <a class="pbmit-btn " href="#">
+                                <a class="pbmit-btn " href="contact-us.aspx">
                                     <span class="pbmit-button-text">Contact Us </span>
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">

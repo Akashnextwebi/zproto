@@ -62,7 +62,7 @@
                                     class="pbmit-logo-menuarea d-flex justify-content-between align-items-center">
                                     <div class="site-branding">
                                         <h1 class="site-title">
-                                            <a href="Default.aspx">
+                                            <a href="/">
                                                 <img class="logo-img" src="/new-img/IMG_2431.JPG" alt="logo">
                                                 <img class="sticky-logo-img" src="/new-img/IMG_2431.JPG" alt="logo">
                                             </a>
@@ -174,7 +174,7 @@
 
                                                     </li>
                                                     <li class="d-lg-none d-block new-pad-li">
-                                                        <a class="pbmit-btn bg-dark text-white " href="manufacturing-partner.aspx">
+                                                        <a class="pbmit-btn bg-dark text-white " href="/manufacturing-partner.aspx">
                                                             <span class="pbmit-button-text">Manufacturing Partner</span>
                                                             <span class="pbmit-button-icon-wrapper">
                                                                 <i class="fa-regular fa-user"></i>
@@ -203,7 +203,7 @@
 										</a>
                                     </div>--%>
                                     <div class="pbmit-button-box-second ms-0">
-                                        <a class="pbmit-btn bg-dark " href="manufacturing-partner.aspx">
+                                        <a class="pbmit-btn bg-dark " href="/manufacturing-partner.aspx">
                                             <span class="pbmit-button-text">Manufacturing Partner</span>
                                             <span class="pbmit-button-icon-wrapper">
                                                 <i class="fa-regular fa-user"></i>
