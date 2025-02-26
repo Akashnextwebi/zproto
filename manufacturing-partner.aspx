@@ -10,22 +10,26 @@
         .sidebar-section-one .sidebar-wrap {
             padding: 50px 0px;
         }
+
         @media (min-width: 320px) and (max-width: 767px) {
-    section.contact-us-section-two {
-        padding: 31px 0px 80px !important;
-    }
-   .sidebar-section-one .sidebar-wrap {
-    padding: 50px 0px 0px !important;
-}
-}
+            section.contact-us-section-two {
+                padding: 31px 0px 80px !important;
+            }
+
+            .sidebar-section-one .sidebar-wrap {
+                padding: 50px 0px 0px !important;
+            }
+        }
+
         @media (min-width: 320px) and (max-width: 767px) {
-    .contact-us-section-two .contact-wrap {
-        padding:40px 30px 20px 30px !important;
-    }
-        section.contact-us-section-two {
-        padding: 31px 0px 40px !important;
-    }
-}
+            .contact-us-section-two .contact-wrap {
+                padding: 40px 30px 20px 30px !important;
+            }
+
+            section.contact-us-section-two {
+                padding: 31px 0px 40px !important;
+            }
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -44,7 +48,7 @@
                                 <div class="pbmit-heading-desc">
                                     At <span>ZPROTO</span>, we value strong partnerships with our manufacturers, recognizing that they are 
 essential to delivering high-quality manufacturing solutions across various industries. Our 
-partner onboarding process is designed to be eƯicient and transparent, ensuring seamless 
+partner onboarding process is designed to be efficient and transparent, ensuring seamless 
 collaboration from the outset							
                                 </div>
                             </div>
@@ -68,7 +72,7 @@ collaboration from the outset
                             <div class="pbmit-heading-subheading animation-style2">
                                 <h4 class="pbmit-subtitle">
                                     <span></span>
-                                    Zproto
+                                    ZPROTO
                                 </h4>
                                 <h2 class="pbmit-title">How to Become a Manufacturing Partner</h2>
                             </div>
@@ -148,7 +152,7 @@ measures, and compliance with industry standards.
                                             <div class="pbmit-ihbox-contents">
                                                 <h2 class="pbmit-element-title">Approval and Onboarding</h2>
                                                 <div class="pbmit-heading-desc">
-                                                    Once verified, you will receive an oƯicial Manufacturing 
+                                                    Once verified, you will receive an official Manufacturing 
 partner approval notification, granting you access to our Manufacturing Partner 
 portal for seamless transaction management.
                                                 </div>
@@ -156,6 +160,55 @@ portal for seamless transaction management.
                                         </div>
                                     </div>
                                 </article>
+
+                                <article class="pbmit-miconheading-style-10 col-md-12">
+                                    <div class="pbmit-ihbox pbmit-ihbox-style-10">
+                                        <div class="pbmit-ihbox-box">
+                                            <div class="pbmit-ihbox-icon">
+                                                <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">06</div>
+                                            </div>
+                                            <div class="pbmit-ihbox-contents">
+                                                <h2 class="pbmit-element-title">Receive new Projects</h2>
+                                                <div class="pbmit-heading-desc">
+                                                    We match your capabilities with client needs and send you new projects to manufacture.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="pbmit-miconheading-style-10 col-md-12">
+                                    <div class="pbmit-ihbox pbmit-ihbox-style-10">
+                                        <div class="pbmit-ihbox-box">
+                                            <div class="pbmit-ihbox-icon">
+                                                <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">07</div>
+                                            </div>
+                                            <div class="pbmit-ihbox-contents">
+                                                <h2 class="pbmit-element-title">Manufacture and Deliver</h2>
+                                                <div class="pbmit-heading-desc">
+                                                    Produce and deliver the required products, adhering to the specified standards and timelines.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="pbmit-miconheading-style-10 col-md-12">
+                                    <div class="pbmit-ihbox pbmit-ihbox-style-10">
+                                        <div class="pbmit-ihbox-box">
+                                            <div class="pbmit-ihbox-icon">
+                                                <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">08</div>
+                                            </div>
+                                            <div class="pbmit-ihbox-contents">
+                                                <h2 class="pbmit-element-title">Get paid promptly</h2>
+                                                <div class="pbmit-heading-desc">
+                                                    Get paid promptly for your services, ensuring a smooth cash flow for your business.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
                             </div>
                         </div>
                     </div>
@@ -164,15 +217,15 @@ portal for seamless transaction management.
                             <div class="pbmit-heading-subheading animation-style2">
 
                                 <h2 class="pbmit-title">Become a Manufacturing Partner</h2>
-                               
-                                <a class="pbmit-btn mt-4 " href="#">
-                                <span class="pbmit-button-text">Sign In </span>
-                                <span class="pbmit-button-icon-wrapper">
-                                    <span class="pbmit-button-icon">
-                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+
+                                <a class="pbmit-btn mt-4 " href="/contact-us.aspx">
+                                    <span class="pbmit-button-text">Sign In </span>
+                                    <span class="pbmit-button-icon-wrapper">
+                                        <span class="pbmit-button-icon">
+                                            <i class="pbmit-base-icon-black-arrow-1"></i>
+                                        </span>
                                     </span>
-                                </span>
-                            </a>
+                                </a>
                             </div>
 
                         </div>

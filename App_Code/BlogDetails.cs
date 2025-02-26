@@ -183,7 +183,7 @@ public class BlogDetails
         List<BlogDetails> categories = new List<BlogDetails>();
         try
         {
-            string query = "Select Top 5 *,(Select UserName from CreateUser Where UserGuid=BlogDetails.AddedBy) as UpdatedBy from BlogDetails where Status=@Status Order by AddedOn ";
+            string query = "Select Top 6 *,(Select UserName from CreateUser Where UserGuid=BlogDetails.AddedBy) as UpdatedBy from BlogDetails where Status=@Status Order by AddedOn ";
             using (SqlCommand cmd = new SqlCommand(query, conDT))
             {
                 cmd.Parameters.AddWithValue("@Status", SqlDbType.NVarChar).Value = "Active";

@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>ZProto </title>
+    <title>ZPROTO </title>
     <meta name="robots" content="noindex, follow">
     <meta name="description" content>
     <meta name="viewport"
@@ -174,7 +174,7 @@
 
                                                     </li>
                                                     <li class="d-lg-none d-block new-pad-li">
-                                                        <a class="pbmit-btn bg-dark text-white " href="/manufacturing-partner.aspx">
+                                                        <a class="pbmit-btn bg-dark text-white " href="/contact-us.aspx">
                                                             <span class="pbmit-button-text">Manufacturing Partner</span>
                                                             <span class="pbmit-button-icon-wrapper">
                                                                 <i class="fa-regular fa-user"></i>
@@ -182,7 +182,7 @@
                                                         </a>
                                                     </li>
                                                     <li class="d-lg-none d-block  new-pad-li">
-                                                        <a class="pbmit-btn text-white " href="#">
+                                                        <a class="pbmit-btn text-white " href="/contact-us.aspx">
                                                             <span class="pbmit-button-text">Customer Login</span>
                                                             <span class="pbmit-button-icon-wrapper">
                                                                 <i class="fa-regular fa-user"></i>
@@ -203,13 +203,13 @@
 										</a>
                                     </div>--%>
                                     <div class="pbmit-button-box-second ms-0">
-                                        <a class="pbmit-btn bg-dark " href="/manufacturing-partner.aspx">
+                                        <a class="pbmit-btn bg-dark " href="/contact-us.aspx">
                                             <span class="pbmit-button-text">Manufacturing Partner</span>
                                             <span class="pbmit-button-icon-wrapper">
                                                 <i class="fa-regular fa-user"></i>
                                             </span>
                                         </a>
-                                        <a class="pbmit-btn " href="#">
+                                        <a class="pbmit-btn " href="/contact-us.aspx">
                                             <span class="pbmit-button-text">Customer Login</span>
                                             <span class="pbmit-button-icon-wrapper">
                                                 <i class="fa-regular fa-user"></i>
@@ -241,11 +241,9 @@
                                     <div class="textwidget">
                                         <ul>
                                             <li><a href="javascript:void(0);" style="cursor: none">ZPROTO Manufacturing Businesses Private Limited.
-#139, Oxford Towers, HAL II Stage
-Indirangar, Bangalore-560008 India</a></li>
+Unit No 101,Oxford Towers, 139 HAL Old Airport Road, H.A.L II Stage, Bangalore North, <br /> Bangalore - 560008, India</a></li>
                                             <li><a href="Mailto:info@z-proto.com">info@z-proto.com</a></li>
                                             <li><a href="tel:+919606869650">+91 96068 69650</a></li>
-                                            <li><a href="#">Get a Quote</a></li>
 
                                         </ul>
                                     </div>
@@ -263,8 +261,8 @@ Indirangar, Bangalore-560008 India</a></li>
                                             <li><a href="#">Customer Login</a></li>
                                             <li><a href="/privacy-policy.aspx">Privacy policy</a></li>
                                             <li><a href="/terms-and-condition.aspx">Terms & Conditions</a></li>
-
                                             <li><a href="/return-policy.aspx">Refund Policy</a></li>
+                                            <li><a href="/get-a-quote.aspx">Get a Quote</a></li>
 
 
                                         </ul>
@@ -277,16 +275,37 @@ Indirangar, Bangalore-560008 India</a></li>
                                     <div class="textwidget">
                                         <ul>
                                             <li><a href="/cnc-machining.aspx">CNC Machining</a></li>
-                                            <li><a href="/sheet-metal.aspx">Sheetmetal Fabrication</a></li>
-                                            <li><a href="/injection-molding.aspx">Injection Molding</a></li>
-                                            <li><a href="/3d-printing.aspx">3D Printing</a></li>
-                                            <li><a href="/wire -harness.aspx">Wire Harness Manufacturing</a></li>
-                                            <li><a href="/pcb-assembly.aspx">PCB Assembly</a></li>
-                                            <li><a href="/box-build.aspx">Box Build</a></li>
-                                            <li><a href="/electro-mechanical-assembly.aspx">Electro-Mechanical Systems</a></li>
-                                            <li><a href="/built-to-spec.aspx">Built to Spec</a></li>
-                                            <li><a href="/reverse-engineering.aspx">Reverse Engineering</a></li>
+                                            <li><a href="/sheet-metal.aspx">Sheetmetal 
+                                            </a></li>
+                                            <li><a href="/injection-molding.aspx">Injection Molding
 
+                                            </a></li>
+                                            <li><a href="/casting.aspx">Casting
+
+                                            </a></li>
+                                            <li><a href="/forging.aspx">Forging
+                                            </a></li>
+                                            <li><a href="/fabrication.aspx">Fabrication
+                                            </a></li>
+                                            <li><a href="/3d-printing.aspx">3D Printing
+                                            </a></li>
+                                            <li><a href="/wire-harness.aspx">Wire Harness
+																Manufacturing
+
+                                            </a></li>
+                                            <li><a href="/pcb-assembly.aspx">PCB Assembly
+
+                                            </a></li>
+                                            <li><a href="/box-build.aspx">Box Build
+
+                                            </a></li>
+                                            <li><a href="/electro-mechanical-assembly.aspx">Electro-Mechanical Systems
+                                            </a></li>
+                                            <li><a
+                                                href="/built-to-spec.aspx">Built to Spec
+                                            </a></li>
+                                            <li><a
+                                                href="/reverse-engineering.aspx">Reverse Engineering</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -299,13 +318,21 @@ Indirangar, Bangalore-560008 India</a></li>
                                         <ul>
                                             <li><a href="/aerospace-and-defence.aspx">Aerospace & Defence</a></li>
                                             <li><a href="/electronics.aspx">Electronics</a></li>
-                                            <li><a href="/drones.aspx">Drones</a></li>
-                                            <li><a href="/automotive-and-ev.aspx">Automotive & EV</a></li>
-                                            <li><a href="/medical-devices.aspx">Medical Devices</a></li>
-                                            <li><a href="/industrial-automation.aspx">Industrial Automation</a></li>
-                                            <li><a href="/infrastructure.aspx">Infrastructure</a></li>
-                                            <li><a href="/telecommunications.aspx">Telecommunication</a></li>
-                                            <li><a href="/green-energy.aspx">Green Energy</a></li>
+                                            <li><a href="/drones.aspx">Drones
+                                            </a></li>
+                                            <li><a href="/automotive-and-ev.aspx">Automotive & EV
+                                            </a></li>
+                                            <li><a
+                                                href="/medical-devices.aspx">Medical Devices
+                                            </a></li>
+                                            <li><a
+                                                href="/industrial-automation.aspx">Industrial Automation</a></li>
+                                            <li><a
+                                                href="/infrastructure.aspx">Infrastructure</a></li>
+                                            <li><a
+                                                href="/telecommunications.aspx">Telecommunication</a></li>
+                                            <li><a
+                                                href="/green-energy.aspx">Green Energy</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -346,7 +373,7 @@ Indirangar, Bangalore-560008 India</a></li>
                                 <div class="col-md-6">
                                     <div class="pbmit-footer-copyright-text-area">
                                         Copyright © 2025 <a
-                                            href="#">Zproto</a>, All Rights Reserved.
+                                            href="#">ZPROTO</a>, All Rights Reserved.
                                     </div>
                                 </div>
                                 <div class="col-md-6">

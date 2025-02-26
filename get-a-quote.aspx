@@ -7,6 +7,11 @@
             color: #000;
         }
 
+           .pbmit-bg-color-blackish .contact-form textarea.form-control::placeholder{
+            color: #000 !important;
+
+           }
+
         section.contact-us-section-two {
             padding: 180px 0px 80px;
         }
@@ -64,9 +69,10 @@
                                     <%--<input type="text" class="form-control" placeholder="Company *" name="your-name" required="">--%>
                                 </div>
 
-                                <div class="col-md-12">
-                                    <asp:TextBox ID="txtMessage" TextMode="MultiLine" Rows="10" MaxLength="500" placeholder="Message" runat="server" CssClass="form-control"></asp:TextBox>
-                                    <%--<textarea name="message" cols="40" rows="10" class="form-control" placeholder="Message" required=""></textarea>--%>
+                                <div class="col-md-12"> 
+                                    <asp:TextBox ID="txtMessage" TextMode="MultiLine"  placeholder="Tell us about your project" runat="server" CssClass="form-control"></asp:TextBox>
+
+                                    <%--<textarea ID="txtMessage"  name="message" cols="40" rows="10" class="form-control" placeholder="Tell us about your project"  runat="server"></textarea>--%>
                                 </div>
                                 <div class="col-sm-12 col-md-6">
                                     <asp:FileUpload ID="FileUpload1" runat="server" ToolTip="Maxmimum 1 MB file size" CssClass="form-control"></asp:FileUpload>
@@ -98,5 +104,6 @@
             </div>
         </div>
     </section>
+
 </asp:Content>
 

@@ -118,9 +118,9 @@ your details, and we will respond as soon as possible.
                                     <div class="pbmit-heading-desc">
                                         ZPROTO Manufacturing Businesses Private Limited.
                                         <br />
-                                        #139, Oxford Towers, HAL II Stage
+                                        Unit No 101,Oxford Towers, 139 HAL Old Airport Road,  
                                         <br />
-                                        Indirangar, Bangalore-560008 India
+                                        H.A.L II Stage, Bangalore North,<br /> Bangalore - 560008, India
                                     </div>
                                     <div class="pbmit-element-subtitle">
                                         <ul>

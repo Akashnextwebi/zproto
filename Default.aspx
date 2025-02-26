@@ -2,17 +2,61 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <style>
-   
+   .banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -30%);
+    text-align: left;
+    color: white;
+}
+
+.content h1 {
+    font-size: 65px;
+    line-height:80px;
+    color:#fff;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 18px;
+}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="page-content">
-        <div class="pbmit-slider-area pbmit-slider-one">
+      <%--  <div class="pbmit-slider-area pbmit-slider-one">
     <div class="swiper-slider" data-autoplay="false" data-loop="false"
         data-dots="true" data-arrows="false" data-columns="1" data-margin="0"
         data-effect="fade">
         <div class="swiper-wrapper">
-            <!-- Slide1 -->
             <div class="swiper-slide">
                 <div class="pbmit-slider-item">
                     <div class="pbmit-slider-bg"
@@ -22,12 +66,12 @@
                         <div class="row">
                             <div class="col-md-10">
                                 <div class="pbmit-slider-content">
-                                    <h5 class="pbmit-sub-title transform-top transform-delay-1">Zproto</h5>
+                                    <h5 class="pbmit-sub-title transform-top transform-delay-1">ZPROTO</h5>
                                     <h2 class="pbmit-title transform-left transform-delay-3">Pioneering Excellence  in 
                                         <br>
                                         Advanced Manufacturing</h2>
                                     <div class="pbmit-desc transform-bottom transform-delay-4">
-                                        Zproto represents a groundbreaking step in advanced manufacturing innovation.
+                                        ZPROTO represents a groundbreaking step in advanced manufacturing innovation.
                                     </div>
                                     <div class="pbmit-button transform-bottom transform-delay-5">
                                         <a class="pbmit-btn" href="contact-us.aspx">
@@ -47,7 +91,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Slide2 -->
             <div class="swiper-slide">
                 <div class="pbmit-slider-item">
                     <div class="pbmit-slider-bg"
@@ -57,13 +100,13 @@
                         <div class="row">
                             <div class="col-md-10">
                                 <div class="pbmit-slider-content">
-                                    <h5 class="pbmit-sub-title transform-top transform-delay-1">Zproto
+                                    <h5 class="pbmit-sub-title transform-top transform-delay-1">ZPROTO
                                     </h5>
                                     <h2 class="pbmit-title transform-left transform-delay-3">Redefining Manufacturing 
                                         <br>
                                         Excellence</h2>
                                     <div class="pbmit-desc transform-bottom transform-delay-4">
-                                        Zproto marks the beginning of a new era in precision-driven manufacturing.
+                                        ZPROTO marks the beginning of a new era in precision-driven manufacturing.
 
 
 
@@ -90,11 +133,21 @@
                     </div>
                 </div>
             </div>
-            <!-- Slide3 -->
 
         </div>
     </div>
-</div>
+</div>--%>
+         <div class="banner">
+        <video autoplay muted loop playsinline>
+            <source src="new-img/banner.mp4" type="video/mp4">
+        
+        </video>
+              <div class="overlay"></div>
+        <div class="content">
+            <h1>Simplifying On-Demand Manufacturing</h1>
+            <p>Effortlessly transforming designs into reality, we deliver precision-engineered solutions with speed, agility, and reliability, empowering industries worldwide.</p>
+        </div>
+    </div>
         <!-- Ihbox Start -->
 
         <!-- Ihbox end -->
@@ -175,7 +228,7 @@ digital approach ensures high-quality results with speed and accuracy
                         </article>
                         <article class="pbmit-marquee-effect-style-1 swiper-slide">
                             <div class="pbmit-tag-wrapper">
-                                <h2 class="pbmit-element-title" data-text="Sheetmetal Fabrication">Sheetmetal Fabrication</h2>
+                                <h2 class="pbmit-element-title" data-text="Sheetmetal">Sheetmetal</h2>
                             </div>
                         </article>
                         <article class="pbmit-marquee-effect-style-1 swiper-slide">
@@ -185,7 +238,52 @@ digital approach ensures high-quality results with speed and accuracy
                         </article>
                         <article class="pbmit-marquee-effect-style-1 swiper-slide">
                             <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title" data-text="Casting">Casting</h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title" data-text="Forging">Forging</h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title" data-text="Fabrication">Fabrication</h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
                                 <h2 class="pbmit-element-title" data-text="3D Printing">3D Printing</h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title" data-text="Wire Harness Manufacturing">Wire Harness Manufacturing</h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title" data-text="PCB Assembly">PCB Assembly</h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title" data-text="Box Build">Box Build</h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title" data-text="Electro-Mechanical Systems">Electro-Mechanical Systems</h2>
+                            </div>
+                        </article>
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title" data-text="Built to Spec">Built to Spec</h2>
+                            </div>
+                        </article> 
+                        <article class="pbmit-marquee-effect-style-1 swiper-slide">
+                            <div class="pbmit-tag-wrapper">
+                                <h2 class="pbmit-element-title" data-text="Reverse Engineering">Reverse Engineering</h2>
                             </div>
                         </article>
                     </div>
@@ -496,7 +594,7 @@ digital approach ensures high-quality results with speed and accuracy
                     <div class="pbmit-ele-header-align-center">
                         <div class="mb-5 animation-style2 text-center">
 
-                            <h2 class="pbmit-title">Why choose Zproto?</h2>
+                            <h2 class="pbmit-title">Why choose ZPROTO?</h2>
                         </div>
                     </div>
                     <div class="row gy-4 gy-lg-0">
@@ -1517,7 +1615,7 @@ to meet evolving needs.</span>
                                     <h2 class="pbmit-title text-white">Ready to Bring Your Ideas to Life?
 </h2>
                                     <div class="pbmit-heading-desc text-white">
-                                        Partner with Zproto to turn your vision into reality
+                                        Partner with ZPROTO to turn your vision into reality
                                     
                                         with precision prototyping and advanced manufacturing. Let’s create something extraordinary together—start your journey today!
 
@@ -1535,7 +1633,7 @@ to meet evolving needs.</span>
                         <div class="col-lg-4">
                             <div class="tween-effect-btn">
 
-                                <a class="pbmit-btn bg-dark " href="/contact-us.aspx">
+                                <a class="pbmit-btn bg-dark " href="contact-us.aspx">
                                     <span class="pbmit-button-text">Contact Us </span>
                                     <span class="pbmit-button-icon-wrapper">
                                         <span class="pbmit-button-icon">
