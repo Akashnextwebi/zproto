@@ -60,7 +60,8 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/1.png" />
+                                <img src="new-img/electronics/cnc.png" />
+                                <%--<img src="new-img/camp/1.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>CNC Machining</h3>
@@ -72,7 +73,8 @@ performance and reliability for critical infrastructure applications.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/2.png" />
+                                <img src="new-img/electronics/sheetmetal.png" />
+                                <%--<img src="new-img/camp/2.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Sheet Metal Fabrication</h3>
@@ -84,7 +86,8 @@ durability and performance in diverse environments. </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/3.png" />
+                                <img src="new-img/electronics/injection.png" />
+                                <%--<img src="new-img/camp/3.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Injection Molding</h3>
@@ -96,7 +99,8 @@ offering durability and precision.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/4.png" />
+                                <img src="new-img/electronics/3dpaint.png" />
+                                <%--<img src="new-img/camp/4.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>3D Printing</h3>
@@ -108,7 +112,8 @@ iterations and customized solutions for infrastructure projects. </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/5.png" />
+                                <img src="new-img/electronics/pcb.png" />
+                                <%--<img src="new-img/camp/5.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>PCB Assembly</h3>
@@ -120,7 +125,8 @@ ensuring seamless functionality. </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/6.png" />
+                                <img src="new-img/camp/Wire-Harness.png" />
+                                <%--<img src="new-img/camp/6.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Wire Harness Assembly</h3>
@@ -132,7 +138,8 @@ connectivity and performance.</p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/3D-Printing.png" />
+                                <img src="new-img/electronics/elemech.png" />
+                                <%--<img src="new-img/camp/3D-Printing.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Electro-Mechanical Systems Integration</h3>
@@ -144,7 +151,8 @@ functionality and efficiency.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/Wire-Harness.png" />
+                                <img src="new-img/electronics/builtspec.png" />
+                                <%--<img src="new-img/camp/Wire-Harness.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Built-to-Spec Manufacturing</h3>
@@ -156,7 +164,8 @@ industry standards.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/PCB-Assembly.png" />
+                                <img src="new-img/camp/Reverse-Engineering.png" />
+                                <%--<img src="new-img/camp/PCB-Assembly.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Reverse Engineering</h3>

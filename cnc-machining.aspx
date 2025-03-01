@@ -201,7 +201,7 @@ and to your exact specifications.
                             <ul class="list-group list-group-borderless">
                                 <li class="list-group-item">
                                     <span class="pbmit-icon-list-text"><strong>Cutting-Edge Technology:</strong> Access the latest CNC machines and software for 
-unparalleled accuracy and eƯiciency.</span>
+unparalleled accuracy and efficiency.</span>
                                 </li>
                                 <li class="list-group-item">
                                     <span class="pbmit-icon-list-text"><strong>Skilled Experts:</strong> Work with a team of experienced machinists and engineers 

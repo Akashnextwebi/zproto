@@ -95,7 +95,7 @@
                                                 <ul class="navigation clearfix">
 
                                                     <li class="dropdown">
-                                                        <a href="#">Company</a>
+                                                        <a href="javascript:void(0);">Company</a>
                                                         <ul>
                                                             <li><a href="/about-us.aspx">About Us</a></li>
                                                             <li><a href="/quality-assurance.aspx">Quality Assurance</a></li>
@@ -241,7 +241,7 @@
                                     <div class="textwidget">
                                         <ul>
                                             <li><a href="javascript:void(0);" style="cursor: none">ZPROTO Manufacturing Businesses Private Limited.
-Unit No 101,Oxford Towers, 139 HAL Old Airport Road, H.A.L II Stage, Bangalore North, <br /> Bangalore - 560008, India</a></li>
+Unit No 101,Oxford Towers, 139 HAL Old Airport Road, H.A.L II Stage, Bangalore North, <br /> Bangalore- 560008</a></li>
                                             <li><a href="Mailto:info@z-proto.com">info@z-proto.com</a></li>
                                             <li><a href="tel:+919606869650">+91 96068 69650</a></li>
 
@@ -258,7 +258,7 @@ Unit No 101,Oxford Towers, 139 HAL Old Airport Road, H.A.L II Stage, Bangalore N
                                             <li><a href="/quality-assurance.aspx">Quality Assurance</a></li>
                                             <li><a href="/career.aspx">Careers</a></li>
                                             <li><a href="/manufacturing-partner.aspx">Become a Manufacturing partner</a></li>
-                                            <li><a href="#">Customer Login</a></li>
+                                            <li><a href="/contact-us.aspx">Customer Login</a></li>
                                             <li><a href="/privacy-policy.aspx">Privacy policy</a></li>
                                             <li><a href="/terms-and-condition.aspx">Terms & Conditions</a></li>
                                             <li><a href="/return-policy.aspx">Refund Policy</a></li>

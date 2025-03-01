@@ -1,25 +1,25 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="electronics.aspx.cs" Inherits="electronics" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-      <style>
-      .how-it-works .pbmit-ihbox-style-1 .pbmit-element-title {
-          font-size: 24px;
-          margin-bottom: 16px;
-          color: var(--pbmit-global-color);
-      }
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <style>
+        .how-it-works .pbmit-ihbox-style-1 .pbmit-element-title {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--pbmit-global-color);
+        }
 
-      .process-card.pbmit-ihbox-style-1 {
-          padding: 50px 30px;
-      }
+        .process-card.pbmit-ihbox-style-1 {
+            padding: 50px 30px;
+        }
 
-      .how-it-works .pbmit-heading-desc {
-          margin-bottom: 0;
-          color: #000;
-      }
-  </style>
+        .how-it-works .pbmit-heading-desc {
+            margin-bottom: 0;
+            color: #000;
+        }
+    </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <div class="pbmit-title-bar-wrapper" style="background: url(new-img/indus/2.png);background-size:cover">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="pbmit-title-bar-wrapper" style="background: url(new-img/indus/2.png); background-size: cover">
         <div class="container">
             <div class="pbmit-title-bar-content">
                 <div class="pbmit-title-bar-content-inner">
@@ -60,84 +60,14 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/1.png" />
+                                <img src="new-img/electronics/pcb.png" />
                             </div>
                             <div class="content">
                                 <h3>PCB Assembly</h3>
-                                <p>Advanced techniques for printed circuit boards, including SMT, THT, and mixed technology,
-ensuring robust and dependable electronic devices. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="industry-card">
-                            <div class="service-image">
-                                <img src="new-img/camp/2.png" />
-                            </div>
-                            <div class="content">
-                                <h3>Wire Harness</h3>
-                                <p>Custom-designed wire harnesses for reliable electrical connections and efficient system
-integration. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="industry-card">
-                            <div class="service-image">
-                                <img src="new-img/camp/3.png" />
-                            </div>
-                            <div class="content">
-                                <h3>CNC Machining</h3>
-                                <p>Precision machining for enclosures and components, meeting the exact specifications required
-for high-performance electronics. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="industry-card">
-                            <div class="service-image">
-                                <img src="new-img/camp/4.png" />
-                            </div>
-                            <div class="content">
-                                <h3>Sheet Metal</h3>
-                                <p>Custom sheet metal fabrication for protective housings and structural components in electronic
-systems. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="industry-card">
-                            <div class="service-image">
-                                <img src="new-img/camp/5.png" />
-                            </div>
-                            <div class="content">
-                                <h3>Injection Molding</h3>
-                                <p>High-precision plastic parts and enclosures, molded to meet complex electronic design
-requirements.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="industry-card">
-                            <div class="service-image">
-                                <img src="new-img/camp/6.png" />
-                            </div>
-                            <div class="content">
-                                <h3>3D Printing</h3>
-                                <p>Rapid prototyping and production of intricate electronic components, enabling quick iteration
-and design innovation. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="industry-card">
-                            <div class="service-image">
-                                <img src="new-img/camp/3D-Printing.png" />
-                            </div>
-                            <div class="content">
-                                <h3>Box Build</h3>
-                                <p>Comprehensive assembly services, integrating multiple electronic components into fully
-functional systems.</p>
+                                <p>
+                                    Advanced techniques for printed circuit boards, including SMT, THT, and mixed technology,
+ensuring robust and dependable electronic devices.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -145,47 +75,143 @@ functional systems.</p>
                         <div class="industry-card">
                             <div class="service-image">
                                 <img src="new-img/camp/Wire-Harness.png" />
+                                <%--<img src="new-img/camp/2.png" />--%>
+                            </div>
+                            <div class="content">
+                                <h3>Wire Harness</h3>
+                                <p>
+                                    Custom-designed wire harnesses for reliable electrical connections and efficient system
+integration. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="industry-card">
+                            <div class="service-image">
+                                <img src="new-img/electronics/cnc.png" />
+                            </div>
+                            <div class="content">
+                                <h3>CNC Machining</h3>
+                                <p>
+                                    Precision machining for enclosures and components, meeting the exact specifications required
+for high-performance electronics.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="industry-card">
+                            <div class="service-image">
+                                <img src="new-img/electronics/sheetmetal.png" />
+                            </div>
+                            <div class="content">
+                                <h3>Sheet Metal</h3>
+                                <p>
+                                    Custom sheet metal fabrication for protective housings and structural components in electronic
+systems.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="industry-card">
+                            <div class="service-image">
+                                <img src="new-img/electronics/injection.png" />
+                            </div>
+                            <div class="content">
+                                <h3>Injection Molding</h3>
+                                <p>
+                                    High-precision plastic parts and enclosures, molded to meet complex electronic design
+requirements.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="industry-card">
+                            <div class="service-image">
+                                <img src="new-img/electronics/3dpaint.png" />
+                            </div>
+                            <div class="content">
+                                <h3>3D Printing</h3>
+                                <p>
+                                    Rapid prototyping and production of intricate electronic components, enabling quick iteration
+and design innovation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="industry-card">
+                            <div class="service-image">
+                                <img src="new-img/electronics/box.png" />
+                                <%--<img src="new-img/camp/Electro-Mechanical-Systems.png" />--%>
+                            </div>
+                            <div class="content">
+                                <h3>Box Build</h3>
+                                <p>
+                                    Comprehensive assembly services, integrating multiple electronic components into fully
+functional systems.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="industry-card">
+                            <div class="service-image">
+                                <img src="new-img/electronics/elemech.png" />
+                                <%--<img src="new-img/camp/Wire-Harness.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Electro-Mechanical Systems</h3>
-                                <p>Seamless integration of electrical and mechanical components to enhance system functionality
-and performance.  </p>
+                                <p>
+                                    Seamless integration of electrical and mechanical components to enhance system functionality
+and performance. 
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/PCB-Assembly.png" />
+                                <img src="new-img/electronics/fabrication.png" />
                             </div>
                             <div class="content">
                                 <h3>Fabrication</h3>
-                                <p>Custom fabrication for unique electronic parts and structures, designed to your specific project
-needs. </p>
+                                <p>
+                                    Custom fabrication for unique electronic parts and structures, designed to your specific project
+needs.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/Box-Build.png" />
+                                <img src="new-img/electronics/builtspec.png" />
                             </div>
                             <div class="content">
                                 <h3>Built-to-Spec</h3>
-                                <p> Tailored manufacturing solutions that meet precise specifications, ensuring components and
-systems are perfectly aligned with your requirements. </p>
+                                <p>
+                                    Tailored manufacturing solutions that meet precise specifications, ensuring components and
+systems are perfectly aligned with your requirements.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/Electro-Mechanical-Systems.png" />
+                                <img src="new-img/camp/Reverse-Engineering.png" />
+                                <%--<img src="new-img/camp/Electro-Mechanical-Systems.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Reverse Engineering</h3>
-                                <p>Accurate replication and enhancement of existing components, providing opportunities for
-innovation and improvement. </p>
+                                <p>
+                                    Accurate replication and enhancement of existing components, providing opportunities for
+innovation and improvement.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -287,8 +313,10 @@ certifications.</span>
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-contents">
                                         <h2 class="pbmit-element-title">Advanced Technology</h2>
-                                        <div class="pbmit-heading-desc">Cutting-edge tools and techniques for superior
-performance.</div>
+                                        <div class="pbmit-heading-desc">
+                                            Cutting-edge tools and techniques for superior
+performance.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -308,8 +336,10 @@ performance.</div>
                                 <div class="pbmit-ihbox-headingicon">
                                     <div class="pbmit-ihbox-contents">
                                         <h2 class="pbmit-element-title">Custom Solutions</h2>
-                                        <div class="pbmit-heading-desc">Tailored services to meet unique electronic system
-requirements.</div>
+                                        <div class="pbmit-heading-desc">
+                                            Tailored services to meet unique electronic system
+requirements.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -337,18 +367,18 @@ requirements.</div>
                         <div class="pbmit-heading-subheading text-center animation-style2">
                             <h2 class="pbmit-title">Success Stories</h2>
                             <p class="text-center text-white mt-2">
-                               Explore our Electronics Projects to learn how we’ve supported leading electronics
+                                Explore our Electronics Projects to learn how we’ve supported leading electronics
 manufacturers with our advanced capabilities. 
                             </p>
                         </div>
                         <div class="link-wrap text-center">
-    <a class="pbmit-btn-white pbmit-btn" href="/blogs.aspx"><span class="pbmit-button-text">Learn More </span>
-                                    <span class="pbmit-button-icon-wrapper">
-                                        <span class="pbmit-button-icon">
-                                            <i class="pbmit-base-icon-black-arrow-1"></i>
-                                        </span>
-                                    </span></a>
-</div>
+                            <a class="pbmit-btn-white pbmit-btn" href="/blogs.aspx"><span class="pbmit-button-text">Learn More </span>
+                                <span class="pbmit-button-icon-wrapper">
+                                    <span class="pbmit-button-icon">
+                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+                                    </span>
+                                </span></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -367,7 +397,7 @@ manufacturers with our advanced capabilities.
 Us today to discuss your needs or schedule a consultation.
                                     </div>
                                 </div>
-                                
+
 
                             </div>
                         </div>

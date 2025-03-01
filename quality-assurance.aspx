@@ -62,7 +62,7 @@
                     <div class="pbmit-breadcrumb">
                         <div class="pbmit-breadcrumb-inner">
                             <span>
-                                <a title="" href="Default.aspx" class="home"><span>Home</span></a>
+                                <a title="" href="/" class="home"><span>Home</span></a>
                             </span>
                             <span class="sep">
                                 <i class="pbmit-base-icon-angle-right"></i>
@@ -265,11 +265,11 @@ and reliability across all manufacturing stages.
                             </div>
                             <ul class="list-group list-group-borderless">
                                 <li class="list-group-item">
-                                    <span class="pbmit-icon-list-text">• Documentation: Submission of detailed records including design specifications, material data, 
+                                    <span class="pbmit-icon-list-text"> Documentation: Submission of detailed records including design specifications, material data, 
 and inspection results.  </span>
                                 </li>
                                 <li class="list-group-item">
-                                    <span class="pbmit-icon-list-text">• Sample Production: Validation through a limited production run to verify processes and 
+                                    <span class="pbmit-icon-list-text">Sample Production: Validation through a limited production run to verify processes and 
 outputs. 
  
 </span>

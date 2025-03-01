@@ -398,7 +398,7 @@ and career progression.
                             </h3>
 
                             <p>
-                                Reach out to us at <a href="mailto:careers@Z-PROTO.com">careers@Z-PROTO.com</a>.<br /> If your profile matches with our 
+                                Reach out to us at <a href="mailto:careers@z-proto.com">careers@z-proto.com</a>.<br /> If your profile matches with our 
 requirement, our talent acquisition team will get back to you
                             </p>
                         </div>

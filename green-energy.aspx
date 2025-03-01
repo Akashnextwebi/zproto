@@ -31,7 +31,7 @@
                     <div class="pbmit-breadcrumb">
                         <div class="pbmit-breadcrumb-inner">
                             <span>
-                                <a title="" href="Default.aspx" class="home"><span>Home</span></a>
+                                <a title="" href="/" class="home"><span>Home</span></a>
                             </span>
                             <span class="sep">
                                 <i class="pbmit-base-icon-angle-right"></i>
@@ -60,7 +60,8 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/1.png" />
+                                <img src="new-img/electronics/cnc.png" />
+                                <%--<img src="new-img/camp/1.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>CNC Machining</h3>
@@ -72,7 +73,8 @@ critical parts, designed for durability and optimal performance.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/2.png" />
+                                <img src="new-img/electronics/sheetmetal.png" />
+                                <%--<img src="new-img/camp/2.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Sheet Metal Fabrication</h3>
@@ -84,7 +86,8 @@ and renewable energy systems. </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/3.png" />
+                                <img src="new-img/electronics/injection.png" />
+                                <%--<img src="new-img/camp/3.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Injection Molding</h3>
@@ -96,7 +99,8 @@ lightweight and durable materials. </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/4.png" />
+                                <img src="new-img/electronics/3dpaint.png" />
+                                <%--<img src="new-img/camp/4.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>3D Printing</h3>
@@ -108,7 +112,8 @@ innovation in green energy technology. </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/5.png" />
+                                <img src="new-img/electronics/pcb.png" />
+                                <%--<img src="new-img/camp/5.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>PCB Assembly</h3>
@@ -120,7 +125,8 @@ systems, and smart grid technologies. </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/6.png" />
+                                <img src="new-img/camp/Wire-Harness.png" />
+                                <%--<img src="new-img/camp/6.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Wire Harness Assembly</h3>
@@ -132,7 +138,8 @@ and operational reliability. </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/3D-Printing.png" />
+                                <img src="new-img/electronics/elemech.png" />
+                                <%--<img src="new-img/camp/3D-Printing.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Electro-Mechanical Systems Integration</h3>
@@ -144,7 +151,8 @@ green energy applications.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/Wire-Harness.png" />
+                                <img src="new-img/electronics/builtspec.png" />
+                                <%--<img src="new-img/camp/Wire-Harness.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Built-to-Spec Manufacturing</h3>
@@ -155,7 +163,8 @@ green energy applications.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/PCB-Assembly.png" />
+                                <img src="new-img/camp/Reverse-Engineering.png" />
+                                <%--<img src="new-img/camp/PCB-Assembly.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Reverse Engineering</h3>

@@ -10,26 +10,22 @@
         .sidebar-section-one .sidebar-wrap {
             padding: 50px 0px;
         }
-
         @media (min-width: 320px) and (max-width: 767px) {
-            section.contact-us-section-two {
-                padding: 31px 0px 80px !important;
-            }
-
-            .sidebar-section-one .sidebar-wrap {
-                padding: 50px 0px 0px !important;
-            }
-        }
-
+    section.contact-us-section-two {
+        padding: 31px 0px 80px !important;
+    }
+   .sidebar-section-one .sidebar-wrap {
+    padding: 50px 0px 0px !important;
+}
+}
         @media (min-width: 320px) and (max-width: 767px) {
-            .contact-us-section-two .contact-wrap {
-                padding: 40px 30px 20px 30px !important;
-            }
-
-            section.contact-us-section-two {
-                padding: 31px 0px 40px !important;
-            }
-        }
+    .contact-us-section-two .contact-wrap {
+        padding:40px 30px 20px 30px !important;
+    }
+        section.contact-us-section-two {
+        padding: 31px 0px 40px !important;
+    }
+}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -161,14 +157,14 @@ portal for seamless transaction management.
                                     </div>
                                 </article>
 
-                                <article class="pbmit-miconheading-style-10 col-md-12">
+                                                                <article class="pbmit-miconheading-style-10 col-md-12">
                                     <div class="pbmit-ihbox pbmit-ihbox-style-10">
                                         <div class="pbmit-ihbox-box">
                                             <div class="pbmit-ihbox-icon">
                                                 <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">06</div>
                                             </div>
                                             <div class="pbmit-ihbox-contents">
-                                                <h2 class="pbmit-element-title">Receive new Projects</h2>
+                                                <h2 class="pbmit-element-title">Receive new projects</h2>
                                                 <div class="pbmit-heading-desc">
                                                     We match your capabilities with client needs and send you new projects to manufacture.
                                                 </div>
@@ -177,14 +173,14 @@ portal for seamless transaction management.
                                     </div>
                                 </article>
 
-                                <article class="pbmit-miconheading-style-10 col-md-12">
+                                                                <article class="pbmit-miconheading-style-10 col-md-12">
                                     <div class="pbmit-ihbox pbmit-ihbox-style-10">
                                         <div class="pbmit-ihbox-box">
                                             <div class="pbmit-ihbox-icon">
                                                 <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">07</div>
                                             </div>
                                             <div class="pbmit-ihbox-contents">
-                                                <h2 class="pbmit-element-title">Manufacture and Deliver</h2>
+                                                <h2 class="pbmit-element-title">Manufacture and deliver</h2>
                                                 <div class="pbmit-heading-desc">
                                                     Produce and deliver the required products, adhering to the specified standards and timelines.
                                                 </div>
@@ -193,7 +189,7 @@ portal for seamless transaction management.
                                     </div>
                                 </article>
 
-                                <article class="pbmit-miconheading-style-10 col-md-12">
+                                                                <article class="pbmit-miconheading-style-10 col-md-12">
                                     <div class="pbmit-ihbox pbmit-ihbox-style-10">
                                         <div class="pbmit-ihbox-box">
                                             <div class="pbmit-ihbox-icon">
@@ -202,7 +198,7 @@ portal for seamless transaction management.
                                             <div class="pbmit-ihbox-contents">
                                                 <h2 class="pbmit-element-title">Get paid promptly</h2>
                                                 <div class="pbmit-heading-desc">
-                                                    Get paid promptly for your services, ensuring a smooth cash flow for your business.
+                                                   Get paid promptly for your services, ensuring a smooth cash flow for your business.
                                                 </div>
                                             </div>
                                         </div>
@@ -217,15 +213,15 @@ portal for seamless transaction management.
                             <div class="pbmit-heading-subheading animation-style2">
 
                                 <h2 class="pbmit-title">Become a Manufacturing Partner</h2>
-
+                               
                                 <a class="pbmit-btn mt-4 " href="/contact-us.aspx">
-                                    <span class="pbmit-button-text">Sign In </span>
-                                    <span class="pbmit-button-icon-wrapper">
-                                        <span class="pbmit-button-icon">
-                                            <i class="pbmit-base-icon-black-arrow-1"></i>
-                                        </span>
+                                <span class="pbmit-button-text">Sign In </span>
+                                <span class="pbmit-button-icon-wrapper">
+                                    <span class="pbmit-button-icon">
+                                        <i class="pbmit-base-icon-black-arrow-1"></i>
                                     </span>
-                                </a>
+                                </span>
+                            </a>
                             </div>
 
                         </div>

@@ -37,7 +37,7 @@
                                 <i class="pbmit-base-icon-angle-right"></i>
                             </span>
                             <span>
-                                <a title="" href="/" class="home"><span>Industry</span></a>
+                                <a title="" href="javascript:void(0)" class="home"><span>Industry</span></a>
                             </span>
 
                             <span class="sep">
@@ -60,7 +60,8 @@
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/1.png" />
+                                <img src="new-img/electronics/cnc.png" />
+                                <%--<img src="new-img/camp/1.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>CNC Machining</h3>
@@ -72,7 +73,8 @@ assemblies, crafted to meet exacting standards.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/2.png" />
+                                <img src="new-img/electronics/sheetmetal.png" />
+                                <%--<img src="new-img/camp/2.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Sheet Metal</h3>
@@ -84,7 +86,8 @@ ensuring durability and protection for sensitive equipment.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/3.png" />
+                                <img src="new-img/electronics/fabrication.png" />
+                                <%--<img src="new-img/camp/3.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Fabrication</h3>
@@ -96,7 +99,8 @@ reliability in critical applications.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/4.png" />
+                                <img src="new-img/electronics/casting.png" />
+                                <%--<img src="new-img/camp/4.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Casting</h3>
@@ -108,7 +112,8 @@ consistency needed for medical applications.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/5.png" />
+                                <img src="new-img/electronics/farging.png" />
+                                <%--<img src="new-img/camp/5.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Forging</h3>
@@ -120,7 +125,8 @@ safety and reliability.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/6.png" />
+                                <img src="new-img/electronics/injection.png" />
+                                <%--<img src="new-img/camp/6.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Injection Molding</h3>
@@ -132,7 +138,8 @@ medical device applications.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/3D-Printing.png" />
+                                <img src="new-img/electronics/3dpaint.png" />
+                                <%--<img src="new-img/camp/3D-Printing.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>3D Printing</h3>
@@ -156,7 +163,8 @@ connectivity and functionality.   </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/PCB-Assembly.png" />
+                                <img src="new-img/electronics/pcb.png" />
+                                <%--<img src="new-img/camp/PCB-Assembly.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>PCB Assembly</h3>
@@ -168,7 +176,8 @@ critical healthcare applications.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/Box-Build.png" />
+                                <img src="new-img/electronics/box.png" />
+                                <%--<img src="new-img/camp/Box-Build.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Box Build</h3>
@@ -180,7 +189,8 @@ medical device systems. </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/Electro-Mechanical-Systems.png" />
+                                <img src="new-img/electronics/elemech.png" />
+                                <%--<img src="new-img/camp/Electro-Mechanical-Systems.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Electro-Mechanical Systems</h3>
@@ -192,7 +202,8 @@ functionality of medical devices.  </p>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="industry-card">
                             <div class="service-image">
-                                <img src="new-img/camp/Tailored-manufacturing-solutions.png" />
+                                <img src="new-img/electronics/builtspec.png" />
+                                <%--<img src="new-img/camp/Tailored-manufacturing-solutions.png" />--%>
                             </div>
                             <div class="content">
                                 <h3>Built-to-Spec</h3>

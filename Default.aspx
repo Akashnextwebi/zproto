@@ -2,57 +2,58 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <style>
-   .banner {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
+        .banner {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
 
-.banner video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: cover;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
-}
+            .banner video {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                object-fit: cover;
+            }
 
-.content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-90%, -30%);
-    text-align: left;
-    color: white;
-}
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+        }
 
-.content h1 {
-    font-size: 65px;
-    line-height:80px;
-    color:#fff;
-    margin-bottom: 15px;
-}
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-90%, -30%);
+            text-align: left;
+            color: white;
+        }
 
-.content p {
-    font-size: 18px;
-}
+            .content h1 {
+                font-size: 65px;
+                line-height: 80px;
+                color: #fff;
+                margin-bottom: 15px;
+            }
+
+            .content p {
+                font-size: 18px;
+            }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="page-content">
-      <%--  <div class="pbmit-slider-area pbmit-slider-one">
+        <%--  <div class="pbmit-slider-area pbmit-slider-one">
     <div class="swiper-slider" data-autoplay="false" data-loop="false"
         data-dots="true" data-arrows="false" data-columns="1" data-margin="0"
         data-effect="fade">
@@ -66,12 +67,12 @@
                         <div class="row">
                             <div class="col-md-10">
                                 <div class="pbmit-slider-content">
-                                    <h5 class="pbmit-sub-title transform-top transform-delay-1">ZPROTO</h5>
+                                    <h5 class="pbmit-sub-title transform-top transform-delay-1">Zproto</h5>
                                     <h2 class="pbmit-title transform-left transform-delay-3">Pioneering Excellence  in 
                                         <br>
                                         Advanced Manufacturing</h2>
                                     <div class="pbmit-desc transform-bottom transform-delay-4">
-                                        ZPROTO represents a groundbreaking step in advanced manufacturing innovation.
+                                        Zproto represents a groundbreaking step in advanced manufacturing innovation.
                                     </div>
                                     <div class="pbmit-button transform-bottom transform-delay-5">
                                         <a class="pbmit-btn" href="contact-us.aspx">
@@ -100,13 +101,13 @@
                         <div class="row">
                             <div class="col-md-10">
                                 <div class="pbmit-slider-content">
-                                    <h5 class="pbmit-sub-title transform-top transform-delay-1">ZPROTO
+                                    <h5 class="pbmit-sub-title transform-top transform-delay-1">Zproto
                                     </h5>
                                     <h2 class="pbmit-title transform-left transform-delay-3">Redefining Manufacturing 
                                         <br>
                                         Excellence</h2>
                                     <div class="pbmit-desc transform-bottom transform-delay-4">
-                                        ZPROTO marks the beginning of a new era in precision-driven manufacturing.
+                                        Zproto marks the beginning of a new era in precision-driven manufacturing.
 
 
 
@@ -137,17 +138,18 @@
         </div>
     </div>
 </div>--%>
-         <div class="banner">
-        <video autoplay muted loop playsinline>
-            <source src="new-img/banner.mp4" type="video/mp4">
-        
-        </video>
-              <div class="overlay"></div>
-        <div class="content">
-            <h1>Simplifying On-Demand Manufacturing</h1>
-            <p>Effortlessly transforming designs into reality, we deliver precision-engineered solutions with speed, agility, and reliability, empowering industries worldwide.</p>
+        <div class="banner">
+            <video autoplay muted loop playsinline>
+                <source src="new-img/banner.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Simplifying 
+                    <br />
+                    On-Demand Manufacturing</h1>
+                <p>Effortlessly transforming designs into reality, we deliver precision-engineered solutions with speed, agility, and reliability, empowering industries worldwide.</p>
+            </div>
         </div>
-    </div>
         <!-- Ihbox Start -->
 
         <!-- Ihbox end -->
@@ -206,7 +208,7 @@ digital approach ensures high-quality results with speed and accuracy
 
                             </div>
 
-                          
+
                         </div>
                         <div class="pbmit-left-col col-md-6">
                             <div class="tab-image1"></div>
@@ -280,7 +282,7 @@ digital approach ensures high-quality results with speed and accuracy
                             <div class="pbmit-tag-wrapper">
                                 <h2 class="pbmit-element-title" data-text="Built to Spec">Built to Spec</h2>
                             </div>
-                        </article> 
+                        </article>
                         <article class="pbmit-marquee-effect-style-1 swiper-slide">
                             <div class="pbmit-tag-wrapper">
                                 <h2 class="pbmit-element-title" data-text="Reverse Engineering">Reverse Engineering</h2>
@@ -304,11 +306,11 @@ digital approach ensures high-quality results with speed and accuracy
                         </div>
                     </div>
                     <div class="pbmit-col-stretched-right">
-                        <div class="swiper-slider" data-autoplay="false" data-loop="true"
+                        <div class="swiper-slider" data-autoplay="true" data-loop="true"
                             data-dots="true" data-arrows="false" data-columns="3.6"
                             data-margin="30" data-effect="slide">
                             <div class="swiper-wrapper">
-                                <!-- Slide1 -->
+                                <!-- Slide1CNC Machining -->
                                 <div class="swiper-slide">
                                     <article class="pbmit-service-style-2">
                                         <div class="pbminfotech-post-item">
@@ -353,7 +355,7 @@ digital approach ensures high-quality results with speed and accuracy
                                         <a class="pbmit-link" href="cnc-machining.aspx"></a>
                                     </article>
                                 </div>
-                                <!-- Slide2 -->
+                                <!-- Slide2Sheetmetal -->
                                 <div class="swiper-slide">
                                     <article class="pbmit-service-style-2">
                                         <div class="pbminfotech-post-item">
@@ -361,7 +363,7 @@ digital approach ensures high-quality results with speed and accuracy
                                                 <div class="pbmit-service-image-wrapper">
                                                     <div class="pbmit-featured-img-wrapper">
                                                         <div class="pbmit-featured-wrapper">
-                                                            <img src="new-img/camp/2.png" alt>
+                                                            <img src="new-img/electronics/sheetmetal.png" />
                                                         </div>
                                                     </div>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
@@ -398,52 +400,7 @@ digital approach ensures high-quality results with speed and accuracy
                                         <a class="pbmit-link" href="sheet-metal.aspx"></a>
                                     </article>
                                 </div>
-                                <!-- Slide3 -->
-                                <div class="swiper-slide">
-                                    <article class="pbmit-service-style-2">
-                                        <div class="pbminfotech-post-item">
-                                            <div class="pbminfotech-box-content">
-                                                <div class="pbmit-service-image-wrapper">
-                                                    <div class="pbmit-featured-img-wrapper">
-                                                        <div class="pbmit-featured-wrapper">
-                                                            <img src="new-img/camp/3.png" alt>
-                                                        </div>
-                                                    </div>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
-                                                        height="112.42" viewbox="0 0 119.09 112.42">
-                                                        <path
-                                                            d="M.05,110.13a85.42,85.42,0,0,0,20.78-2c12.23-2.83,20.86-9.88,25.28-21.69,2.55-6.82,4.71-13.79,7.13-20.66C57,55,64.39,48,75.55,45.07c5-1.31,9.92-2.7,14.82-4.26,17.66-5.65,25.37-15.63,26.55-34.2.14-2.16.09-4.32.13-6.48,2.5-.63,2,1.17,2,2.5q0,17.75,0,35.5v74q-57.75,0-115.5-.07C2.34,112.05-.42,113.66.05,110.13Z">
-                                                        </path>
-                                                    </svg>
-                                                </div>
-                                                <div class="pbmit-service-icon">
-                                                    <i
-                                                        class="pbmit-evgrid-icon pbmit-evgrid-icon-charging-station"></i>
-                                                </div>
-                                                <div class="pbmit-content-box">
-                                                    <div class="pbmit-serv-cat">
-                                                        <a href="casting.aspx" rel="tag">Capabilities</a>
-                                                    </div>
-                                                    <h3 class="pbmit-service-title">
-                                                        <a href="casting.aspx" rel="tag">Casting </a>
-                                                    </h3>
-                                                    <div class="pbmit-service-description">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a class="pbmit-service-btn" href="casting.aspx"
-                                                title="Home Charging">
-                                                <span class="pbmit-button-icon-wrapper">
-                                                    <span class="pbmit-button-icon">
-                                                        <i class="pbmit-base-icon-black-arrow-1"></i>
-                                                    </span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                        <a class="pbmit-link" href="casting.aspx"></a>
-                                    </article>
-                                </div>
-                                <!-- Slide4 -->
+                                <!-- Slide3 Injection Molding-->
                                 <div class="swiper-slide">
                                     <article class="pbmit-service-style-2">
                                         <div class="pbminfotech-post-item">
@@ -488,7 +445,142 @@ digital approach ensures high-quality results with speed and accuracy
                                         <a class="pbmit-link" href="injection-molding.aspx"></a>
                                     </article>
                                 </div>
-                                <!-- Slide5 -->
+                                <!-- Slide4 Casting-->
+                                <div class="swiper-slide">
+                                    <article class="pbmit-service-style-2">
+                                        <div class="pbminfotech-post-item">
+                                            <div class="pbminfotech-box-content">
+                                                <div class="pbmit-service-image-wrapper">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="new-img/camp/3.png" alt>
+                                                        </div>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
+                                                        height="112.42" viewbox="0 0 119.09 112.42">
+                                                        <path
+                                                            d="M.05,110.13a85.42,85.42,0,0,0,20.78-2c12.23-2.83,20.86-9.88,25.28-21.69,2.55-6.82,4.71-13.79,7.13-20.66C57,55,64.39,48,75.55,45.07c5-1.31,9.92-2.7,14.82-4.26,17.66-5.65,25.37-15.63,26.55-34.2.14-2.16.09-4.32.13-6.48,2.5-.63,2,1.17,2,2.5q0,17.75,0,35.5v74q-57.75,0-115.5-.07C2.34,112.05-.42,113.66.05,110.13Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="pbmit-service-icon">
+                                                    <i
+                                                        class="pbmit-evgrid-icon pbmit-evgrid-icon-charging-station"></i>
+                                                </div>
+                                                <div class="pbmit-content-box">
+                                                    <div class="pbmit-serv-cat">
+                                                        <a href="casting.aspx" rel="tag">Capabilities</a>
+                                                    </div>
+                                                    <h3 class="pbmit-service-title">
+                                                        <a href="casting.aspx" rel="tag">Casting</a>
+                                                    </h3>
+                                                    <div class="pbmit-service-description">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="pbmit-service-btn" href="casting.aspx"
+                                                title="Home Charging">
+                                                <span class="pbmit-button-icon-wrapper">
+                                                    <span class="pbmit-button-icon">
+                                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <a class="pbmit-link" href="casting.aspx"></a>
+                                    </article>
+                                </div>
+                                <!-- Slide5Forging -->
+                                <div class="swiper-slide">
+                                    <article class="pbmit-service-style-2">
+                                        <div class="pbminfotech-post-item">
+                                            <div class="pbminfotech-box-content">
+                                                <div class="pbmit-service-image-wrapper">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="new-img/electronics/farging.png" />
+                                                        </div>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
+                                                        height="112.42" viewbox="0 0 119.09 112.42">
+                                                        <path
+                                                            d="M.05,110.13a85.42,85.42,0,0,0,20.78-2c12.23-2.83,20.86-9.88,25.28-21.69,2.55-6.82,4.71-13.79,7.13-20.66C57,55,64.39,48,75.55,45.07c5-1.31,9.92-2.7,14.82-4.26,17.66-5.65,25.37-15.63,26.55-34.2.14-2.16.09-4.32.13-6.48,2.5-.63,2,1.17,2,2.5q0,17.75,0,35.5v74q-57.75,0-115.5-.07C2.34,112.05-.42,113.66.05,110.13Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="pbmit-service-icon">
+                                                    <i
+                                                        class="pbmit-evgrid-icon pbmit-evgrid-icon-charging-station"></i>
+                                                </div>
+                                                <div class="pbmit-content-box">
+                                                    <div class="pbmit-serv-cat">
+                                                        <a href="forging.aspx" rel="tag">Capabilities</a>
+                                                    </div>
+                                                    <h3 class="pbmit-service-title">
+                                                        <a href="forging.aspx">Forging</a>
+                                                    </h3>
+                                                    <div class="pbmit-service-description">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="pbmit-service-btn" href="forging.aspxx"
+                                                title="Forging">
+                                                <span class="pbmit-button-icon-wrapper">
+                                                    <span class="pbmit-button-icon">
+                                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <a class="pbmit-link" href="forging.aspx"></a>
+                                    </article>
+                                </div>
+                                <!-- Slide6Fabrication -->
+                                <div class="swiper-slide">
+                                    <article class="pbmit-service-style-2">
+                                        <div class="pbminfotech-post-item">
+                                            <div class="pbminfotech-box-content">
+                                                <div class="pbmit-service-image-wrapper">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="new-img/electronics/fabrication.png" />
+                                                        </div>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
+                                                        height="112.42" viewbox="0 0 119.09 112.42">
+                                                        <path
+                                                            d="M.05,110.13a85.42,85.42,0,0,0,20.78-2c12.23-2.83,20.86-9.88,25.28-21.69,2.55-6.82,4.71-13.79,7.13-20.66C57,55,64.39,48,75.55,45.07c5-1.31,9.92-2.7,14.82-4.26,17.66-5.65,25.37-15.63,26.55-34.2.14-2.16.09-4.32.13-6.48,2.5-.63,2,1.17,2,2.5q0,17.75,0,35.5v74q-57.75,0-115.5-.07C2.34,112.05-.42,113.66.05,110.13Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="pbmit-service-icon">
+                                                    <i
+                                                        class="pbmit-evgrid-icon pbmit-evgrid-icon-charging-station"></i>
+                                                </div>
+                                                <div class="pbmit-content-box">
+                                                    <div class="pbmit-serv-cat">
+                                                        <a href="fabrication.aspx" rel="tag">Capabilities</a>
+                                                    </div>
+                                                    <h3 class="pbmit-service-title">
+                                                        <a href="fabrication.aspx">Fabrication</a>
+                                                    </h3>
+                                                    <div class="pbmit-service-description">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="pbmit-service-btn" href="fabrication.aspx"
+                                                title="Fabrication">
+                                                <span class="pbmit-button-icon-wrapper">
+                                                    <span class="pbmit-button-icon">
+                                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <a class="pbmit-link" href="fabrication.aspx"></a>
+                                    </article>
+                                </div>
+                                <!-- Slide7 3dpaint -->
                                 <div class="swiper-slide">
                                     <article class="pbmit-service-style-2">
                                         <div class="pbminfotech-post-item">
@@ -533,7 +625,7 @@ digital approach ensures high-quality results with speed and accuracy
                                         <a class="pbmit-link" href="3d-printing.aspx"></a>
                                     </article>
                                 </div>
-                                <!-- Slide6 -->
+                                <!-- Slide8 Wire Harness Manufacturing -->
                                 <div class="swiper-slide">
                                     <article class="pbmit-service-style-2">
                                         <div class="pbminfotech-post-item">
@@ -541,7 +633,52 @@ digital approach ensures high-quality results with speed and accuracy
                                                 <div class="pbmit-service-image-wrapper">
                                                     <div class="pbmit-featured-img-wrapper">
                                                         <div class="pbmit-featured-wrapper">
-                                                            <img src="new-img/camp/6.png" alt>
+                                                            <img src="new-img/electronics/wire.png" />
+                                                        </div>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
+                                                        height="112.42" viewbox="0 0 119.09 112.42">
+                                                        <path
+                                                            d="M.05,110.13a85.42,85.42,0,0,0,20.78-2c12.23-2.83,20.86-9.88,25.28-21.69,2.55-6.82,4.71-13.79,7.13-20.66C57,55,64.39,48,75.55,45.07c5-1.31,9.92-2.7,14.82-4.26,17.66-5.65,25.37-15.63,26.55-34.2.14-2.16.09-4.32.13-6.48,2.5-.63,2,1.17,2,2.5q0,17.75,0,35.5v74q-57.75,0-115.5-.07C2.34,112.05-.42,113.66.05,110.13Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="pbmit-service-icon">
+                                                    <i
+                                                        class="pbmit-evgrid-icon pbmit-evgrid-icon-charging-station"></i>
+                                                </div>
+                                                <div class="pbmit-content-box">
+                                                    <div class="pbmit-serv-cat">
+                                                        <a href="wire-harness.aspx" rel="tag">Capabilities</a>
+                                                    </div>
+                                                    <h3 class="pbmit-service-title">
+                                                        <a href="wire-harness.aspx">Wire Harness Manufacturing</a>
+                                                    </h3>
+                                                    <div class="pbmit-service-description">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="pbmit-service-btn" href="wire-harness.aspx"
+                                                title="Home Charging">
+                                                <span class="pbmit-button-icon-wrapper">
+                                                    <span class="pbmit-button-icon">
+                                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <a class="pbmit-link" href="wire-harness.aspx"></a>
+                                    </article>
+                                </div>
+                                <!-- Slide9 PCB Assembly -->
+                                <div class="swiper-slide">
+                                    <article class="pbmit-service-style-2">
+                                        <div class="pbminfotech-post-item">
+                                            <div class="pbminfotech-box-content">
+                                                <div class="pbmit-service-image-wrapper">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="new-img/electronics/pcb.png" />
                                                         </div>
                                                     </div>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
@@ -578,7 +715,186 @@ digital approach ensures high-quality results with speed and accuracy
                                         <a class="pbmit-link" href="pcb-assembly.aspx"></a>
                                     </article>
                                 </div>
-
+                                <!-- Slide10  Box Build-->
+                                <div class="swiper-slide">
+                                    <article class="pbmit-service-style-2">
+                                        <div class="pbminfotech-post-item">
+                                            <div class="pbminfotech-box-content">
+                                                <div class="pbmit-service-image-wrapper">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="new-img/electronics/box.png" />
+                                                        </div>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
+                                                        height="112.42" viewbox="0 0 119.09 112.42">
+                                                        <path
+                                                            d="M.05,110.13a85.42,85.42,0,0,0,20.78-2c12.23-2.83,20.86-9.88,25.28-21.69,2.55-6.82,4.71-13.79,7.13-20.66C57,55,64.39,48,75.55,45.07c5-1.31,9.92-2.7,14.82-4.26,17.66-5.65,25.37-15.63,26.55-34.2.14-2.16.09-4.32.13-6.48,2.5-.63,2,1.17,2,2.5q0,17.75,0,35.5v74q-57.75,0-115.5-.07C2.34,112.05-.42,113.66.05,110.13Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="pbmit-service-icon">
+                                                    <i
+                                                        class="pbmit-evgrid-icon pbmit-evgrid-icon-charging-station"></i>
+                                                </div>
+                                                <div class="pbmit-content-box">
+                                                    <div class="pbmit-serv-cat">
+                                                        <a href="box-build.aspx" rel="tag">Capabilities</a>
+                                                    </div>
+                                                    <h3 class="pbmit-service-title">
+                                                        <a href="box-build.aspx">Box Build</a>
+                                                    </h3>
+                                                    <div class="pbmit-service-description">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="pbmit-service-btn" href="box-build.aspx"
+                                                title="Box Build">
+                                                <span class="pbmit-button-icon-wrapper">
+                                                    <span class="pbmit-button-icon">
+                                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <a class="pbmit-link" href="box-build.aspx"></a>
+                                    </article>
+                                </div>
+                                <!-- Slid11 Electro-Mechanical Systems -->
+                                <div class="swiper-slide">
+                                    <article class="pbmit-service-style-2">
+                                        <div class="pbminfotech-post-item">
+                                            <div class="pbminfotech-box-content">
+                                                <div class="pbmit-service-image-wrapper">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="new-img/electronics/elemech.png" />
+                                                        </div>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
+                                                        height="112.42" viewbox="0 0 119.09 112.42">
+                                                        <path
+                                                            d="M.05,110.13a85.42,85.42,0,0,0,20.78-2c12.23-2.83,20.86-9.88,25.28-21.69,2.55-6.82,4.71-13.79,7.13-20.66C57,55,64.39,48,75.55,45.07c5-1.31,9.92-2.7,14.82-4.26,17.66-5.65,25.37-15.63,26.55-34.2.14-2.16.09-4.32.13-6.48,2.5-.63,2,1.17,2,2.5q0,17.75,0,35.5v74q-57.75,0-115.5-.07C2.34,112.05-.42,113.66.05,110.13Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="pbmit-service-icon">
+                                                    <i
+                                                        class="pbmit-evgrid-icon pbmit-evgrid-icon-charging-station"></i>
+                                                </div>
+                                                <div class="pbmit-content-box">
+                                                    <div class="pbmit-serv-cat">
+                                                        <a href="electro-mechanical-assembly.aspx" rel="tag">Capabilities</a>
+                                                    </div>
+                                                    <h3 class="pbmit-service-title">
+                                                        <a href="electro-mechanical-assembly.aspx">Electro-Mechanical Systems</a>
+                                                    </h3>
+                                                    <div class="pbmit-service-description">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="pbmit-service-btn" href="electro-mechanical-assembly.aspx"
+                                                title="Electro-Mechanical Systems">
+                                                <span class="pbmit-button-icon-wrapper">
+                                                    <span class="pbmit-button-icon">
+                                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <a class="pbmit-link" href="electro-mechanical-assembly.aspx"></a>
+                                    </article>
+                                </div>
+                                <!-- Slide12  Built to Spec-->
+                                <div class="swiper-slide">
+                                    <article class="pbmit-service-style-2">
+                                        <div class="pbminfotech-post-item">
+                                            <div class="pbminfotech-box-content">
+                                                <div class="pbmit-service-image-wrapper">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="new-img/electronics/builtspec.png" />
+                                                        </div>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
+                                                        height="112.42" viewbox="0 0 119.09 112.42">
+                                                        <path
+                                                            d="M.05,110.13a85.42,85.42,0,0,0,20.78-2c12.23-2.83,20.86-9.88,25.28-21.69,2.55-6.82,4.71-13.79,7.13-20.66C57,55,64.39,48,75.55,45.07c5-1.31,9.92-2.7,14.82-4.26,17.66-5.65,25.37-15.63,26.55-34.2.14-2.16.09-4.32.13-6.48,2.5-.63,2,1.17,2,2.5q0,17.75,0,35.5v74q-57.75,0-115.5-.07C2.34,112.05-.42,113.66.05,110.13Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="pbmit-service-icon">
+                                                    <i
+                                                        class="pbmit-evgrid-icon pbmit-evgrid-icon-charging-station"></i>
+                                                </div>
+                                                <div class="pbmit-content-box">
+                                                    <div class="pbmit-serv-cat">
+                                                        <a href="built-to-spec.aspx" rel="tag">Capabilities</a>
+                                                    </div>
+                                                    <h3 class="pbmit-service-title">
+                                                        <a href="built-to-spec.aspx">Built to Spec</a>
+                                                    </h3>
+                                                    <div class="pbmit-service-description">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="pbmit-service-btn" href="built-to-spec.aspx"
+                                                title="Built to Spec">
+                                                <span class="pbmit-button-icon-wrapper">
+                                                    <span class="pbmit-button-icon">
+                                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <a class="pbmit-link" href="built-to-spec.aspx"></a>
+                                    </article>
+                                </div>
+                                <!-- Slide13  Reverse Engineering-->
+                                <div class="swiper-slide">
+                                    <article class="pbmit-service-style-2">
+                                        <div class="pbminfotech-post-item">
+                                            <div class="pbminfotech-box-content">
+                                                <div class="pbmit-service-image-wrapper">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="new-img/electronics/rev-engg.png" />
+                                                        </div>
+                                                    </div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="119.09"
+                                                        height="112.42" viewbox="0 0 119.09 112.42">
+                                                        <path
+                                                            d="M.05,110.13a85.42,85.42,0,0,0,20.78-2c12.23-2.83,20.86-9.88,25.28-21.69,2.55-6.82,4.71-13.79,7.13-20.66C57,55,64.39,48,75.55,45.07c5-1.31,9.92-2.7,14.82-4.26,17.66-5.65,25.37-15.63,26.55-34.2.14-2.16.09-4.32.13-6.48,2.5-.63,2,1.17,2,2.5q0,17.75,0,35.5v74q-57.75,0-115.5-.07C2.34,112.05-.42,113.66.05,110.13Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="pbmit-service-icon">
+                                                    <i
+                                                        class="pbmit-evgrid-icon pbmit-evgrid-icon-charging-station"></i>
+                                                </div>
+                                                <div class="pbmit-content-box">
+                                                    <div class="pbmit-serv-cat">
+                                                        <a href="reverse-engineering.aspx" rel="tag">Capabilities</a>
+                                                    </div>
+                                                    <h3 class="pbmit-service-title">
+                                                        <a href="reverse-engineering.aspx">Reverse Engineering</a>
+                                                    </h3>
+                                                    <div class="pbmit-service-description">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="pbmit-service-btn" href="reverse-engineering.aspx"
+                                                title="Reverse Engineering">
+                                                <span class="pbmit-button-icon-wrapper">
+                                                    <span class="pbmit-button-icon">
+                                                        <i class="pbmit-base-icon-black-arrow-1"></i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <a class="pbmit-link" href="reverse-engineering.aspx"></a>
+                                    </article>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -632,7 +948,6 @@ digital approach ensures high-quality results with speed and accuracy
                             </div>
                         </div>
                         <div class="col-md-3 about-one-col-3">
-                           
                         </div>
                     </div>
                     <div class="row g-0 new-top">
@@ -987,137 +1302,137 @@ the business</h3>
                             </div>
                             <div class="row d-lg-none d-block">
                                 <div class="pbmit-col-stretched-right">
-    <div class="swiper-slider" data-arrows-class="portfolio-swiper-arrow" data-autoplay="false" data-loop="false" data-dots="false" data-arrows="true" data-columns="3.6" data-margin="30" data-effect="slide">
-        <div class="swiper-wrapper">
-            <!-- Slide1 -->
-            <article class="pbmit-portfolio-style-1 swiper-slide">
-                <div class="pbminfotech-post-content">
-                    <div class="pbmit-featured-img-wrapper">
-                        <div class="pbmit-featured-wrapper">
-                            <img src="images/homepage-2/portfolio/Aerospace.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="pbminfotech-box-content">
-                        <div class="pbminfotech-titlebox">
-                            <div class="pbmit-port-cat">
-                                <a href="aerospace-and-defence.aspx" rel="tag">Industries</a>
-                            </div>
-                            <h3 class="pbmit-portfolio-title">
-                                <a href="aerospace-and-defence.aspx">Aerospace & Defense</a>
-                            </h3>
-                        </div>
-                    </div>
-                    <a class="pbmit-link" href="aerospace-and-defence.aspx"></a>
-                </div>
-            </article>
-            <!-- Slide2 -->
-            <article class="pbmit-portfolio-style-1 swiper-slide">
-                <div class="pbminfotech-post-content">
-                    <div class="pbmit-featured-img-wrapper">
-                        <div class="pbmit-featured-wrapper">
-                            <img src="images/homepage-2/portfolio/Medical.png" alt="">
-                        </div>
-                    </div>
-                    <div class="pbminfotech-box-content">
-                        <div class="pbminfotech-titlebox">
-                            <div class="pbmit-port-cat">
-                                <a href="medical-devices.aspx" rel="tag">Industries</a>
-                            </div>
-                            <h3 class="pbmit-portfolio-title">
-                                <a href="medical-devices.aspx">Medical Devices</a>
-                            </h3>
-                        </div>
-                    </div>
-                    <a class="pbmit-link" href="medical-devices.aspx"></a>
-                </div>
-            </article>
-            <!-- Slide3 -->
-            <article class="pbmit-portfolio-style-1 swiper-slide">
-                <div class="pbminfotech-post-content">
-                    <div class="pbmit-featured-img-wrapper">
-                        <div class="pbmit-featured-wrapper">
-                            <img src="images/homepage-2/portfolio/Automative.png" alt="">
-                        </div>
-                    </div>
-                    <div class="pbminfotech-box-content">
-                        <div class="pbminfotech-titlebox">
-                            <div class="pbmit-port-cat">
-                                <a href="automotive-and-ev.aspx" rel="tag">Industries</a>
-                            </div>
-                            <h3 class="pbmit-portfolio-title">
-                                <a href="automotive-and-ev.aspx">Automotive & EV</a>
-                            </h3>
-                        </div>
-                    </div>
-                    <a class="pbmit-link" href="automotive-and-ev.aspx"></a>
-                </div>
-            </article>
-            <!-- Slide4 -->
-            <article class="pbmit-portfolio-style-1 swiper-slide">
-                <div class="pbminfotech-post-content">
-                    <div class="pbmit-featured-img-wrapper">
-                        <div class="pbmit-featured-wrapper">
-                            <img src="images/homepage-2/portfolio/Industrial.png" alt="">
-                        </div>
-                    </div>
-                    <div class="pbminfotech-box-content">
-                        <div class="pbminfotech-titlebox">
-                            <div class="pbmit-port-cat">
-                                <a href="industrial-automation.aspx" rel="tag">Industries</a>
-                            </div>
-                            <h3 class="pbmit-portfolio-title">
-                                <a href="industrial-automation.aspx">Industrial Automation</a>
-                            </h3>
-                        </div>
-                    </div>
-                    <a class="pbmit-link" href="industrial-automation.aspx"></a>
-                </div>
-            </article>
-            <!-- Slide5 -->
-            <article class="pbmit-portfolio-style-1 swiper-slide">
-                <div class="pbminfotech-post-content">
-                    <div class="pbmit-featured-img-wrapper">
-                        <div class="pbmit-featured-wrapper">
-                            <img src="images/homepage-2/portfolio/Telecommunication.png" alt="">
-                        </div>
-                    </div>
-                    <div class="pbminfotech-box-content">
-                        <div class="pbminfotech-titlebox">
-                            <div class="pbmit-port-cat">
-                                <a href="telecommunications.aspx" rel="tag">Industries</a>
-                            </div>
-                            <h3 class="pbmit-portfolio-title">
-                                <a href="telecommunications.aspx">Telecommunications</a>
-                            </h3>
-                        </div>
-                    </div>
-                    <a class="pbmit-link" href="telecommunications.aspx"></a>
-                </div>
-            </article>
-            <!-- Slide6 -->
-            <article class="pbmit-portfolio-style-1 swiper-slide">
-                <div class="pbminfotech-post-content">
-                    <div class="pbmit-featured-img-wrapper">
-                        <div class="pbmit-featured-wrapper">
-                            <img src="images/homepage-2/portfolio/Drone.png" alt="">
-                        </div>
-                    </div>
-                    <div class="pbminfotech-box-content">
-                        <div class="pbminfotech-titlebox">
-                            <div class="pbmit-port-cat">
-                                <a href="drones.aspx" rel="tag">Industries</a>
-                            </div>
-                            <h3 class="pbmit-portfolio-title">
-                                <a href="drones.aspx">Drones</a>
-                            </h3>
-                        </div>
-                    </div>
-                    <a class="pbmit-link" href="drones.aspx"></a>
-                </div>
-            </article>
-        </div>
-    </div>
-</div>
+                                    <div class="swiper-slider" data-arrows-class="portfolio-swiper-arrow" data-autoplay="false" data-loop="false" data-dots="false" data-arrows="true" data-columns="3.6" data-margin="30" data-effect="slide">
+                                        <div class="swiper-wrapper">
+                                            <!-- Slide1 -->
+                                            <article class="pbmit-portfolio-style-1 swiper-slide">
+                                                <div class="pbminfotech-post-content">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="images/homepage-2/portfolio/Aerospace.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pbminfotech-box-content">
+                                                        <div class="pbminfotech-titlebox">
+                                                            <div class="pbmit-port-cat">
+                                                                <a href="aerospace-and-defence.aspx" rel="tag">Industries</a>
+                                                            </div>
+                                                            <h3 class="pbmit-portfolio-title">
+                                                                <a href="aerospace-and-defence.aspx">Aerospace & Defense</a>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                    <a class="pbmit-link" href="aerospace-and-defence.aspx"></a>
+                                                </div>
+                                            </article>
+                                            <!-- Slide2 -->
+                                            <article class="pbmit-portfolio-style-1 swiper-slide">
+                                                <div class="pbminfotech-post-content">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="images/homepage-2/portfolio/Medical.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pbminfotech-box-content">
+                                                        <div class="pbminfotech-titlebox">
+                                                            <div class="pbmit-port-cat">
+                                                                <a href="medical-devices.aspx" rel="tag">Industries</a>
+                                                            </div>
+                                                            <h3 class="pbmit-portfolio-title">
+                                                                <a href="medical-devices.aspx">Medical Devices</a>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                    <a class="pbmit-link" href="medical-devices.aspx"></a>
+                                                </div>
+                                            </article>
+                                            <!-- Slide3 -->
+                                            <article class="pbmit-portfolio-style-1 swiper-slide">
+                                                <div class="pbminfotech-post-content">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="images/homepage-2/portfolio/Automative.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pbminfotech-box-content">
+                                                        <div class="pbminfotech-titlebox">
+                                                            <div class="pbmit-port-cat">
+                                                                <a href="automotive-and-ev.aspx" rel="tag">Industries</a>
+                                                            </div>
+                                                            <h3 class="pbmit-portfolio-title">
+                                                                <a href="automotive-and-ev.aspx">Automotive & EV</a>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                    <a class="pbmit-link" href="automotive-and-ev.aspx"></a>
+                                                </div>
+                                            </article>
+                                            <!-- Slide4 -->
+                                            <article class="pbmit-portfolio-style-1 swiper-slide">
+                                                <div class="pbminfotech-post-content">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="images/homepage-2/portfolio/Industrial.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pbminfotech-box-content">
+                                                        <div class="pbminfotech-titlebox">
+                                                            <div class="pbmit-port-cat">
+                                                                <a href="industrial-automation.aspx" rel="tag">Industries</a>
+                                                            </div>
+                                                            <h3 class="pbmit-portfolio-title">
+                                                                <a href="industrial-automation.aspx">Industrial Automation</a>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                    <a class="pbmit-link" href="industrial-automation.aspx"></a>
+                                                </div>
+                                            </article>
+                                            <!-- Slide5 -->
+                                            <article class="pbmit-portfolio-style-1 swiper-slide">
+                                                <div class="pbminfotech-post-content">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="images/homepage-2/portfolio/Telecommunication.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pbminfotech-box-content">
+                                                        <div class="pbminfotech-titlebox">
+                                                            <div class="pbmit-port-cat">
+                                                                <a href="telecommunications.aspx" rel="tag">Industries</a>
+                                                            </div>
+                                                            <h3 class="pbmit-portfolio-title">
+                                                                <a href="telecommunications.aspx">Telecommunications</a>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                    <a class="pbmit-link" href="telecommunications.aspx"></a>
+                                                </div>
+                                            </article>
+                                            <!-- Slide6 -->
+                                            <article class="pbmit-portfolio-style-1 swiper-slide">
+                                                <div class="pbminfotech-post-content">
+                                                    <div class="pbmit-featured-img-wrapper">
+                                                        <div class="pbmit-featured-wrapper">
+                                                            <img src="images/homepage-2/portfolio/Drone.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="pbminfotech-box-content">
+                                                        <div class="pbminfotech-titlebox">
+                                                            <div class="pbmit-port-cat">
+                                                                <a href="drones.aspx" rel="tag">Industries</a>
+                                                            </div>
+                                                            <h3 class="pbmit-portfolio-title">
+                                                                <a href="drones.aspx">Drones</a>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                    <a class="pbmit-link" href="drones.aspx"></a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -1125,130 +1440,130 @@ the business</h3>
             </div>
         </section>
         <section class="about-section-one section-md">
-				<div class="about-contant">
-					<div class="container">
-						<div class="pbmit-ele-header-align-center">
-							<div class="pbmit-heading-subheading animation-style2 text-center">
-								<h4 class="pbmit-subtitle">
-								<span></span>
-								Making mobility sustainable
-								</h4>
-								<h2 class="pbmit-title">Why Choose ZPROTO?</h2>
-							</div>	
-						</div>
-						<div class="row gy-4 mb-4">
-							<div class="col-md-4 col-lg-5 about-one-col-1">
-								<div class="about-widget-wrap card-overlay" style="background-image: url(new-img/cutting-adge-technology.png)">
-									<div class="pbmit-ihbox-style-14">
-										<div class="pbmit-ihbox-headingicon">
-											<h4 class="pbmit-element-subtitle">Cutting-Edge Technology</h4>			
-											<div class="pbmit-ihbox-contents">
-												<h2 class="pbmit-element-title">We use the latest digital manufacturing technologies for exceptional results.</h2>		
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-lg-4 about-one-col-2">
-								<div class="about-widget-wrap bg-blue">
-                                    <div class="pbmit-ihbox-style-14">
-                                        <div class="pbmit-ihbox-headingicon">
-                                            <h4 class="pbmit-element-subtitle">Expert Team</h4>			
-                                            <div class="pbmit-ihbox-contents">
-                                                <h2 class="pbmit-element-title">Our skilled professionals bring extensive industry experience.</h2>		
-                                            </div>
+            <div class="about-contant">
+                <div class="container">
+                    <div class="pbmit-ele-header-align-center">
+                        <div class="pbmit-heading-subheading animation-style2 text-center">
+                            <h4 class="pbmit-subtitle">
+                                <span></span>
+                                Making mobility sustainable
+                            </h4>
+                            <h2 class="pbmit-title">Why Choose ZPROTO?</h2>
+                        </div>
+                    </div>
+                    <div class="row gy-4 mb-4">
+                        <div class="col-md-4 col-lg-5 about-one-col-1">
+                            <div class="about-widget-wrap card-overlay" style="background-image: url(new-img/cutting-adge-technology.png)">
+                                <div class="pbmit-ihbox-style-14">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <h4 class="pbmit-element-subtitle">Cutting-Edge Technology</h4>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">We use the latest digital manufacturing technologies for exceptional results.</h2>
                                         </div>
                                     </div>
                                 </div>
-							</div>
-							<div class="col-md-4 col-lg-3 about-one-col-3">
-								<div class="about-widget-wrap card-overlay"  style="background-image: url(new-img/customized-solution.png)">
-				                    <div class="pbmit-ihbox-style-14">
-								        <div class="pbmit-ihbox-headingicon">
-									        <h4 class="pbmit-element-subtitle">Customized Solutions</h4>			
-									        <div class="pbmit-ihbox-contents">
-										        <h2 class="pbmit-element-title">Tailored to meet your unique project requirements.</h2>		
-									        </div>
-								        </div>
-                                    </div>
-                                </div>
-							</div>
-						
-							<div class="col-md-3 about-one-bottom-col-1">
-								<div class="about-widget-wrap card-overlay" style="background-image: url(new-img/quality-machine.png)">
-                                    <div class="pbmit-ihbox-style-14">
-                                        <div class="pbmit-ihbox-headingicon">
-				                            <h4 class="pbmit-element-subtitle">Commitment to Quality</h4>			
-				                            <div class="pbmit-ihbox-contents">
-                                                <h2 class="pbmit-element-title">Consistent, high-quality outcomes with rigorous quality control.</h2>		
-				                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 about-one-col-2">
+                            <div class="about-widget-wrap card-overlay" style="background-image: url(new-img/why/5.png)">
+                                <div class="pbmit-ihbox-style-14">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <h4 class="pbmit-element-subtitle">Expert Team</h4>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">Our skilled professionals bring extensive industry experience.</h2>
                                         </div>
                                     </div>
                                 </div>
-							</div>
-							<div class="col-md-3 about-one-bottom-col-2">
-								<div class="about-widget-wrap bg-black">
-                                    <div class="pbmit-ihbox-style-14">
-                                        <div class="pbmit-ihbox-headingicon">
-                                            <h4 class="pbmit-element-subtitle">Competitive Pricing</h4>			
-                                            <div class="pbmit-ihbox-contents">
-                                                <h2 class="pbmit-element-title">Cost-effective solutions without compromising quality.</h2>		
-                                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 about-one-col-3">
+                            <div class="about-widget-wrap card-overlay" style="background-image: url(new-img/customized-solution.png)">
+                                <div class="pbmit-ihbox-style-14">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <h4 class="pbmit-element-subtitle">Customized Solutions</h4>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">Tailored to meet your unique project requirements.</h2>
                                         </div>
                                     </div>
                                 </div>
-							</div>
-							<div class="col-md-3 about-one-bottom-col-3">
-								<div class="about-widget-wrap card-overlay" style="background-image: url(new-img/timely-delivery.png)">
-                                    <div class="pbmit-ihbox-style-14">
-                                        <div class="pbmit-ihbox-headingicon">
-                                            <h4 class="pbmit-element-subtitle">Timely Delivery</h4>			
-                                            <div class="pbmit-ihbox-contents">
-                                                <h2 class="pbmit-element-title">Reliable and punctual delivery of your components.</h2>		
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-							</div>
-						</div>
-                                        <div class="tween-effect-section-two pbmit-bg-color-blackish ">
-                    <div class="row justify-content-center  align-items-center ">
+                            </div>
+                        </div>
 
-                        <div class="col-md-8 tween-effect-center-col">
-                            <div class="tween-effect-wrap">
-                                <div class="pbmit-heading-subheading  text-start animation-style2">
-                                    <h2 class="pbmit-title">Experience the future of manufacturing with ZPROTO.
+                        <div class="col-md-3 about-one-bottom-col-1">
+                            <div class="about-widget-wrap card-overlay" style="background-image: url(new-img/quality-machine.png)">
+                                <div class="pbmit-ihbox-style-14">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <h4 class="pbmit-element-subtitle">Commitment to Quality</h4>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">Consistent, high-quality outcomes with rigorous quality control.</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 about-one-bottom-col-2">
+                            <div class="about-widget-wrap card-overlay" style="background-image: url(new-img/why/6.png)">
+                                <div class="pbmit-ihbox-style-14">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <h4 class="pbmit-element-subtitle">Competitive Pricing</h4>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">Cost-effective solutions without compromising quality.</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 about-one-bottom-col-3">
+                            <div class="about-widget-wrap card-overlay" style="background-image: url(new-img/timely-delivery.png)">
+                                <div class="pbmit-ihbox-style-14">
+                                    <div class="pbmit-ihbox-headingicon">
+                                        <h4 class="pbmit-element-subtitle">Timely Delivery</h4>
+                                        <div class="pbmit-ihbox-contents">
+                                            <h2 class="pbmit-element-title">Reliable and punctual delivery of your components.</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tween-effect-section-two pbmit-bg-color-blackish ">
+                        <div class="row justify-content-center  align-items-center ">
+
+                            <div class="col-md-8 tween-effect-center-col">
+                                <div class="tween-effect-wrap">
+                                    <div class="pbmit-heading-subheading  text-start animation-style2">
+                                        <h2 class="pbmit-title">Experience the future of manufacturing with ZPROTO.
 </h2>
-                                    <div class="pbmit-heading-desc">
-                                        Contact us today to start your project or learn more about how we can help you achieve your goals.
+                                        <div class="pbmit-heading-desc">
+                                            Contact us today to start your project or learn more about how we can help you achieve your goals.
 
 
+                                        </div>
                                     </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="tween-effect-btn">
+
+                                    <a class="pbmit-btn " href="contact-us.aspx">
+                                        <span class="pbmit-button-text">Contact Us </span>
+                                        <span class="pbmit-button-icon-wrapper">
+                                            <span class="pbmit-button-icon">
+                                                <i class="pbmit-base-icon-black-arrow-1"></i>
+                                            </span>
+                                        </span>
+                                    </a>
                                 </div>
 
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="tween-effect-btn">
 
-                                <a class="pbmit-btn " href="contact-us.aspx">
-                                    <span class="pbmit-button-text">Contact Us </span>
-                                    <span class="pbmit-button-icon-wrapper">
-                                        <span class="pbmit-button-icon">
-                                            <i class="pbmit-base-icon-black-arrow-1"></i>
-                                        </span>
-                                    </span>
-                                </a>
                             </div>
 
-
                         </div>
-
                     </div>
                 </div>
-					</div>
-				</div>
-			 </section>
+            </div>
+        </section>
         <!-- Sidebar Start -->
         <section class="sidebar-section-one bg-light">
             <div class="container">
@@ -1453,7 +1768,7 @@ your complete satisfaction.
                 </div>
             </div>
         </section>
-        
+
         <section class="box-section-two section-lgb">
             <div class="container">
                 <div class="row">
@@ -1486,7 +1801,6 @@ your complete satisfaction.
                     </div>
                     <div class="col-md-6 box-right-col">
                         <div class="box-img">
-
                         </div>
                     </div>
                 </div>
@@ -1570,16 +1884,17 @@ Information upon request.</span>
                             </ul>
                         </div>
                     </div>
-                                        <div class="col-md-6 contact-left-col">
+                    <div class="col-md-6 contact-left-col">
                         <div class="contact-wrap pbmit-bg-color-blackish">
                             <div class="pbmit-heading-subheading animation-style2">
                                 <h4 class="pbmit-subtitle">
                                     <span></span>
-                                   Quality Assurance
+                                    Quality Assurance
                                 </h4>
                                 <h2 class="pbmit-title">Commitment to Excellence</h2>
                                 <p class="mt-2">
-                            We adhere to rigorous quality standards to deliver<br /> superior results:
+                                    We adhere to rigorous quality standards to deliver<br />
+                                    superior results:
                                 </p>
                             </div>
                             <ul class="list-group list-group-borderless">
@@ -1595,7 +1910,7 @@ certifications for reliable and consistent quality.</span>
                                     <span class="pbmit-icon-list-text text-white"><strong>Continuous Improvement:</strong> Ongoing evaluation and enhancement of our processes 
 to meet evolving needs.</span>
                                 </li>
-                               
+
 
                             </ul>
                         </div>
@@ -1617,7 +1932,9 @@ to meet evolving needs.</span>
                                     <div class="pbmit-heading-desc text-white">
                                         Partner with ZPROTO to turn your vision into reality
                                     
-                                        with precision prototyping and advanced manufacturing. Let’s create something extraordinary together—start your journey today!
+                                        with precision prototyping and advanced manufacturing.
+                                        <br />
+                                        Let’s create something extraordinary together—start your journey today!
 
 
 
@@ -1651,9 +1968,9 @@ to meet evolving needs.</span>
             </div>
         </section>
 
-        
+
         <!--  Blog Start -->
-        
+
         <!--  Blog End -->
 
     </div>
